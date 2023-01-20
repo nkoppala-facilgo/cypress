@@ -32,13 +32,6 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # Creating a token https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      - name: Uploading artifact
-        uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: cypress-execution-report
-          path: cypress/html_reports
-          retention-days: 30
       # - name: Slack Notification
       #   uses: rtCamp/action-slack-notify@v2
       #   env:
