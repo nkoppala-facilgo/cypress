@@ -16,15 +16,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Get current date
-        id: date
-        run: echo "{name}={date +'%Y-%m-%d'}" >> $GITHUB_OUTPUT
       - name: Cypress run
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v4
-
         with:
-          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028 && marge ./cypress/results/combined-report-${{ steps.date.outputs.date }}.json --reportDir ./cypress/reports --inline
+          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028 && marge ./cypress/results/combined-report.json --reportDir ./cypress/reports --inline
           browser: chrome
           # Records to Cypress Cloud
           record: true
@@ -35,15 +31,12 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # Creating a token https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      # Convert the report to HTML Format
-      - name: Generate HTML from JSON report
-        run: npx run marge ./cypress/results/combined-report-${{ steps.date.outputs.date }}.json --reportDir ./cypress/reports --inline
       # Upload file on the Github Action Job Summary
       - name: Upload file
         uses: actions/upload-artifact@v3
         with:
-          name: "Cypress-Test-Report-${{ steps.date.outputs.date }}"
-          path: /home/runner/work/cypress/results/combined-report-${{ steps.date.outputs.date }}.html
+          name: "Cypress-Test-Report"
+          path: /home/runner/work/cypress/results/combined-report.html
       # - name: Slack Notification
       #   uses: rtCamp/action-slack-notify@v2
       #   env:
