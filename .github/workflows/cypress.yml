@@ -20,7 +20,7 @@ jobs:
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v4
       - name: Merge test results into one
-        run: npm run report:merge --record --key eb39e377-a551-4b2a-99c7-617454755028
+        run: npm run report:merge
         with:
           # command: npx cypress run --record --key eb39e377-a551-4b2a-99c7-617454755028
           browser: chrome

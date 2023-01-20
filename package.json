@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx cypress run --env SUITE=smoke --spec cypress/integration/quote_request/*.js , cypress/integration/workflow/*.js, cypress/integration/work_order/*.js",
-    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:merge": "mochawesome-merge --record --key eb39e377-a551-4b2a-99c7-617454755028 cypress/results/json/*.json > index.json",
     "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "author": "Kanta",
