@@ -20,7 +20,7 @@ jobs:
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v4
         with:
-          command: npx cypress run
+          command: npx cypress run --record --key eb39e377-a551-4b2a-99c7-617454755028
           browser: chrome
           # Starts web server for E2E tests - replace with your own server invocation
           # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
