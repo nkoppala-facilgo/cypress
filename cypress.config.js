@@ -8,7 +8,14 @@ module.exports = defineConfig({
   viewportWidth: 1024,
   video: false,
   env: {
-    base_url: 'https://',
+    common_string: 'FKH Facilgo PVU',
+    basic_auth: 1,
+    username: '',
+    password: '',
+    base_url: 'https://preview.facilgo.com',
+    users_url: '/user_management',
+    data: 'preview',
+    token: ''
   },
   e2e: {
     // We've imported your old cypress plugins here.
