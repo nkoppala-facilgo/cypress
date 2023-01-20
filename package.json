@@ -5,14 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "npx cypress run --env SUITE=smoke --spec cypress/integration/quote_request/*.js , cypress/integration/workflow/*.js, cypress/integration/work_order/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "author": "Kanta",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^10.10.0",
     "cypress-file-upload": "^5.0.8",
-    "cypress-wait-until": "^1.7.2"
+    "cypress-multi-reporters": "^1.6.2",
+    "cypress-wait-until": "^1.7.2",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "dependencies": {
     "exceljs": "^4.3.0",
