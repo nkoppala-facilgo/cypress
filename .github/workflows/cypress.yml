@@ -21,7 +21,7 @@ jobs:
         uses: cypress-io/github-action@v4
 
         with:
-          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028
+          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028 && npx mochawesome-merge "cypress/results/*.json" > mochawesome.json && npx marge mochawesome.json
           browser: chrome
           # Records to Cypress Cloud
           record: true
