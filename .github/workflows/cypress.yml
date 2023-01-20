@@ -22,7 +22,7 @@ jobs:
       - name: Merge test results into one
         run: npm run report:merge
         with:
-          # command: npx cypress run --record --key eb39e377-a551-4b2a-99c7-617454755028
+          command: npx cypress run --record --key eb39e377-a551-4b2a-99c7-617454755028
           browser: chrome
           # Starts web server for E2E tests - replace with your own server invocation
           # https://docs.cypress.io/guides/continuous-integration/introduction#Boot-your-server
