@@ -1,0 +1,22 @@
+[
+	{
+		"attribute": "file_path",
+		"expression":"cy.get('.form-group .upload_file_gl_code_file input[type=file]').attachFile(data['file_path'])",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input[value=\"Process\"]').click({force: true})",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(1000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('The file cannot be uploaded. Please check the file to make sure it is in the correct format and contains all of the required fields.').should('exist');",
+		"operation": ""
+	}
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/inventory_items')",
+    "operation": ""
+  },
+  {
+    "attribute": "inventory_id",
+    "expression": "cy.select_by_label('INVENTORY ID(S)',data['inventory_id'])",
+    "operation": ""
+  },
+  {
+    "attribute": "inventory_item",
+    "expression": "cy.select_by_label('INVENTORY ITEM NAME(S)',data['inventory_item'])",
+    "operation": ""
+  },
+  {
+    "attribute": "inventory_type",
+    "expression": "cy.select_by_label('INVENTORY TYPE(S)',data['inventory_type'])",
+    "operation": ""
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('ASSET GROUP/CBSA/PROPERTY',data['property'])",
+    "operation": ""
+  },
+  {
+    "attribute": "glcode",
+    "expression": "cy.select_by_label('GL CODE',data['glcode'])",
+    "operation": ""
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label('UNIT',data['unit'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-primary','Search').click()",
+    "operation": ""
+  }
+]

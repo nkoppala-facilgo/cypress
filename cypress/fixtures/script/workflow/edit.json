@@ -1,0 +1,22 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.wait(5000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('li > input').type(data['text'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.pagination > .btn').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(2000)",
+                "operation": ""
+        }
+]

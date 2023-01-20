@@ -1,0 +1,27 @@
+[
+    {
+        "attribute": "image_path",
+        "expression": "cy.get(`div[class='single-image-input__label-wrapper']`).find('input[type=file]').attachFile(data['image_path'])",
+        "operation": "upload_file"
+    },
+    {
+        "attribute": "file_path",
+        "expression": "cy.get(`div[class='clearfix']`).find('input[type=file]').attachFile(data['file_path'])",
+        "operation": "upload_file"
+    },
+    {
+        "attribute" : "lineitems",
+        "expression": "cy.lineitem_attach_file('box-pictures clearfix',data['lineitems'])",
+        "operation" : "lineitem_attach_file"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Complete').click({force:true})",
+        "operation": "click"
+    }
+]

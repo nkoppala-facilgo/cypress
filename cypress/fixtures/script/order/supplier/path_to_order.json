@@ -1,0 +1,33 @@
+[
+        {
+            "attribute": "",
+            "expression":"cy.visit()",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression":"cy.wait(3000)",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression":"cy.contains('Documents').click()",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression":"cy.wait(5000)",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression":"cy.get('a[href=\"/document_orders\"]').click({ force: true })",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression":"cy.wait(5000)",
+            "operation": ""
+        }
+    ]
+    

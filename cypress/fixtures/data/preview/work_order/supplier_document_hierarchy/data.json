@@ -1,0 +1,33 @@
+{
+  "work_order_title": "repairing appliances",
+  "prop_name": "1001 Welkin Street Henderson",
+  "catogory": "Appliances",
+  "priority": "Emergency",
+  "subcategory": "Appliances- Other",
+  "lineitems": [
+    {
+      "Item": "desktop repair",
+      "Introduction": "repair product"
+    },
+    {
+      "Item": "desktop1 repair",
+      "Introduction": "repair product"
+    }
+  ],
+  "req_type": "Service",
+  "know_the_price": "I don't know the price - Send a quote request",
+  "supplier_assignie": "Supplier 1",
+  "vendor_assignie_workflow": "Vendor Assignment - Maintenance",
+  "quantity": "5",
+  "due_date": "06/16/2027",
+  "service_date": "06/09/2022",
+  "suplier_name": "",
+  "suplier_email": "",
+  "vendor_code": "",
+  "unit_measurement": "SQYD",
+  "catalog_product": "parts",
+  "vendor_assignie": "Maintenance",
+  "workflow": "Maintenance",
+  "gl_code": "Office",
+  "unit_select": "10017701"
+}

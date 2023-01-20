@@ -1,0 +1,82 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/dashboards/graph')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-work-order').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Create Work Orders').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "work_order_title",
+    "expression": "cy.get('#title')",
+    "operation": "input"
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY',data['prop_name'],4000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "catogory",
+    "expression": "cy.select_by_label_with_enter('CATEGORY:',data['catogory'],4000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "subcategory",
+    "expression": "cy.select_by_label_with_enter('SUBCATEGORY',data['subcategory'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority",
+    "expression": "cy.select_by_label_with_enter('PRIORITY:',data['priority'],1000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "lineitems",
+    "expression": "/script/work_order/lineitems",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar > .btn-success').contains('Create & Assign').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Work Order was successfully created').should('exist')",
+    "operation": ""
+  }
+]

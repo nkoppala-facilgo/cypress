@@ -1,0 +1,20 @@
+{
+  "property_name": "10008 N 16th Dr Phoenix, AZ 85021",
+  "assignee": "SFR FKH Preview PMC",
+  "wo_type": "Appliances",
+  "wo_subtype": "Water Heater",
+  "wo_priority": "Urgent",
+  "start": "01:00 PM",
+  "end": "11:45 PM",
+  "item_name": "Appliances - Water Heater - Urgent",
+  "Introduction": "Enter more details on the problem",
+  "property": "Las Vegas",
+  "team_user": "Users",
+  "user_type": "Tech Level 1",
+  "additional_user": "SFR FKH Preview PMC",
+  "doc_type": "Work Order",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": false,
+  "view": "1 Day View",
+  "day_view_value": 1
+}

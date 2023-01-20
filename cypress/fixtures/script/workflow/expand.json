@@ -1,0 +1,12 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.get('.fa-plus-square-o').eq(0).click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.fa-minus-square-o').should('exist')",
+                "operation": ""
+        }
+]

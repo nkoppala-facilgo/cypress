@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "Matrix_Name",
+    "expression": "cy.select_by_placeholder('Matrices',this.data.Matrix_Name);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.goto_page_functionality('.matrix-detail-content',this.data.Count_Row);",
+    "operation": ""
+  }
+]

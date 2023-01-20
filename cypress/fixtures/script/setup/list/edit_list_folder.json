@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Edit').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "folder__name-input",
+    "expression": "cy.get('input[class=\"folder__name-input\"]').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.action-buttons__btn').click({force: true});",
+    "operation": "click"
+  }
+]

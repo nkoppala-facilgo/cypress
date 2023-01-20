@@ -1,0 +1,19 @@
+{
+  "work_order_title": "Test for scheduled status",
+  "property_name": "1001 Welkin Street Henderson",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "priority": "Urgent",
+  "user_assignee": "kmurai+sfrfkhpreviewlvtech3ea kmurai+sfrfkhpreviewlvtech3ea",
+  "scheduled_start_date/time": "11/01/2022 12:00 am",
+  "scheduled_end_date/time": "01/28/2023 12:00 am",
+  "item_name": "test",
+  "Introduction": "This is introduction",
+  "resolution": "Fire",
+  "messege1": "Testing",
+  "work_hour": "3",
+  "work_rate": "5",
+  "file_path": "data/preview/assets/images/pic.jpg",
+  "resolution1": "Fire",
+  "user_select": "SFR FKH Preview PMC"
+}

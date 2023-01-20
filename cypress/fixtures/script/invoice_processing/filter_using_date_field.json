@@ -1,0 +1,42 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Processing').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Images').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.fa-filter').click({multiple: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[placeholder =\"From\"]').parent().find('.input-group-addon').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.datepicker').find('tbody').find('tr').eq(1).find('td').last().click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[placeholder =\"To\"]').parent().find('.input-group-addon').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.datepicker').find('tbody').find('tr').eq(9).find('td').last().click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[value =\"Search\"]').click({force: true})",
+        "operation": "click"
+    }
+]

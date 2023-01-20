@@ -1,0 +1,9 @@
+{
+        "workflow_type":"NTE",
+        "user_type":"Regional Manager",
+        "nte_limit":"1100",
+        "user_type1":"Maintenance Technician",
+        "nte_limit1":"800",
+        "user_type2":"Asset Manager",
+        "nte_limit2":"300"
+}

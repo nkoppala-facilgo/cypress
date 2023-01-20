@@ -1,0 +1,48 @@
+[
+    {
+      "attribute": "",
+      "expression": "cy.get('#js-react-InvoiceProcessingIndexButtons').contains('span','Filter').click({force: true})",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.wait(1000)",
+      "operation": "wait"
+    },
+    {
+      "attribute": "total_amount_begin",
+      "expression": "cy.get('input[name=\"filter_invoice_processings[grand_total_min]\"]')",
+      "operation": "input"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": "wait"
+    },
+    {
+      "attribute": "total_amount_end",
+      "expression": "cy.get('input[name=\"filter_invoice_processings[grand_total_max]\"]')",
+      "operation": "input"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.wait(1000)",
+      "operation": "wait"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('Search').click({force: true})",
+      "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": "wait"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.get('#js-react-InvoiceProcessingPage').find('li').first().click({force: true})",
+      "operation": "click"
+    }
+]
+  

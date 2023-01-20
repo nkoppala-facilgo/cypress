@@ -1,0 +1,102 @@
+[
+  {
+    "attribute": "room_name",
+    "expression": "cy.select_by_placeholder('Select...',data['room_name'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "req_type1",
+    "expression": "cy.select_by_placeholder('Select a type',data['req_type1'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab a').contains('Supplier Items').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.select_by_placeholder('Choose an option',data['do_you_know_price'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.padding-right-one .toggle-group label').contains('Hide Uncompleted Items').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i.wrap-list__indicator.fa.fa-square-o').first().click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar button').contains('Create QR').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('input[placeholder=\"Due Date\"]',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar('input[placeholder=\"Service Date\"]',data['service_date'])",
+    "operation": "select"
+  },{
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('input[placeholder=\"Due Date\"]',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar('input[placeholder=\"Service Date\"]',data['service_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('tbody > tr > td > input.form-control').first().type(data['supplier'], { force: true })",
+    "operation": ""
+},
+{
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+},
+{
+    "attribute": "",
+    "expression": "cy.get(`[class=\"typeahead dropdown-menu\"]`).contains(data['supplier']).click({ force: true })",
+    "operation": ""
+
+},
+  {
+    "attribute": "quantity",
+    "expression": "cy.contains('label','Quantity').parent().find('input[type=\"number\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.select_by_placeholder('--- Unit of Measurement ---','EA',0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn.btn-success').contains('Save').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn.btn-success').contains('Create').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Success!').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('OK').click()",
+    "operation": ""
+  }
+]

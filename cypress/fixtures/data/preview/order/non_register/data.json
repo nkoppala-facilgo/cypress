@@ -1,0 +1,12 @@
+{
+  "supplier_name": "Supplier 1",
+  "workflow": "Maintenance",
+  "property_name": "1001 Welkin Street Henderson",
+  "item_name": "item 1",
+  "unit_measurement": "EA (Each)",
+  "quantity": "5",
+  "unit_price": "6",
+  "gl_code": "mOt3y",
+  "jcc": "",
+  "unit_#": "10018001"
+}

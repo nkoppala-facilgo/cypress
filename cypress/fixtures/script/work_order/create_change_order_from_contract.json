@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "contract_end_date",
+    "expression": "cy.select_by_calendar_using_label('CONTRACT TERM ENDS:',data['contract_end_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "change_order_date",
+    "expression": "cy.select_by_calendar_using_label('CHANGE ORDER DATE:',data['change_order_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "svc_date",
+    "expression": "cy.select_by_calendar_using_label('SCHED SVC DATE:',data['svc_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "req_date",
+    "expression": "cy.select_by_calendar_using_label('REQ START DATE:',data['req_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Yes').click()",
+    "operation": "click"
+  }
+]

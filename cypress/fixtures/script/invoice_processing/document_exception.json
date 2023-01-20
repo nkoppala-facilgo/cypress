@@ -1,0 +1,23 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Last').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div > button.btn.btn-sm.btn-success').last().click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "notes",
+    "expression": "cy.get('.notes').type(data['notes'],{ multiple: true }).clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div > div > div > form > div.modal-footer > div > input').click({force: true})",
+    "operation": "click"
+  }
+]
+

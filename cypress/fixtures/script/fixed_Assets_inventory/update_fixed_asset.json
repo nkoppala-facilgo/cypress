@@ -1,0 +1,28 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.caret').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Edit').first().click({force: true});",
+    "operation": "click"
+  },
+  
+  {
+    "attribute": "asset_type_name",
+    "expression": "cy.get('input[placeholder=\"Asset Type Name\"]').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "number",
+    "expression": "cy.get('#number-of-useful-life').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click()",
+    "operation": "click"
+  }
+]

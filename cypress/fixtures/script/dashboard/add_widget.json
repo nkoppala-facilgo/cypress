@@ -1,0 +1,42 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.visit('/dashboards/graph')",
+		"operation": "visit"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": "wait"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Setup').click({force: true})",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('a','Users').click({ force: true })",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": "wait"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('a','User Types').click({ force: true })",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": "wait"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Company Admin').parent().find('td li  .dropdown-toggle').click({ force: true }).parent().wait(1000).find('.fa-circle').click()",
+		"operation": "click"
+	}
+]

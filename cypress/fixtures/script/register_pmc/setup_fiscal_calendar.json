@@ -1,0 +1,33 @@
+[
+        {
+                "attribute": "fiscal_calendar_name",
+                "expression": "cy.get('.calendar__text-input')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Create').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Setup Periods').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+   
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Save').click()",
+                "operation": "click"
+        }
+]

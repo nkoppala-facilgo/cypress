@@ -1,0 +1,26 @@
+{
+  "work_order_title": "test432",
+  "prop_name": "1001 Welkin Street Henderson",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "priority": "Urgent",
+  "lineitems": [
+    {
+      "Item": "test011",
+      "Introduction": "This is introduction"
+    }
+  ],
+  "work_hours": 10,
+  "work_rate": 10,
+  "req_type": "Service",
+  "do_you_know_price_qr": "I don't know the price - Send a quote request",
+  "do_you_know_price_catalog": "I know the price - Create a non-catalog order",
+  "supplier_assignie": "Supplier 1",
+  "vendor_assignie": "Vendor Assignment - Maintenance",
+  "due_date": "05/25/2022",
+  "service_date": "10/20/2022",
+  "workflow": "Maintenance",
+  "quantity": "10",
+  "unit_price": "5",
+  "unit_of_measurement": "EA (Each)"
+}

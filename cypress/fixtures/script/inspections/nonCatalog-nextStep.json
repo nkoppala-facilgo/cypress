@@ -1,0 +1,195 @@
+[ 
+       {
+            "attribute":"",
+            "expression": "cy.get('.glyphicon-option-vertical').first().click()",
+            "operation":"click"
+       }, 
+       {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+       },
+       {
+            "attribute": "",
+            "expression": "cy.contains(' Add Mapped Item (Non-Catalog)').click({force:true})",
+            "operation": "click"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+       },
+        {
+            "attribute": "",
+            "expression": "cy.select_by_placeholder_using_selector('Select a Folder',data['folder_name'])",
+            "operation": "select"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute": "list_name",
+            "expression": "cy.get('.list-form__row-field .list-form__input--is-required')",
+            "operation": "input"
+        },
+        {
+            "attribute":"item_name",
+            "expression": "cy.get('.items__input--is-required ')",
+            "operation":"input"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute":"",
+            "expression": "cy.get('.action-buttons__btn').click()",
+            "operation":"click"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute":"",
+            "expression": "cy.get('.table-condensed .btn-toolbar .btn-success').click()",
+            "operation":"click"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute":"",
+            "expression": "cy.get('.modal-footer > .btn-success').click()",
+            "operation":"click"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.get('.glyphicon-option-vertical').first().click()",
+            "operation":"click"
+       }, 
+       {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+       },
+       {
+            "attribute": "",
+            "expression": "cy.contains(' Add Mapped Item (Non-Catalog)').click({force:true})",
+            "operation": "click"
+        },
+        { 
+            "attribute": "",
+            "expression": "cy.get('.wrap-list__indicator').first().click({force:true})",
+            "operation": "click"
+        },
+        {
+            "attribute":"item_name",
+            "expression": "cy.get('.form-group > .form-control-required')",
+            "operation":"input"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.get('.form-group > .btn-toolbar > .btn-success').click()",
+            "operation":"click"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.contains('button','Create Non Catalog Order').click({force:true})",
+            "operation": "click"
+        }, 
+       {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+       },
+        {
+            "attribute": "NC_Supplier",
+            "expression": "cy.get('.Select-placeholder').contains('Company').type(data['NC_Supplier'])",
+            "operation": ""
+        },
+      
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+       },
+       {
+        "attribute": "",
+        "expression": "cy.get('.Select-menu-outer').type('enter')",
+        "operation": ""
+       },
+        {
+            "attribute": "workflow",
+            "expression": "cy.get('.Select-placeholder').contains('Select...').type(data['workflow'])",
+            "operation": "select"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+       },
+       {
+        "attribute": "",
+        "expression": "cy.get('.Select-menu-outer').type('enter')",
+        "operation": ""
+       },
+        {
+            "attribute": "unit_measurement",
+            "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_measurement'],0)",
+            "operation": "select"
+        },
+        {
+            "attribute": "unit_price",
+            "expression": "cy.get('input[placeholder=\"Unit Price\"]')",
+            "operation": "input"
+        },
+         
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('.form-group-sm .table-responsive .btn-toolbar').contains('button', 'Save').click()",
+            "operation": ""
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute": "tax",
+            "expression":"cy.contains('Tax').parent().get('span > input[type=number]').first()",
+            "operation": "input"
+        },
+        {
+            "attribute": "",
+            "expression":"cy.get('.col-xs-12 .btn-toolbar button').contains('Create').click({force:true})",
+            "operation": "click"
+        },
+        {
+            "attribute":"",
+            "expression": "cy.wait(3000)",
+            "operation":""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.contains('Order Successfully Saved').should('exist')",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('.btn-toolbar > .pull-right').click()",
+            "operation": "click"
+        }
+]
+    

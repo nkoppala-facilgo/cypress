@@ -1,0 +1,143 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/dashboards/graph')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.get('.icon-menu-work-order').click())",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Create Work Orders').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "work_order_title",
+    "expression": "cy.waitUntil(()=>cy.get('#title'))",
+    "operation": "input"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.waitUntil(()=>cy.select_by_label_with_enter('PROPERTY',data['property_name'],4000))",
+    "operation": "select"
+  },
+  {
+    "attribute": "catogory",
+    "expression": "cy.waitUntil(()=>cy.select_by_label_with_enter('CATEGORY:',data['catogory'],4000))",
+    "operation": "select"
+  },
+  {
+    "attribute": "subcategory",
+    "expression": "cy.waitUntil(()=>cy.select_by_label_with_enter('SUBCATEGORY',data['subcategory'],2000))",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority",
+    "expression": "cy.waitUntil(()=>cy.select_by_label_with_enter('PRIORITY:',data['priority'],1000))",
+    "operation": "select"
+  },
+  {
+    "attribute": "scheduled_start_date/time",
+    "expression": "cy.waitUntil(()=>cy.select_by_calendar_using_label_without_clear('SCHEDULED START DATE/TIME:',data['scheduled_start_date/time']))",
+    "operation": "select"
+  },
+  {
+    "attribute": "scheduled_end_date/time",
+    "expression": "cy.select_by_calendar_using_label_without_clear('SCHEDULED END DATE/TIME:',data['scheduled_end_date/time'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Introduction",
+    "expression": "cy.get('textarea[placeholder=\"Instruction\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button','Create & Assign').click())",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button','Goto Summary').click({force:true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('UnassignedSched').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('Edit').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Copy').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Void').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Complete').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Return Items').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Next Steps').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('On Hold').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Complete').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Resolution:').parent().find('div[class=\"Select-placeholder\"]').parent().find(`.Select-input input`).click({ force: true }).wait(3000).type(this.data.resolution, { force: true }).wait(3000).type('{enter}' ,{ force: true })",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-content').contains('button','Save').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.confirm').click({force: true})",
+    "operation": "click"
+  }
+]
+

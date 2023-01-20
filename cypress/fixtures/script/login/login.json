@@ -1,0 +1,17 @@
+[
+	{
+		"attribute": "username",
+		"expression": "cy.get('input[id=user_login]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "password",
+		"expression": "cy.get('input[type=password]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('input[type=submit]').click()",
+		"operation": "click"
+	}
+]

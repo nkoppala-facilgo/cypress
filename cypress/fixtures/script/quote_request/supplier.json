@@ -1,0 +1,12 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Invite Supplier').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "name",
+        "expression": "cy.select_by_typeahead('input[id = \"supplier-name\"]',data['name'])",
+        "operation": "select"
+    }
+]

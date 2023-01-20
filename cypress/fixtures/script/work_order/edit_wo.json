@@ -1,0 +1,67 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit(data['theurl'])",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Edit').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-start-datetime').parent().find('a.react-datepicker__close-icon').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-end-datetime').parent().find('a.react-datepicker__close-icon').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-start-datetime').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.react-datepicker__time').find('li.react-datepicker__time-list-item').contains(data['start_time']).type('{enter}')",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-end-datetime').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.react-datepicker__time').find('li.react-datepicker__time-list-item').contains(data['end_time']).type('{enter}')",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.select_by_label('CATEGORY:',data['category'])",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-info','Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Work Order was successfully updated').should('exist')",
+    "operation": "click"
+  }
+]

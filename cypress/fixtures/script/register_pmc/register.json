@@ -1,0 +1,82 @@
+[
+        {
+                "attribute": "user_email",
+                "expression": "cy.get('#user_email')",
+                "operation": "input"
+        },
+        {
+                "attribute": "Password",
+                "expression": "cy.get('#user_password')",
+                "operation": "input"
+        },
+        {
+                "attribute": "Password",
+                "expression": "cy.get('#user_password_confirmation')",
+                "operation": "input"
+        },
+        {
+                "attribute": "company_name",
+                "expression": "cy.get('input[placeholder=\"Company Name\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "coupon_code",
+                "expression": "cy.get('#coupon_code')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#not_eu_person').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#not_intended_for_eu_person').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#promptly_notify_if_become_eu_person').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#terms').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.clearfix .btn').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.forceVisit('https://yopmail.com/en/')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        },
+        {
+                "attribute": "user_email",
+                "expression": "cy.get('input[placeholder=\"Enter your inbox here\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#refreshbut').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(5000)",
+                "operation": ""
+        }
+]

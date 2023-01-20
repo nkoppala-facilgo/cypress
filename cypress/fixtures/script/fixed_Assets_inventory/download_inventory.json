@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Download').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Download Types in this page').click({force: true});",
+    "operation": "click"
+  }
+]

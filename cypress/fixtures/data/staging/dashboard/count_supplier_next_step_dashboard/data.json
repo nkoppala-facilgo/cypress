@@ -1,0 +1,11 @@
+{
+    "dynamic_url1":["Emergency", "Urgent", "Next%20Available", "Emergency&filter_work_order%5Bwork_order_priority_names%5D%5B%5D=Urgent&filter_work_order%5Bwork_order_priority_names%5D%5B%5D=Next%20Available"],
+    "dynamic_url2":["with_unanswered_quote_requests%5D=true", "with_sent_to_supplier_orders%5D=true", "work_order_status_ids%5D%5B%5D=1718", "work_order_status_ids%5D%5B%5D=1710&filter_work_order%5Bwithout_any_invoices%5D=true&filter_work_order%5Bscheduled_start_datetime_from%5D=2022-04-14%205%3A47%3A37", "work_order_status_ids%5D%5B%5D=1710&filter_work_order%5Bwork_order_status_ids%5D%5B%5D=1716&filter_work_order%5Bwork_order_status_ids%5D%5B%5D=1718&filter_work_order%5Bwork_order_status_ids%5D%5B%5D=1723&filter_work_order%5B with_sent_invoices_but_not_paid_and_voided%5D=true", "work_order_status_ids%5D%5B%5D=1724", "with_work_order_priority_codes_in%5D%5B%5D=", "with_work_order_priority_codes_in%5D%5B%5D="],
+    "common_base1": "/work_orders/filter?filter_work_order%5Bis_service_flag%5D=true&filter_work_order%5B",
+    "common_base2": "&filter_work_order%5Bwork_order_priority_names%5D%5B%5D=",
+    "common_base3":"/invoices?filter%5Bwith_service_work_order%5D=true&filter%5B",
+    "common_base4":"&filter%5Binvoice_status_ids%5D%5B%5D=806",
+    "common_base5":"/document_orders/filter?filter_order%5Bwith_service_work_order%5D=true&filter_order%5B",
+    "common_base6":"&filter_order%5Border_status_ids%5D%5B%5D=617",
+    "supplier_name":["Unanswered QR", "Confirm WO", "Schedule WO", "Completed WO & Invoice", "Complete WO (Already Invoiced)", "Disputed WO", "Disputed Invoice", "Pending Cancelation"]   
+}

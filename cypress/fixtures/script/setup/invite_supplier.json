@@ -1,0 +1,62 @@
+[
+  {
+    "attribute": "company",
+    "expression": "cy.get('#invite_supplier_form_name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "dba",
+    "expression": "cy.get('#invite_supplier_form_dba')",
+    "operation": "input"
+  },
+  {
+    "attribute": "first_name",
+    "expression": "cy.get('#invite_supplier_form_first_name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "last_name",
+    "expression": "cy.get('#invite_supplier_form_last_name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "vendor_code",
+    "expression": "cy.get('#invite_supplier_form_vendor_code')",
+    "operation": "input"
+  },
+  {
+    "attribute": "mobile",
+    "expression": "cy.get('#invite_supplier_form_mobile')",
+    "operation": "input"
+  },
+  {
+    "attribute": "email",
+    "expression": "cy.get('#invite_supplier_form_email')",
+    "operation": "input"
+  },
+  {
+    "attribute": "email_domain",
+    "expression": "cy.get('#invite_supplier_form_email')",
+    "operation": "input"
+  },
+  {
+    "attribute": "address1",
+    "expression": "cy.get('#invite_supplier_form_address1')",
+    "operation": "input"
+  },
+  {
+    "attribute": "address2",
+    "expression": "cy.get('#invite_supplier_form_address2')",
+    "operation": "input"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.get('#invite_supplier_form_city')",
+    "operation": "input"
+  },
+  {
+    "attribute": "zip",
+    "expression": "cy.get('#invite_supplier_form_zip')",
+    "operation": "input"
+  }
+]

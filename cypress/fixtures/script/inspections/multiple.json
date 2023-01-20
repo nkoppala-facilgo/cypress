@@ -1,0 +1,82 @@
+[
+        {
+                "attribute": "property_name",
+                "expression": "cy.select_by_placeholder('- Select Properties -',data['property_name'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },    
+         {
+                "attribute": "unit_select",
+                "expression": "cy.select_by_placeholder('- Select Units -',data['unit_select'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "list_select",
+                "expression": "cy.select_by_placeholders('- Select List -',data['list_select'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "assignee_select",
+                "expression": "cy.select_by_placeholder('- Select Assignee -',data['assignee_select'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "due_date",
+                "expression": "cy.select_by_calendar_using_placeholder('\"- Due Date -\"',data['due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+       
+        { 
+                "attribute": "type_select",
+                "expression": "cy.select_by_placeholder_with_enter('- Select Type -',data['type_select'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('input[placeholder=\"- Inspection Title -\"]').clear()",
+                "operation": "click"
+        },
+        {       "attribute": "inspe_title",
+                "expression":"cy.get('input[placeholder=\"- Inspection Title -\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "schedule_freq",
+                "expression": "cy.select_by_placeholders('- Schedule Frequency -',data['schedule_freq'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "start_date",
+                "expression": "cy.select_by_calendar_using_placeholder('\"- Start Date -\"',data['start_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "end_date",
+                "expression": "cy.select_by_calendar_using_placeholder('\"- End Date -\"',data['end_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-toolbar > .btn-success').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(5000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Inspections succesfully created').should('exist')",
+                "operation": ""
+        }
+]

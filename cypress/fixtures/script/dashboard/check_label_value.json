@@ -1,0 +1,44 @@
+[
+	
+        {
+		"attribute": "",
+		"expression":"cy.get('.table-sum-prev-mtc-insp')",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+                "attribute": "",
+                "expression": "cy.get('.table-sum-prev-mtc-insp table  thead tr th').contains('Property').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('.table-sum-prev-mtc-insp table  thead tr th').contains('Scheduled for Year').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('.table-sum-prev-mtc-insp table  thead tr th').contains('Due Current Month').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('.table-sum-prev-mtc-insp table  thead tr th').contains('Cmpt MTD').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('.table-sum-prev-mtc-insp table  thead tr th').contains('Late MTD').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.table-sum-prev-mtc-insp table  thead tr th').contains('Late YTD').should('exist')",
+                "operation": ""
+        }
+
+]

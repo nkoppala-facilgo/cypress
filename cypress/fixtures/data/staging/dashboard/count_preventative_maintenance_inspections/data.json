@@ -1,0 +1,7 @@
+{
+    "property_id": [],
+    "col_length": 5,
+    "common_base_url1": "/inspections/filter?filter_inspection%5Binspection_type_ids%5D%5B%5D=7&filter_inspection%5Bproperty_ids%5D%5B%5D=",
+    "col_url": ["&filter_inspection%5Binspection_status_ids%5D%5B%5D=1901&filter_inspection%5Binspection_status_ids%5D%5B%5D=1902&filter_inspection%5Binspection_status_ids%5D%5B%5D=1903&filter_inspection%5Binspection_status_ids%5D%5B%5D=1904&filter_inspection%5Binspection_status_ids%5D%5B%5D=1905&filter_inspection%5Binspection_status_ids%5D%5B%5D=1908&filter_inspection%5Bdue_date_from%5D=2022-01-01&filter_inspection%5Bdue_date_to%5D=2022-12-31&_tid=", "0", "0", "0", "&filter_inspection%5Bpast_due_date%5D=true&filter_inspection%5Binspection_status_ids%5D%5B%5D=1901&filter_inspection%5Binspection_status_ids%5D%5B%5D=1902&filter_inspection%5Binspection_status_ids%5D%5B%5D=1903&filter_inspection%5Binspection_status_ids%5D%5B%5D=1904&filter_inspection%5Binspection_status_ids%5D%5B%5D=1905&filter_inspection%5Binspection_status_ids%5D%5B%5D=1906&filter_inspection%5Binspection_status_ids%5D%5B%5D=1908&filter_inspection%5Bdue_date_from%5D=2022-01-01&filter_inspection%5Bdue_date_to%5D=2022-12-31&filter_inspection%5Btime_frame%5D=&_tid="],
+    "diffent_row_value": ["1370384599999", "", "", "", "1541617500000", "1434355200000", "", "", "", "1570234099999", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
+}

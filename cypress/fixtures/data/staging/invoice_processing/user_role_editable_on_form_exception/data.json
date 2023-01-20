@@ -1,0 +1,14 @@
+{
+    "file_path": "data/staging/assets/images/pic.jpg",
+    "status": "Unassigned",
+    "assignee": "Staging Test PMC",
+    "invoice_date": "02/19/2022",
+    "invoice_number": "",
+    "supplier_name": "Barnett",
+    "property_name": "1001 W",
+    "workflow": "Maintenance",
+    "product": "test",
+    "price": "1",
+    "exception": "Admin",
+    "user_role": "Field Admin"
+}

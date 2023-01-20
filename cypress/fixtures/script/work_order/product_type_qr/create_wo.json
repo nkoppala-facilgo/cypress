@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "work_order_title",
+    "expression": " cy.get('#title')",
+    "operation": "input"
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label('PROPERTY',data['prop_name'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "category",
+    "expression": "cy.select_by_label('CATEGORY:',data['category'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "subcategory",
+    "expression": "cy.select_by_label('SUBCATEGORY:',data['subcategory'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority",
+    "expression": "cy.select_by_label('PRIORITY:',data['priority'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "lineitems",
+    "expression": "/script/work_order/create_qr_from_wo/lineitem",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create & Assign').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Work Order was successfully created').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.document-action-buttons button').contains('Next Steps').click()",
+    "operation": "click"
+  }
+]

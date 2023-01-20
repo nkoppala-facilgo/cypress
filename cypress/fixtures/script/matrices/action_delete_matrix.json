@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.matrix-content').find('tbody').find('tr').last().find('td').eq(0).find('a').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.matrix-content').find('tbody').find('tr').last().find('td').eq(0).find('li').contains('a','Delete').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sa-confirm-button-container').contains('button','Yes').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  }
+]

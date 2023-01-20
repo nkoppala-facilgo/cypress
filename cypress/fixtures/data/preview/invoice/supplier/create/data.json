@@ -1,0 +1,35 @@
+{
+  "invoice_date": "11/28/2022",
+  "due_date": "11/29/2022",
+  "supplier_invoice": "test0040000008",
+  "customer_name": "SFR FKH preview",
+  "property_name": "1001",
+  "completion_date": "10/02/2023",
+  "payment_date": "11/23/2023",
+  "payment_amount": "900",
+  "lineitems": [
+    {
+      "item": "test01",
+      "quantity": "1",
+      "price": "1",
+      "unit_of_measurement": "EA (Each)",
+      "item_sku": "hello",
+      "unit": "10018001",
+      "gl_code": "Main External"
+    },
+    {
+      "item": "test02",
+      "quantity": "1",
+      "price": "1",
+      "unit_of_measurement": "EA (Each)",
+      "item_sku": "hello",
+      "unit": "10018001",
+      "gl_code": "Main External"
+    }
+  ],
+  "total_tax": "10",
+  "total_tax_%": "10",
+  "shipping_amount": "10",
+  "discount_amount": "10",
+  "dispute_message": "This is a test message."
+}

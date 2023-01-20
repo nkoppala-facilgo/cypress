@@ -1,0 +1,13 @@
+{
+  "property_name": "1615 S",
+  "unit": "16157701",
+  "inspection_title": "Regression Testing",
+  "item_name": "",
+  "due_date": "07/29/2023",
+  "file_path": "data/preview/assets/images/pic.jpg",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ]
+}

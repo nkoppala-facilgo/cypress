@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Submit').parent().parent().find(`.Select-input input`).click({force: true}).clear({forec: true}).type('Exception', {force: true}).wait(5000).type('{enter}' ,{force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "exception_name",
+    "expression": "cy.select_by_placeholder('EXCEPTION: ',data['exception'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_placeholder('PROPERTY:', data['property_name'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "asset_group_name",
+    "expression": "cy.select_by_em_label('(by Asset Group):', data['asset_group_name'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-right > .btn-primary').click({force: true})",
+    "operation": "click"
+  }
+]

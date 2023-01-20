@@ -1,0 +1,15 @@
+{
+    "work_order_title": "Test for status",
+    "prop_name": "1001 Welkin Street Henderson",
+    "catogory": "Electrical",
+    "subcategory": "Ceiling Fan",
+    "project": "",
+    "priority": "Urgent",
+    "lineitems": [
+        {
+          "Item": "test011",
+          "Introduction": "This is introduction"
+        }
+      ],
+    "reason": "Resident Responsibility"
+}

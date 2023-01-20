@@ -1,0 +1,72 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Processing').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Images').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Upload File').click({force: true})",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#invoice-processing-file-dropzone').attachFile(data['file_path'])",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.pull-left > .btn-primary').contains('Upload').dblclick({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Successfully uploaded file(s).').should('exist')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Processing').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Images').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.fa-filter').click({multiple: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": ""
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label_new('Status:', data['status'])",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[value=Search]').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#js-react-InvoiceProcessingPage').find('div').find('li').first().click()",
+        "operation": "click"
+    }
+]

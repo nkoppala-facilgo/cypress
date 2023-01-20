@@ -1,0 +1,23 @@
+{
+  "credit_memo_date": "12/23/2021",
+  "due_date": "12/25/2021",
+  "supplier_cm": "test00600000006",
+  "completion_date": "12/29/2021",
+  "payment_date": "12/29/2021",
+  "payment_amount": "12",
+  "total_tax": "0",
+  "total_tax_%": "0",
+  "shipping_amount": "0",
+  "dispute_message": "this is a test message.",
+  "workflow": "NTE - Maintenance",
+  "lineitems": [
+    {
+      "gl_code": "mOt3y"
+    },
+    {
+      "gl_code": "mOt3y"
+    }
+  ],
+  "template_comment": "this is a test message.",
+  "template": "test9913"
+}

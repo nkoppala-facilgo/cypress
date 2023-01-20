@@ -1,0 +1,17 @@
+{
+  "prop_name": "0N084 ELMWOOD St WINFIELD, IL 60190",
+  "unit": "9n089901",
+  "inspection_title": "",
+  "item_name": "",
+  "due_date": "06/29/2022",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ],
+  "supplier_name": "Ferguson Staging",
+  "workflow": "Maintenance",
+  "quantity": "8",
+  "unit_price": "8",
+  "unit_of_measure": "EA (Each)"
+}

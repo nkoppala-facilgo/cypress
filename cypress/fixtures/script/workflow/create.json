@@ -1,0 +1,7 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.get('input[Value = \"Save\"]').click()",
+                "operation": ""
+        }
+]

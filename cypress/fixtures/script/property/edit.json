@@ -1,0 +1,12 @@
+[
+	{
+		"attribute": "address",
+		"expression":"cy.get('#geocomplete').clear()",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input[value=\"Save\"]').click()",
+		"operation": "click"
+	}
+]

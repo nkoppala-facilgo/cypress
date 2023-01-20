@@ -1,0 +1,23 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.waitUntil(()=>cy.contains('button', 'Confirm').click({force: true}))",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": " cy.waitUntil(()=>cy.contains('button', 'Submit').click({force: true}))",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.waitUntil(()=>cy.contains('Confirmed').should('exist'))",
+        "operation": ""
+    }
+]
+

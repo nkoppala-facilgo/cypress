@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Close').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Goto Summary').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Yes').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Close').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label('WORKFLOW:',data['workflow'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "payment_amount",
+    "expression": "cy.contains('label','PAYMENT AMOUNT:').parent().find('input[type=number]').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "total_tax",
+    "expression": "cy.contains('td','Total Tax:').parent().find('input[type=number]').eq(0).clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "total_tax_%",
+    "expression": "cy.contains('td','Total Tax:').parent().find('input[type=number]').eq(1).clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "shipping_amount",
+    "expression": "cy.contains('td','Shipping Amount:').parent().find('input[type=number]').clear()",
+    "operation": "input"
+  }
+]

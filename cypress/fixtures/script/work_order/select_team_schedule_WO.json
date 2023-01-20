@@ -1,0 +1,109 @@
+[
+	
+	{
+		"attribute": "prop_name",
+		"expression":"cy.select_by_label_with_enter('Property Name',data['prop_name'],4000)",
+		"operation": "select"
+	},
+	{
+		"attribute": "unit",
+		"expression":"cy.select_by_label_with_enter('Unit',data['unit'],0)",
+		"operation": "select"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('#input-dropdown-addon').click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('.input-group  .dropdown  .dropdown-menu  a').eq(1).click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+        {
+		"attribute": "team_assignee",
+		"expression":"cy.select_by_label_with_enter('Assignees:',data['team_assignee'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "type",
+		"expression":"cy.select_by_label_with_enter('Work Order Type',data['type'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "subtype",
+		"expression":"cy.select_by_label_with_enter('Work Order Subtype',data['subtype'],0)",
+		"operation": "select"
+	},
+	{
+                "attribute": "priority",
+                "expression":"cy.select_by_label_with_enter('Work Order Priority:',data['priority'],1000)",
+                "operation": "select"
+        },
+        
+        {
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('input[placeholder=\"- Work Order Title -\"]').clear()",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(2000)",
+		"operation": ""
+	},
+	{
+		"attribute": "wo_title",
+		"expression":"cy.get('input[placeholder=\"- Work Order Title -\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button',' Work Order Item').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "item_name",
+		"expression":"cy.get('input[placeholder=\"- Item Name -\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "Introduction1",
+		"expression":"cy.get('textarea[placeholder=\"- Instruction -\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('div.modal-footer > button.btn.btn-success').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Success!').should('exist')",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('button','OK').click()",
+		"operation": "click"
+	}
+]

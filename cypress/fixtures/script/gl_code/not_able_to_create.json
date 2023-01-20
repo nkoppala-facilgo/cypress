@@ -1,0 +1,42 @@
+[
+	{
+		"attribute": "gl_group",
+		"expression":"cy.contains('GL Group:').parent().parent().find(`.Select-input input`).click({ force: true }).clear({force:true}).type(data['gl_group'], { force: true }).wait(1500).type('{enter}')",
+		"operation": "click"
+	},
+	{
+		"attribute": "gl_code",
+		"expression":"cy.get('input[name=\"gl_code[gl_code]\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+		"attribute": "gl_code_name",
+		"expression":"cy.get('.form-group input[name=\"gl_code[gl_code_name]\"]');",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Gl code has already been taken').should('exist');",
+		"operation": ""
+	}
+]

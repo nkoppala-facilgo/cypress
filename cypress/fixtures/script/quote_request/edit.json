@@ -1,0 +1,33 @@
+[
+  {
+    "attribute": "title",
+    "expression": "cy.get(\"input[name='quote_request[qr_title]']\").clear({force:true}).type(data['title'])",
+    "operation": ""
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar('#requested-service-date', data['service_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('REG / PROP COVERAGE:',data['property'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "coordinater",
+    "expression": "/script/quote_request/coordinator",
+    "operation": "select"
+  },
+  {
+    "attribute": "supplier",
+    "expression": "/script/quote_request/supplier",
+    "operation": "select"
+  }
+]
+  

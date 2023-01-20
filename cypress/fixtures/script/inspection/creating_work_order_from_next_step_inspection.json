@@ -1,0 +1,28 @@
+[
+  
+  {
+    "attribute": "project_name",
+    "expression": "cy.contains(data['project_name']).parent().find('td').last().find('.dropdown-toggle').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.dropdown-menu').contains('Edit').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "project_name",
+    "expression": "cy.get('#projectName').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-toolbar > .btn-primary').click()",
+    "operation": "click"
+  }
+]

@@ -1,0 +1,73 @@
+[
+        {
+            "attribute": "cbsa_or_property",
+            "expression": "cy.select_by_label_with_enter('Cbsa(s) or Property(es):', data['cbsa_or_property'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "unit_adress",
+            "expression": "cy.select_by_label_with_enter('Unit Address(es):', data['unit_adress'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "gl_code_range",
+            "expression": "cy.select_by_label_with_enter('GL Code Range:', data['gl_code_range'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "date_type",
+            "expression": "cy.select_by_label_with_enter('Date Type:', data['date_type'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "date_from",
+            "expression": "cy.select_by_calendar_using_label('Date Range:', data['date_from'], 'From')",
+            "operation": "select"
+        },
+        {
+             "attribute": "date_to",
+             "expression": "cy.select_by_calendar_using_label('Date Range:', data['date_to'], 'To')",
+             "operation": "select"
+        },
+        {
+             "attribute": "",
+             "expression": "cy.wait(2000)",
+             "operation": ""
+        },
+        {
+            "attribute": "customer_PO",
+            "expression": "cy.select_by_label_with_enter('Customer PO#:', data['customer_PO'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "hashtag",
+            "expression": "cy.get('input[placeholder=\"Add a tag\"]').type(data['hashtag']).type('{enter}')",
+            "operation": ""
+        },
+        {
+            "attribute": "supplier",
+            "expression": "cy.select_by_label_with_enter('Supplier(s):', data['supplier'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "status",
+            "expression": "cy.select_by_label_with_enter('Status(es):', data['status'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(2000)",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('button').contains('Search').click()",
+            "operation": "click"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('.media-body').first().click()",
+            "operation": "click"
+        }
+]
+    

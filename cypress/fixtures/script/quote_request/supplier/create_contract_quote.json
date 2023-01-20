@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "quote_expires",
+    "expression": "cy.select_by_calendar_using_label('QUOTE EXPIRES:',data['quote_expires'])",
+    "operation": ""
+  },
+  {
+    "attribute": "quote_type",
+    "expression": "cy.select_by_label('QUOTE TYPE:',data['quote_type'])",
+    "operation": ""
+  },
+  {
+    "attribute": "contract_end",
+    "expression": "cy.select_by_calendar_using_label('CONTRACT TERM ENDS:',data['contract_end'])",
+    "operation": ""
+  },
+  {
+    "attribute": "sched_start",
+    "expression": "cy.select_by_calendar_using_label('SCHED START DATE:',data['sched_start'])",
+    "operation": ""
+  }
+]

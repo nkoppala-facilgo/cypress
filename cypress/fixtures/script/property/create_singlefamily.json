@@ -1,0 +1,52 @@
+[
+	{
+		"attribute": "property_type",
+		"expression":"cy.get('.property_property_type_id > select').select(data['property_type'])",
+		"operation": "click"
+	},
+	{
+		"attribute": "fiscal-calender",
+		"expression":"cy.get('.property_fiscal_calendar_id > select').select(data['fiscal-calender'])",
+		"operation": "click"
+	},
+	{
+		"attribute": "floorplan_name",
+		"expression":"cy.contains('Floorplan code').parent().find('input')",
+		"operation": "input"
+	},
+	{
+		"attribute": "floorplan_code",
+		"expression":"cy.contains('Floorplan code').parent().find('input')",
+		"operation": "input"
+	},
+	{
+		"attribute": "bedroom",
+		"expression":"cy.contains('Bedroom').parent().find('input')",
+		"operation": "input"
+	},
+	{
+		"attribute": "address",
+		"expression":"cy.get('#geocomplete')",
+		"operation": "input"
+	},
+	{
+		"attribute": "city",
+		"expression":"cy.get('#property_address_attributes_city')",
+		"operation": "input"
+	},
+	{
+		"attribute": "zipcode",
+		"expression":"cy.get('#property_address_attributes_zip')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input[value=\"Save\"]').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(1000)",
+		"operation": ""
+	}
+]

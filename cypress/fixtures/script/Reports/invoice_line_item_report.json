@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Reports').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'invoice line items report').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#invoice_register_regions_and_properties_chosen').type('{enter}', '{force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#invoice_register_supplier_ids_chosen').type('{enter}', '{force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#invoice_register_document_statuses_chosen').type('{enter}', '{force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=\"Export\"]').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Clear').click({force:true})",
+    "operation": "click"
+  }
+]

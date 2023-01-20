@@ -1,0 +1,52 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']).parent().find('.fa-plus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Orders\").parent().find('.fa-plus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('User Type').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Orders\").parent().find('.fa-minus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Invoices\").parent().find('.fa-plus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('User Type').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Invoices\").parent().find('.fa-minus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Contracts\").parent().find('.fa-plus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('User Type').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Contracts\").parent().find('.fa-minus-square-o').click()",
+                "operation": "click"
+        }
+]

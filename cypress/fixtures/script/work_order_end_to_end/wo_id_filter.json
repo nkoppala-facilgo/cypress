@@ -1,0 +1,27 @@
+[
+    {
+        "attribute": "",
+        "expression": "  cy.visit('/work_orders/')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.fa-filter').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "num_no",
+        "expression": "cy.select_by_label('WO#(s)',data['num_no'],1500)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Search').click();",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.media').first().click()",
+        "operation": "click"
+    }
+]

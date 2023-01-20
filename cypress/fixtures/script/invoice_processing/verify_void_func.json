@@ -1,0 +1,108 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Invoice Processing').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Invoice Images').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Upload File').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#invoice-processing-file-dropzone').attachFile(data['file_path'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-left > .btn-primary').contains('Upload').dblclick({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Successfully uploaded file(s).').should('exist')",
+    "operation": ""
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Invoice Processing').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Invoice Images').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.select_by_label_new('Requester:',data['requester'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.select_by_label_new('Status:',data['status'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('input[value=Search]').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item').its('length').should('be.gt', 0)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item.btn-show-document-head').first().dblclick({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('a[data-confirm-title=\"Void Confirmation\"]').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.sa-button-container').parent('div.sweet-alert.visible.showSweetAlert').find('button.confirm').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Invoice Image has been voided.').should('exist')",
+    "operation": ""
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "pmc": {
+    "username": "sfrfkhpreviewpmc@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "pmc2": {
+    "username": "sfrfkhpreviewpmc@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "pmc3": {
+    "username": "sfrfkhpreviewpmc@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "supplier": {
+    "username": "sfrfkhpreviewsupplier1@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "supplier2": {
+    "username": "sfrfkhpreviewsupplier1@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "supplier3": {
+    "username": "sfrfkhpreviewsupplier2@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "technician": {
+    "username": "sfrfkhpreviewtech1@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "maintenancetechnician": {
+    "username": "sfrfkhpreviewtech1@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "technician1": {
+    "username": "sfrfkhpreviewtech1@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "deuser": {
+    "username": "gokobupegre-3152@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "technician3": {
+    "username": "sfrfkhpreviewtech3@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "maintenanceManager": {
+    "username": "sfrfkhpreviewmm@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "administrator": {
+    "username": "sfrfkhpreviewfa@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "fa": {
+    "username": "sfrfkhpreviewfa@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "regional_maintenance_manager": {
+    "username": "sfrfkhpreviewrmm@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "district_operations_director": {
+    "username": "sfrfkhpreviewdod@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "apSpecialistqc": {
+    "username": "sfrfkhpreviewapsqc@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "maintenancesupervisor": {
+    "username": "sfrfkhpreviewms@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "maintenancetechnician1": {
+    "username": "sfrfkhpreviewmt@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "techlevel1": {
+    "username": "sfrfkhpreviewtech1@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "ap_manager": {
+    "username": "sfrapmanagerpreview@yopmail.com",
+    "password": "asdfasdf"
+  }
+}

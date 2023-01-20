@@ -1,0 +1,103 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.visit('/invoice_processings/document_exceptions')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(7000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.area-document-exceptions').contains('span', 'Filter').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.select_by_label_new('Status:', data['exception_status'], 2000)",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.modal-footer').contains('Search').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(20000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.pagination').find('li').last().contains('a', 'Last').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(20000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Remove Exceptions').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.modal-body').find('table').find('thead').find('tr').first().find('th').first().find('i').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Remove').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.sa-confirm-button-container').contains('button', 'Yes').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Remove invoice exceptions successfully!').should('exist')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.sa-confirm-button-container').contains('button', 'OK').click({force: true})",
+        "operation": ""
+    }
+]
+  

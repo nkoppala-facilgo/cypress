@@ -1,0 +1,4 @@
+{
+        "row_labels": ["Total"],
+        "col_labels":["Supplier","<24 Hrs","24-48 Hrs",">48 Hrs"]
+}

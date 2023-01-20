@@ -1,0 +1,22 @@
+[
+    {
+      "attribute": "",
+      "expression": "cy.contains('button', 'On Hold').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "Reason",
+      "expression": "cy.select_by_placeholder('Reason:', data['Reason'],4000)",
+      "operation": "select"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.get('.modal-footer > .btn-primary').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('button', 'OK').click()",
+      "operation": "click"
+    }
+]

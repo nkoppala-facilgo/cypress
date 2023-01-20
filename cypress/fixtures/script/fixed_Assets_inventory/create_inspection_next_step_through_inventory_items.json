@@ -1,0 +1,93 @@
+[
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label('PROPERTY:', data['property_name'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:', data['due_date']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Introduction",
+    "expression": "cy.get('textarea[placeholder=\"Instructions\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Add Items from List').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'catalog test').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button[class=\"btn btn-primary\"]','Add All Items').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-info').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create & Assign').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Next Steps').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('span[class=\"Select-clear\"]').parent('span[title=\"Clear all\"]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab').find('li').eq(0).find('a').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('label', 'Air c2 - Undefined Room').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button[class=\"btn btn-success\"]','Use Inventory Items').click({force: true})",
+    "operation": "click"
+  }
+]
+

@@ -1,0 +1,62 @@
+[
+  {
+    "attribute": "Property_Name",
+    "expression": "cy.select_by_placeholder('- Select Properties -', this.data.Property_Name);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Unit",
+    "expression": "cy.select_by_placeholder('- Select Units -', this.data.Unit);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Assignee",
+    "expression": "cy.select_by_placeholder('- Select Assignee -', this.data.Assignee);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Due_Date",
+    "expression": "cy.select_by_calendar_using_placeholder(this.data.Due_Date_placehoder, this.data.Due_Date, '.modal-content');",
+    "operation": "select"
+  },
+  {
+    "attribute": "Type",
+    "expression": "cy.select_by_placeholder('- Select Type -', this.data.Type);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Frequency",
+    "expression": "cy.select_by_placeholder('- Schedule Frequency -', this.data.Frequency);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Start_Date",
+    "expression": "cy.select_by_calendar_using_placeholder(this.data.Start_Date_placehoder, this.data.Start_Date,'.modal-content');",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-content ').contains('button','Create').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Inspections succesfully created').should('exist');",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-content ').contains('button','Close').click({force: true});",
+    "operation": "click"
+  }
+]

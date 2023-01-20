@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+    "operation": "select"
+  }
+]

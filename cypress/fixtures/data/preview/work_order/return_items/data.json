@@ -1,0 +1,30 @@
+{
+        "work_order_title": "testing workorder",
+        "property_name": "1001 Welkin Street",
+        "catogory":"Appliances",
+        "subcategory": "Clothes Dryer",
+        "priority": "Urgent",
+        "lineitems":
+        [
+                {
+                        "Item":"test4321",
+                        "Introduction":"This is introduction",
+                        "Notes" : "this is test note"
+                },
+                {
+                        "Item":"desktop",
+                        "Introduction":"This is introduction",
+                        "Notes" : "this is test note"
+                }
+        ],
+        "room_name": "Undefined Room",
+        "req_type": "Service",
+        "display_item": "Only Inventory Items",
+        "supplier_assignie": "supplier 1",
+        "vendor_assignie": "Vendor",
+        "catlog_product": "desktop repair",
+        "inventory_item":"desktop",
+        "return_quantity": "1",
+        "return_reason": "This is a testing for return functionality"
+}
+      

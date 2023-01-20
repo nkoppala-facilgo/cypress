@@ -1,0 +1,12 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.wait(4000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Teams').click();",
+        "operation": "click"
+    }
+]

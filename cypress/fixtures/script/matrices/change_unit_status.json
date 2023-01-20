@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "Filter_Matrix",
+    "expression": "cy.select_by_placeholder_with_enter('Matrices',this.data.Filter_Matrix,4000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.matrix-fixed-header').find('tbody').find('tr').find('th').eq(2).find('a').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.matrix-fixed-header').find('tbody').find('tr').find('th').eq(2).find('li').find('a').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sweet-alert').contains('button','Yes').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  }
+]

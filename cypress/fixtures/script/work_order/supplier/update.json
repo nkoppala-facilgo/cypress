@@ -1,0 +1,27 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.media > a').first().click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.document-action-buttons > button','Edit').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.on('uncaught:exception', (err, runnable) => {return false})",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.btn-toolbar button','Save').click()",
+		"operation": "click"
+	}
+]

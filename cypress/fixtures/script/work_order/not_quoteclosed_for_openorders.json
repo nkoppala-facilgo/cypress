@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "quote_expires",
+    "expression": "cy.select_by_calendar_using_label('QUOTE EXPIRES:',data['quote_expires'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]').type(data['unit_price'])",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-QuoteItemsTable > table > tbody > tr.quote-item > td > table > tbody > tr:nth-child(7) > td > div > button.btn.btn-success').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Send').click()",
+    "operation": ""
+  }
+]

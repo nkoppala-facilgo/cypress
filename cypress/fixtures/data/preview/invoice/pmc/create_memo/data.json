@@ -1,0 +1,12 @@
+{
+  "invoice": "h09e0fs",
+  "credit_memo_date": "02/23/2022",
+  "due_date": "02/25/2022",
+  "supplier_cm": "test1110",
+  "completion_date": "01/29/2022",
+  "workflow": "Maintenance",
+  "payment_date": "01/29/2022",
+  "payment_amount": "12",
+  "template_comment": "this is a test message.",
+  "template": "test9913"
+}

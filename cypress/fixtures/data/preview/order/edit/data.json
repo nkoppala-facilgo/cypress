@@ -1,0 +1,17 @@
+{
+  "supplier":"AFFINITY",
+  "due_date#": "09/08/2022",
+  "status":"CPendAppr",
+  "supplier_name": "Supplier 1",
+  "workflow": "Maintenance",
+  "property_name": "1001 Welkin Street Henderson",
+  "item_name": "item 1",
+  "unit_measurement": "EA (Each)",
+  "quantity": "5",
+  "unit_price": "6000",
+  "gl_code": "",
+  "jcc": "",
+  "unit_#": "10018001",
+  "update_supplier_name": "FRANK",
+  "update_property_name": "Parkside"
+}

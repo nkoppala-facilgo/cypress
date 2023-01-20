@@ -1,0 +1,28 @@
+{
+    "work_order_title": "test432",
+    "prop_name": "1001 E Seldon",
+    "catogory": "Electrical",
+    "subcategory": "Ceiling Fan",
+    "priority": "Urgent",
+    "lineitems": [
+        {
+        "Item": "test011",
+        "Introduction": "This is introduction"
+        }
+    ],
+    "room_name": "Undefined Room",
+    "req_type": "Service",
+    "display_item": "Catalog",
+    "supplier_assignie": "test",
+    "vendor_assignie": "Vendor",
+    "do_you_know_price": "I don't know the price - Send a quote request",
+    "quantity": "1",
+    "unit_measurement": "EA",
+    "due_date": "06/03/2022",
+    "service_date": "11/10/2021",
+    "work_order_new": "test342",
+    "new_workorder_type": "Cleaning",
+    "new_workorder_subtype": "Touch",
+    "new_priority": "Urgent",
+    "Introduction": "This is introduction"
+}

@@ -1,0 +1,32 @@
+[
+        {
+		"attribute": "",
+		"expression":"cy.visit('/dashboards/graph')",
+		"operation": ""
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.wait(7000)",
+		"operation": ""
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.contains('Setup').click({force: true})",
+		"operation": "click"
+	},
+	{
+	    	"attribute": "",
+	    	"expression":"cy.wait(7000)",
+	    	"operation": ""
+    	},
+    	{
+		"attribute": "",
+		"expression":"cy.contains('Workflow').click({ force: true })",
+		"operation": ""
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	}
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "quote_type",
+    "expression": " cy.select_by_label('QUOTE TYPE:', data['quote_type']);",
+    "operation": ""
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('#contract-term-ends',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('#schedule-start-date',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('#due-date',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#product-typeahed').clear()",
+    "operation": "select"
+  },
+  {
+    "attribute": "product",
+    "expression": "cy.select_by_typeahead('#product-typeahed',data['product'])",
+    "operation": "select"
+  }
+]

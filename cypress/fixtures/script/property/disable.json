@@ -1,0 +1,22 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.contains('Disabled').click({force: true})",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(1000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('Success').should('exist')",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('button','OK').click()",
+		"operation": ""
+	}
+]

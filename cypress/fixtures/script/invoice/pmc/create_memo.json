@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "credit_memo_date",
+    "expression": "cy.select_by_calendar_using_label('CREDIT MEMO DATE:',data['credit_memo_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "supplier_cm",
+    "expression": "cy.contains('label','SUPPLIER CM#:').parent().find('input[type=text]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "completion_date",
+    "expression": "cy.select_by_calendar_using_label('COMPLETION DATE:',data['completion_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label('WORKFLOW:',data['workflow'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "payment_date",
+    "expression": "cy.select_by_calendar_using_label('PAYMENT DATE:',data['payment_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "payment_amount",
+    "expression": "cy.contains('label','PAYMENT AMOUNT:').parent().find('input[type=number]').clear()",
+    "operation": "input"
+  }
+]

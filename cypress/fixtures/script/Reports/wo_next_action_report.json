@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.contains('a','Reports').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('a','Work Order Next Action Report').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.chosen-choices').first().type('{enter}',' {force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#work_order_next_action_report_work_order_statuses_chosen > ul').type('{enter}',' {force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#work_order_next_action_report_date_range_type').type('{enter}',' {force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#work_order_next_action_report_is_include_mtcreq_id').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#work_order_next_action_report_is_include_propcode').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=\"Export\"]').click()",
+    "operation": "click"
+  }
+]

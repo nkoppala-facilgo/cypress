@@ -1,0 +1,22 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Edit').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "scheduled_end_date/time",
+        "expression": "cy.select_by_calendar_using_label_without_clear('SCHEDULED END DATE/TIME:', data['scheduled_end_date/time'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "scheduled_start_date/time",
+        "expression": "cy.select_by_calendar_using_label_without_clear('SCHEDULED START DATE/TIME:', data['scheduled_start_date/time'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('button[class=\"btn btn-info\"]').contains('button', 'Save').click({force: true}).wait(5000)",
+        "operation": "click"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "property_name": "1001 E Seldon Ln Phoenix, AZ 85020",
+    "unit": "10017701",
+    "inspection_title": "Testing Doc",
+    "item_name": "Test",
+    "due_date": "06/29/2023",
+    "notes": "not working",
+    "category": "Clean",
+  "priority": "High",
+  "subcategory": "Touch Up Clean",
+  "introduction": "work order has to create",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ]
+}

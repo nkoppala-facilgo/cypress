@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.contains('a','Reports').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','work order register').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.chosen-choices').first().type('{enter}',' {force: true}')",
+    "operation": ""
+  }
+]

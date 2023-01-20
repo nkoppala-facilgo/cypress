@@ -1,0 +1,52 @@
+[
+        {
+		"attribute": "",
+		"expression":"cy.get('.assign-inspection').contains('Assign Inspections').should('exist')",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+                "attribute": "",
+                "expression": "cy.get('#assign-inspection-tab-tab-recently_completed').click()",
+                "operation": "click"
+        },
+        {
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "inspection_list",
+		"expression":"cy.select_by_placeholders_with_enter('Inspection Lists',data['inspection_list'])",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+        {
+		"attribute": "no_of_days",
+		"expression":"cy.get('input[type=\"number\"]')",
+		"operation": "input"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('.assign-inspection .table-recently-complete-filter-form .grid').contains('button','Submit').click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(4000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('#assign-inspection-tab-pane-recently_completed  nav  .pagination  .btn-last-page a').click()",
+		"operation": "click"
+	}
+]

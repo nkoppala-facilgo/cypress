@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span','Add Inventory Category').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('span[class=placeholder]').contains('Category').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "category",
+    "expression": "cy.get(`[class*=\"name\"]`).contains(this.data['category']).click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Create').click()",
+    "operation": ""
+  }
+]

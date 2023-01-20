@@ -1,0 +1,47 @@
+[
+  {
+    "attribute": "vendor_code",
+    "expression": "cy.select_by_label('Vendor Code:',data['vendor_code'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "address",
+    "expression": "cy.select_by_label('Address:',data['address'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('City:',data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('State:',data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('Registered:',data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('Prefered:',data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('Status:',data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('CBSA:',data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('Category:',data['city'])",
+    "operation": "select"
+  }
+]

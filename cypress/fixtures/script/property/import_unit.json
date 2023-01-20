@@ -1,0 +1,17 @@
+[
+	{
+		"attribute": "file_path",
+		"expression":"cy.get('#modalImportUnit #file').attachFile(data['file_path'])",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('input[value=Upload]').eq(1).click({force: true})",
+		"operation": ""
+	}
+]

@@ -1,0 +1,17 @@
+[
+        {
+                "attribute" : "lineitems",
+                "expression": "cy.lineitem_attach_file('box-pictures clearfix',data['lineitems'],'cy.get(`div[id=js-react-WorkOrderItemsForm]`)')",
+                "operation" : "lineitem_attach_file"
+        },
+        {
+                "attribute" : "lineitems",
+                "expression": "cy.lineitem_type_text('Notes',data['lineitems'])",
+                "operation": "lineitem_type_text"
+        },
+        {
+                "attribute": "internal_notes",
+                "expression": "cy.get('textarea[placeholder=\"Type here...\"]')",
+                "operation": "input"
+        }
+]

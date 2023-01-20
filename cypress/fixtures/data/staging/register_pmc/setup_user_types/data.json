@@ -1,0 +1,139 @@
+{
+        "row_responsibility": [
+                "Approve Pending Approval Invoice Only", 
+                "Approve Pending Review Invoice Only",
+                "Asset Group",
+                "Asset Group Type",
+                "Auto Check In Out Wo",
+                "Budget",
+                "Bulk Inspection",
+                "Bulk Resident Inspection",
+                "Company Preferred Item",
+                "Company Supplier",
+                "Contract",
+                "Edit Line Item Fiscal Period On Orders Or Contracts",
+                "Floorplan",
+                "Gl Code",
+                "Inspection",
+                "Invoice",
+                "Invoice Export",
+                "Invoice Moving Property",
+                "Invoice Processing Data Entry",
+                "Invoice Processing Exception",
+                "Invoice Processing Quality Control",
+                "Invoice Processing Reassign Doc",
+                "Invoice Processing Upload Pdf",
+                "Lease Audit Functionality",
+                "Manually Complete Or Re Open Contract Budget Encumbrance",
+                "Manually Complete Or Re Open Order Budget Encumbrance",
+                "Manually Export Invoices",
+                "Manually Update Status Invoices",
+                "Move Out Closing Statement",
+                "Next Step Only Order",
+                "Nte Amount",
+                "Order",
+                "Price List",
+                "Project",
+                "Property",
+                "Quote",
+                "Quote Request",
+                "Re Open Wo",
+                "Reac Report",
+                "Receive Line Items On Orders Or Contracts",
+                "Resident Inspection",
+                "Ship To Address On Transactions",
+                "Split Line Item",
+                "Supplier",
+                "Supplier Property Account",
+                "User",
+                "User Type",
+                "Work Order",
+                "Work Order Pendreview",
+                "Workflow"
+                ],
+        "column_action": [
+                "Create",
+                "Edit",
+                "Approve",
+                "Invite",
+                "View",
+                "Void",
+                "Create And Approve"
+        ],
+        "user_type":"District Operations Director",
+        "description":"District Operations Director",
+        "status":"Disable",
+        "labor-rate":"0.0",
+        "labor_type":"User Type Labor Rate",
+        "checkboxes": [
+                {
+                        "responsibility": "Auto Check In Out Wo",
+                        "action": "View"
+                },
+                {
+                        "responsibility": "Invoice",
+                        "action": "View"
+                },
+                {
+                        "responsibility": "Next Step Only Order",
+                        "action": "Create"
+                },
+                {
+                        "responsibility": "Order",
+                        "action": "Edit"
+                },
+                {
+                        "responsibility": "Order",
+                        "action": "View"
+                },
+                {
+                        "responsibility": "Order",
+                        "action": "Create"
+                },
+                {
+                        "responsibility": "Quote",
+                        "action": "Approve"
+                },
+                {
+                        "responsibility": "Quote",
+                        "action": "View"
+                },
+                {
+                        "responsibility": "Quote Request",
+                        "action": "Create"
+                },
+                {
+                        "responsibility": "Quote Request",
+                        "action": "Edit"
+                },
+                {
+                        "responsibility": "Quote Request",
+                        "action": "View"
+                },
+                {
+                        "responsibility": "Ship To Address On Transactions",
+                        "action": "Create"
+                },
+                {
+                        "responsibility": "Ship To Address On Transactions",
+                        "action": "Edit"
+                },
+                {
+                        "responsibility": "Work Order",
+                        "action": "Create"
+                },
+                {
+                        "responsibility": "Work Order",
+                        "action": "Edit"
+                },
+                {
+                        "responsibility": "Work Order",
+                        "action": "View"
+                },
+                {
+                        "responsibility": "Work Order",
+                        "action": "Void"
+                }
+              ]
+
+}

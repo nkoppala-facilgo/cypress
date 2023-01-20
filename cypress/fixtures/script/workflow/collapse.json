@@ -1,0 +1,7 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.get('.fa-minus-square-o').click()",
+                "operation": "click"
+        }
+]

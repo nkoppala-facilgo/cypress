@@ -1,0 +1,178 @@
+[
+
+   {
+        "attribute":"",
+        "expression": "cy.get('.glyphicon-option-vertical').first().click()",
+        "operation":"click"
+   }, 
+   {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+   },
+   {
+        "attribute": "",
+        "expression": "cy.contains('Add Mapped Item (Work Order)').click({force:true})",
+        "operation": "click"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.select_by_placeholder_using_selector('Select a Folder',data['folder_name'])",
+        "operation": "select"
+    },
+
+    {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+        "attribute": "list_name",
+        "expression": "cy.contains('div','List Name').parent().find('input')",
+        "operation": "input"
+    },
+     {
+        "attribute":"item_name",
+        "expression": "cy.get('.js-mapped-item--is-typeahead')",
+        "operation":"input"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.wait(5000)",
+        "operation":""
+    },
+    {
+        "attribute":"",
+        "expression": "cy.get('.action-buttons__btn').click()",
+        "operation":"click"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+        "attribute":"",
+        "expression": "cy.get('.table-condensed .btn-toolbar .btn-success').click()",
+        "operation":"click"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+        "attribute":"",
+        "expression": "cy.get('.modal-footer > .btn-success').click()",
+        "operation":"click"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.get('.glyphicon-option-vertical').first().click()",
+        "operation":"click"
+   }, 
+   {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+   },
+   {
+        "attribute": "",
+        "expression": "cy.contains('Add Mapped Item (Work Order)').click({force:true})",
+        "operation": "click"
+    },
+    { 
+        "attribute": "",
+        "expression": "cy.get('.wrap-list__indicator').click({force:true})",
+        "operation": "click"
+     },
+     {
+        "attribute":"item_name",
+        "expression": "cy.get('.form-group > .form-control-required')",
+        "operation":"input"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.get('.form-group > .btn-toolbar > .btn-success').click()",
+        "operation":"click"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Create Work Order').click({force:true})",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.form-group-sm .form-control-required').first().clear({force:true})",
+        "operation": ""
+    },
+    {
+        "attribute": "WO_title",
+        "expression": "cy.get('.form-group-sm .form-control-required').first()",
+        "operation": "input"
+    },
+    {
+        "attribute": "category",
+        "expression": "cy.select_by_label_with_enter('Category',data['category'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "subcategory",
+        "expression": "cy.select_by_label_with_enter('SubCategory',data['subcategory'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "Priority",
+        "expression": "cy.select_by_label_with_enter('Priority',data['Priority'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.fa-pencil-square').click({force:true})",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": ""
+    },
+    {
+        "attribute": "instruction",
+        "expression": "cy.get('textarea[placeholder=\"Instruction\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.btn-success').contains('button','Save').click({force:true})",
+        "operation": ""
+    },{ 
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Create').click({force:true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Work Order Successfully Saved').should('exist')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.btn-toolbar > .pull-right').click()",
+        "operation": "click"
+    }
+]

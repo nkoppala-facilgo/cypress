@@ -1,0 +1,12 @@
+{
+    "priority_id": [],
+    "common_base_url1":"/work_orders/filter?filter_work_order%5Bwork_order_priority_ids%5D%5B%5D=",
+    "common_base_url2":"&filter_work_order%5Bwork_order_status_ids%5D%5B%5D=",
+    "common_base_url3":"&&filter_work_order%5Bcustom_value_status_ids%5D%5B%5D=",
+    "common_base_url4":"&filter_work_order%5Bcustom_value_status_ids%5D%5B%5D=",
+    "common_base_url5":"&filter_work_order%5Bwork_order_status_or_custom_value%5D=true",
+    "status": ["1701", "1702", "1728", "1703", "1704", "1705", "1709", "1710", "1713", "1714", "1715", "1716", "1717", "1718", "1719",
+    "1720", "1721", "1722", "1723", "1724", "1725", "1727", "1726", "1729", "1730", "4062", "4065", "4151", "4538", "4556", "4557", 
+    "4558", "4559", "4560", "4561", "4562", "4563", "4564", "4565", "4566", "4567", "4568", "4569", "4570", "4571", "4572",
+    "4573", "4574", "4575", "4576", "4577", "4578", "4579"]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.document-action-buttons button').contains('Next Steps').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "req_type",
+    "expression": "cy.select_by_placeholder('Select a type',data['req_type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "do_you_know_price",
+    "expression": "cy.select_with_contain('Do you know the price of the items?',data['do_you_know_price'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "supplier_assignie2",
+    "expression": "cy.select_by_placeholder('FLOORCOVERINGS R Us (fcrus)',data['supplier_assignie2'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "vendor_assignie",
+    "expression": "cy.select_by_placeholder('Type here to search',data['vendor_assignie'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.padding-right-one .toggle-group label').contains('Hide Uncompleted Items').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.wrap-list > ol > li > span > label').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar button').contains('Create Non-Cat Order').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label('Workflow',data['workflow'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "product_name",
+    "expression": "cy.get('input[placeholder=\"Product Name\"]').last().clear().type(data['product_name'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('input[placeholder=\"Quantity\"]').last().type(data['quantity'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]').last().type(data['unit_price'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "unit_of_measurement",
+    "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_of_measurement'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.form-group-sm .table-responsive .btn-toolbar').contains('button', 'Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "tax",
+    "expression": "cy.contains('Tax').parent().find('span').eq(2).find('input[type=number]').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.col-xs-12 .btn-toolbar button').contains('Create').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Are you sure the tax amount is $0?').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sa-confirm-button-container').contains('Yes').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Create non catalog order is being processed').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('OK').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar > .pull-right').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.reload()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  }
+]

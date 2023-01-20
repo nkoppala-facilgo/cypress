@@ -1,0 +1,34 @@
+
+
+[
+        {
+                "attribute": "due_date",
+                "expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "unit_price",
+                "expression": "cy.get('input[placeholder=\"Unit Price\"]').type(data['unit_price'],{ force: true })",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('button.btn.btn-success').contains('Save').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Send').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },   
+        {
+                "attribute": "",
+                "expression": "cy.contains('Quote created.').should('exist')",
+                "operation": ""
+        }
+]

@@ -1,0 +1,18 @@
+{
+  "prop_name": "1001",
+  "unit": "10018001",
+  "type": "Interior Building",
+  "subtype": "Interior Building- Other",
+  "item_name": "test_data",
+  "priority": "UrgentEmerg",
+  "Introduction1": "This is an introduction",
+  "req_type": "Service",
+  "know_the_price": "I don't know the price - Send a quote request",
+  "supplier_assignie": "Supplier 1",
+  "vendor_assignie_workflow": "Maintenance",
+  "quantity": "5",
+  "due_date": "09/28/2022",
+  "service_date": "03/15/2023",
+  "unit_measurement": "SQYD",
+  "CBAmount": "350"
+}

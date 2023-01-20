@@ -1,0 +1,23 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.visit('/dashboards/graph')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Documents').click()",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('a','Work Orders').click({ force: true })",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(7000)",
+		"operation": ""
+	}
+        
+]

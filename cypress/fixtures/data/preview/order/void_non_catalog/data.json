@@ -1,0 +1,12 @@
+{
+  "supplier_name": "Supplier 1",
+  "workflow": "Maintenance",
+  "property_name": "1008 Baker Avenue Las Vegas",
+  "item_name": "item",
+  "unit_measurement": "EA (Each)",
+  "quantity": "4",
+  "unit_price": "9",
+  "gl_code": "",
+  "jcc": " ",
+  "unit_#": "10088001"
+}

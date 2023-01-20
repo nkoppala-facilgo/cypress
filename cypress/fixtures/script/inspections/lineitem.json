@@ -1,0 +1,17 @@
+[
+    {
+        "attribute": "item_name",
+        "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('div[role=toolbar]').contains('button','Add').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'New Item').click()",
+        "operation": "click"
+    }
+]

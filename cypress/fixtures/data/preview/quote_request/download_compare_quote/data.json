@@ -1,0 +1,47 @@
+{
+        "title": "31QR156",
+        "due_date": "12/31/2022",
+        "service_date": "12/31/2022",
+        "property": "1001 Welkin Street Henderson",
+        "supplier": [
+          {
+            "name": "Supplier 1"
+          },
+          {
+            "name": "Supplier 2"
+          }
+        ],
+        "lineitems": [
+          {
+            "product": "test01",
+            "quantity": "1",
+            "unit_price": "1",
+            "measurement": "EA",
+            "property": "1001 Welkin Street Henderson",
+            "amount": "1",
+            "notes": "empty",
+            "sku": "test"
+          },
+          {
+            "product": "test02",
+            "quantity": "1",
+            "unit_price": "1",
+            "measurement": "EA",
+            "property": "1001 Welkin Street Henderson",
+            "amount": "1",
+            "notes": "empty",
+            "sku": "test1"
+          }
+        ],
+        "coordinater": [
+          {
+            "_name": ""
+          },
+          {
+            "_name": ""
+          }
+        ],
+        "quote_expires": "12/31/2022",
+        "import_item_file": "data/assets/excel/sample_quote.xlsx"
+      }
+      

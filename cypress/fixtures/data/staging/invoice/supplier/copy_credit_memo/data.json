@@ -1,0 +1,28 @@
+{
+  "invoice_date": "11/28/2022",
+  "due_date": "11/29/2022",
+  "customer_name": "Alpha ",
+  "property_name": "111",
+  "completion_date": "10/02/2023",
+  "payment_date": "11/22/2023",
+  "payment_amount": "800",
+  "name": "-40",
+  "supplier_invoice": "qwerty",
+  "credit_memo_date": "12/23/2021",
+  "supplier_cm": "test0066",
+  "total_tax": "0",
+  "total_tax_%": "0",
+  "shipping_amount": "0",
+  "dispute_message": "this is a test message.",
+  "workflow": "NTE - Maintenance",
+  "lineitems": [
+    {
+      "gl_code": "Office Expense"
+    },
+    {
+      "gl_code": "Office Expense"
+    }
+  ],
+  "template_comment": "this is a test message.",
+  "template": "test9913"
+}

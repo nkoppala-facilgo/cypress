@@ -1,0 +1,64 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('#refPoContractInput').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+
+    "attribute": "",
+    "expression": "cy.contains('label', 'PO#:').parent().parent().find('input').click().clear().type(data['PO_number'],{ force: true }).wait(3000).type('{enter}' ,{ force: true })",
+    "operation": ""
+
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-right > .btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "invoice_date",
+    "expression": "cy.select_by_calendar_using_label('INVOICE DATE:', data['invoice_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.document-action-buttons > button.btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-right > .btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.confirm').click({force: true})",
+    "operation": "click"
+  }
+]

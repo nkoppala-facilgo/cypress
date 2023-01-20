@@ -1,0 +1,33 @@
+[     
+        
+       {
+            "attribute": "",
+            "expression": "cy.get('.icheckbox_square-blue .iCheck-helper').eq(1).click({force: true})",
+            "operation": "click"
+       },
+        {
+            "attribute": "",
+            "expression": "cy.contains('button','On Hold').eq(0).click()",
+            "operation": "click"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(3000)",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('li[role=\"presentation\"]').contains('a','Approve').click({force: true})",
+            "operation": "click"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(2000)",
+            "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.contains('button','OK').click()",
+            "operation": "click"
+        }
+]

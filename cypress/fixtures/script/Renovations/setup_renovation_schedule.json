@@ -1,0 +1,117 @@
+[
+  {
+    "attribute": "project_name",
+    "expression": "cy.contains(data['project_name']).parent().find('td').first().find('.dropdown-toggle').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains(data['project_name']).parent().find('td').first().find('.dropdown-menu').find('li').eq(5).find('a').invoke('removeAttr', 'target').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Start Schedule').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "inspection_list",
+    "expression": "cy.select_by_label_with_enter('Inspection Lists',data['inspection_list'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label_with_enter('Assignee',data['assignee'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_type",
+    "expression": "cy.select_by_label_with_enter('Inspection Type',data['inspection_type'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "start_date",
+    "expression": "cy.select_by_calendar_using_label('Start Date',data['start_date']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('Due Date',data['due_date']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Change').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "matrix_name",
+    "expression": "cy.select_by_label_with_enter('Matrix Name',data['matrix_name'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Submit').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Renovation schedule created successfully!').should('exist');",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Cancel').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Are you sure you want to cancel renovation schedule for this unit?').should('exist');",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sa-confirm-button-container').contains('button','Yes').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Renovation schedule canceled successfully!').should('exist');",
+    "operation": ""
+  }
+]

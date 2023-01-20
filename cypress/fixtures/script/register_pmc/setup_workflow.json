@@ -1,0 +1,87 @@
+[
+        {
+                "attribute": "",
+                "expression": " cy.get('.Select-value').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "workflow_type",
+                "expression":"cy.get('.is-open').contains(data['workflow_type']).click({ force: true });",
+                "operation": ""
+        },
+        {
+                "attribute": "workflow_name",
+                "expression": "cy.get('#workflow-name').type(data['workflow_name'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.placeholder').eq(1).click({ force: true })",
+                "operation": "click"
+        },
+        {
+                "attribute": "user_type",
+                "expression":"cy.get(`[class*='-menu']`).contains(data['user_type']).click({ force: true });",
+                "operation": ""
+        },
+        {
+                "attribute": "nte_limit",
+                "expression":"cy.get('input[placeholder=\"NTE limit\"]').first()",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.placeholder').eq(1).click({ force: true })",
+                "operation": "click"
+        },
+        {
+                "attribute": "user_type1",
+                "expression":"cy.get(`[class*='-menu']`).contains(data['user_type1']).click({ force: true });",
+                "operation": ""
+        },
+        {
+                "attribute": "nte_limit1",
+                "expression":"cy.get('input[placeholder=\"NTE limit\"]').eq(1)",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.placeholder').eq(1).click({ force: true })",
+                "operation": "click"
+        },
+        {
+                "attribute": "user_type2",
+                "expression":"cy.get(`[class*='-menu']`).contains(data['user_type2']).click({ force: true });",
+                "operation": ""
+        },
+        {
+                "attribute": "nte_limit2",
+                "expression":"cy.get('input[placeholder=\"NTE limit\"]').eq(2)",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.input-list-row-remove .fa').last().click()",
+                "operation": ""
+        },
+        {
+                "attribute": "workflow_weight",
+                "expression": "cy.get('#workflow-weight').type(data['workflow_weight'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('button','Save').click()",
+                "operation": ""
+        }
+]

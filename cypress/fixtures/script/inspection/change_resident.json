@@ -1,0 +1,72 @@
+[
+	{
+		"attribute": "",
+		"expression": "cy.get('.js-userguiding-icon-menu-work-order').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('a', 'Create Inspections').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "property_name",
+		"expression": "cy.select_by_label_with_enter('PROPERTY:', data['property_name'], 3000)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(6000)",
+		"operation": "wait"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Add').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "lease_title",
+		"expression": "cy.get('#leaseTitleInput')",
+		"operation": "input"
+	},
+	{
+		"attribute": "lease_from",
+		"expression": "cy.select_by_calendar_using_label('Lease From', data['lease_from'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "lease_to",
+		"expression": "cy.select_by_calendar_using_label('Lease To', data['lease_to'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "first_name",
+		"expression": "cy.get('#firstNameInput')",
+		"operation": "input"
+	},
+	{
+		"attribute": "last_name",
+		"expression": "cy.get('input[placeholder=\"Enter Resident Last Name\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "resident_status",
+		"expression": "cy.get('.row .form-group > select').select(data['resident_status'])",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.modal-footer').contains('button','Create').click().wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Resident successfully created!').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button','Change').click()",
+		"operation": "click"
+	}
+]

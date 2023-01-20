@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple:true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(8000)",
+    "operation": ""
+  },
+  {
+    "attribute": "vendor_code",
+    "expression": "cy.select_by_label('Vendor Code:',data['vendor_code'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-primary','Search').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i[class=\"glyphicon glyphicon-envelope\"]').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=Send]').click()",
+    "operation": ""
+  }
+]

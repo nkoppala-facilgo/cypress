@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Invite').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(20000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "name",
+    "expression": "cy.get('input[name=\"invite_supplier_form[name]\"]');",
+    "operation": "input"
+  },
+  {
+    "attribute": "vendor_code",
+    "expression": "cy.get('input[name=\"invite_supplier_form[vendor_code]\"]');",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "email",
+    "expression": "cy.get('input[name=\"invite_supplier_form[email]\"]');",
+    "operation": "input"
+  },
+  {
+    "attribute": "email_domain",
+    "expression": "cy.get('input[name=\"invite_supplier_form[email]\"]');",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=\"Send\"]').click();",
+    "operation": "click"
+  }
+]

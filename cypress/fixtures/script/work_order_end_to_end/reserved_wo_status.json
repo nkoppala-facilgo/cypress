@@ -1,0 +1,102 @@
+[
+    {
+        "attribute": "messege1",
+        "expression": "cy.get('textarea[placeholder =\"Type here...\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Save').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(4000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Goto Summary').click({force:true});",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Edit').click({force:true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.font-size-double').click({force:true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('li[role=\"presentation\"]').find('span').eq(1).click({force:true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Add Labor').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "work_hour",
+        "expression": "cy.get('input[placeholder=\"Work Hours\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "work_rate",
+        "expression": "cy.get('input[placeholder=\"Work Rate\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "user_select",
+        "expression": "cy.select_by_placeholder_with_enter('Technician',data['user_select'],4000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "file_path",
+        "expression": "cy.get('.grouped-items__view-container').contains('p','Attach Image(s)').parent().last().find('input[type=file]').attachFile(data['file_path'])",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.grouped-items__table-form').contains('button', 'Save').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Save').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(4000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Complete').click({force:true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(4000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Resolution:').parent().find('div[class=\"Select-placeholder\"]').parent().find(`.Select-input input`).click({ force: true }).wait(3000).type(this.data.resolution, { force: true }).wait(3000).type('{enter}' ,{ force: true })",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.modal-content').contains('button','Save').click({force: true})",
+        "operation": "click"
+    }
+]
+
+
+
+
+

@@ -1,0 +1,50 @@
+{
+  "invoice_date": "07/13/2022",
+  "due_date": "07/29/2023",
+  "supplier_invoice": "",
+  "supplier_name": "Floor",
+  "property_name": "Facilgo 1",
+  "finvoice": "",
+  "registered": "",
+  "completion_date": "10/02/2023",
+  "customer_account": "7899",
+  "workflow": "Maintenance",
+  "ship_to_address": "Use Property Ship To Address",
+  "bill_to_address": "",
+  "payment_date": "11/23/2023",
+  "payment_amount": "900",
+  "hashtag": "Facilgo",
+  "reference_inseption": "",
+  "reference_wo": "",
+  "reference_qr": "",
+  "reference_quote": "",
+  "payment_method": "EFT",
+  "unit": "101",
+  "lineitems": [
+    {
+      "item": "test01",
+      "quantity": "1",
+      "price": "1",
+      "unit_of_measurement": "EA (Each)",
+      "item_sku": "sku#01",
+      "unit": "101",
+      "chargable_amount": "",
+      "jcc": ""
+    },
+    {
+      "item": "test02",
+      "quantity": "1",
+      "price": "1",
+      "unit_of_measurement": "EA (Each)",
+      "item_sku": "sku#02",
+      "unit": "101",
+      "chargable_amount": "",
+      "jcc": ""
+    }
+  ],
+  "total_tax": "",
+  "total_tax_%": "",
+  "shipping_amount": "",
+  "discount_amount": ""
+}
+  

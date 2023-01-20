@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Invoice Processing').click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Quality Control').click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple:true})",
+    "operation": ""
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label_new('Property:',data['property'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "supplier",
+    "expression": " cy.select_by_label_new('Supplier:',data['supplier'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('input[value=Search]').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item').its('length').should('be.gt', 0)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#invoice-link').last().dblclick({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Approve').click()",
+    "operation": ""
+  }
+]

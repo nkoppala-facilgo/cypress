@@ -1,0 +1,35 @@
+{
+  "work_order_title": "Wo test pre",
+  "prop_name": "1001 E",
+  "catogory": "Appliances",
+  "subcategory": "Clothes",
+  "priority": "Urgent",
+  "asignee": "SFR FKH",
+  "lineitems": [
+    {
+      "Item": "test011",
+      "Introduction": "This is introduction"
+    }
+  ],
+  "room_name": "Undefined Room",
+  "req_type": "Service",
+  "display_item": "Catalog",
+  "supplier_assignie": "FLOORCOVERING",
+  "vendor_assignie": "Vendor",
+  "do_you_know_price": "I know the price - Create a non-catalog order",
+  "workflow": "Maintenance",
+  "quantity": "1",
+  "unit_measurement": "EA",
+  "unit_price": "3",
+  "due_date": "08/09/2022",
+  "req_delivery_date": "06/03/2025",
+  "jcc": "",
+  "service_date": "11/10/2023",
+  "gl_code": "Office Expense",
+  "fiscal_period": "Current",
+  "tax": "12",
+  "catogory1": "clean",
+  "subcategory1": "Full House Clean",
+  "priority1": "test",
+  "named_natural_disaster": "Value3"
+}

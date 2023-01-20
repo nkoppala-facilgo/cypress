@@ -1,0 +1,57 @@
+[
+	{
+		"attribute": "",
+		"expression": "cy.wait(7000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.media > a').first().click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.document-action-buttons > button','Edit').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.on('uncaught:exception', (err, runnable) => {return false})",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.select_by_label('ASSIGNEE FLEXIBILITY',data['assignee_flexibility'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.document-action-buttons .btn-toolbar  button','Update Status').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "update_status",
+		"expression": "cy.select_by_placeholders('- Select Status -',data['update_status'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.modal-footer > button','Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Work Order status changed successfully.').should('exist')",
+		"operation": ""
+	}
+]

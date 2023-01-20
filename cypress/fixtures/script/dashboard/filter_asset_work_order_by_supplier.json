@@ -1,0 +1,22 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.visit();",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('strong','Work Order Summary By Suppliers').parent().parent().parent().find('u','All').eq(0).click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "asset_group",
+		"expression":"cy.contains('All Selected').click().wait(2000).type(data['asset_group']).get('.Select-menu-outer').type('{enter}')",
+		"operation": "click"
+	}
+]

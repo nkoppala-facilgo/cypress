@@ -1,0 +1,14 @@
+{
+    "file_path": "data/staging/assets/images/pic.jpg",
+    "status": "Unassigned",
+    "assignee": "Staging AP Specialist QC",
+    "invoice_date": "02/19/2022",
+    "invoice_number": "",
+    "supplier_name": "Barnett",
+    "property_name": "1615 S Parkside",
+    "workflow": "Maintenance",
+    "product": "test",
+    "price": "1",
+    "user_role": "Company Admin",
+    "asset_group": "Company"
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Create Quote').click({force: true});",
+        "operation": "click"
+    },
+    {
+        "attribute": "quote_expires",
+        "expression": "cy.select_by_calendar_using_label('QUOTE EXPIRES:',data['quote_expires']);",
+        "operation": "select"
+    },
+    {
+        "attribute": "unit_price",
+        "expression": "cy.get('input[placeholder=\"Unit Price\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button.btn.btn-success', 'Save').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('.btn.btn-primary', 'Send').click()",
+        "operation": "click"
+    }
+]

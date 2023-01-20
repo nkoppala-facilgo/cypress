@@ -1,0 +1,16 @@
+{
+    "file_path": "data/preview/assets/images/pic.jpg",
+    "status": "Unassigned",
+    "assignee": "SFR FKH",
+    "invoice_date": "02/19/2022",
+    "invoice_number": "",
+    "supplier_name": "#174",
+    "property_name": "1001",
+    "workflow": "Maintenance",
+    "product": "test",
+    "price": "1",
+    "exception": "Admin",
+    "user_role": "Company Admin",
+    "user_name": "SFR FKH",
+    "notes": "This is a test notes"
+}

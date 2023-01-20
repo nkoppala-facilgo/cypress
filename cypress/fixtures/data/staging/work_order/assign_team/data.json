@@ -1,0 +1,25 @@
+{
+        "wo_title": "fan reapiring",
+        "prop_name":"1001 E Seldon",
+        "unit":"10017701",
+        "team":"Worker Team",
+        "team_assignee":"Electronics",
+        "catogory":"Electrical",
+        "subcategory":"Ceiling Fan",
+        "lineitems":
+	[
+		{
+			"Item":"test011",
+			"Introduction":"This is introduction"
+		},
+		{
+			"Item":"test0011",
+			"Introduction":"This is introduction 2" 
+		}
+
+	],
+        "priority":"Urgent",
+        "Introduction1":"This is an introduction"
+}
+
+    

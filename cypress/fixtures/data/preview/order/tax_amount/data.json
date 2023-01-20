@@ -1,0 +1,14 @@
+{
+  "supplier_name": "Supplier 1",
+  "workflow": "Maintenance",
+  "property_name": "1008 Baker Avenue Las Vegas",
+  "item_name": "item 2",
+  "unit_measurement": "SQYD (Square Yards)",
+  "quantity": "15",
+  "unit_price": "13",
+  "gl_code": "mOt3y",
+  "jcc": "",
+  "unit_#": "10088001",
+  "tax": "100",
+  "update_tax": "3"
+}

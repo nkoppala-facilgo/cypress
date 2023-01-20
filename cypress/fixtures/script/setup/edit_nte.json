@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.get('#workflow-actions').last().click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('span','Edit').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.placeholder').eq(1).contains('User Type').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "user",
+    "expression": "cy.get('div.react-dropdown-menu').contains(this.data['user']).click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i.fa.fa-remove').first().click()",
+    "operation": ""
+  }
+]

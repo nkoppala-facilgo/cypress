@@ -1,0 +1,31 @@
+[
+
+        {
+		"attribute": "",
+		"expression":"cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo .row div u').first().click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+		"attribute": "customer",
+		"expression":"cy.get('#tablePriorityStatusSumWO1 .Select-placeholder').contains('Company').click().type(data['customer'])",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.is-open').type('{enter}')",
+		"operation": ""
+	}
+
+
+
+]

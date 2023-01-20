@@ -1,0 +1,11 @@
+{
+  "supplier": "Supplier 1",
+  "property": "1008 Baker Avenue Las Vegas",
+  "workflow": "Maintenance",
+  "measurement": "EA",
+  "product": "testing electronic fan",
+  "quantity": "1",
+  "unit_price": "2500",
+  "doc_type": "Order",
+  "select": "Order"
+}

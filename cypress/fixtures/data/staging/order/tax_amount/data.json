@@ -1,0 +1,15 @@
+{
+        "supplier_name": "FLOOR",
+        "workflow":"Maintenance",
+        "property_name":"Parkside",
+        "item_name":"item 2",
+        "unit_measurement":"SQYD (Square Yards)",
+        "quantity":"15",
+        "unit_price":"13",
+        "gl_code":"Office",
+        "jcc":"",
+        "unit_#":"Parkside",
+        "tax":"100",
+        "update_tax":"3"
+
+}

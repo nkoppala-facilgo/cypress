@@ -1,0 +1,32 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.close > span').click()",
+		"operation": ""
+	},
+	{
+                "attribute": "",
+                "expression":"cy.wait(2000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar > .btn-default').contains('Goto Summary').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button').click()",
+                "operation": "click"
+        },
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.col-lg-12 > .text-center > .text-blue').click()",
+		"operation": "click"
+	}
+]

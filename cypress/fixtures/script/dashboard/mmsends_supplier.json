@@ -1,0 +1,82 @@
+[
+        {
+                "attribute": "file_path",
+                "expression": "cy.get(`div[class='clearfix']`).find('input[type=file]').attachFile(data['file_path'])",
+                "operation": "upload_file"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('textarea[placeholder=\"Notes\"]').type('dfnbvc abashs')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Save')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Complete')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Go To Summary')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','VerCompleted').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Create Invoice').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "invice_date",
+                "expression": "cy.select_by_calendar_using_label('INVOICE DATE:',data['invice_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "supplier_invice",
+                "expression": "cy.select_by_label('SUPPLIER INVOICE#',data['supplier_invice'],0)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('show-sku').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "tax_value",
+                "expression": "cy.get('input[placeholder =\"Price\"]').type(data['tax_value'])",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Save').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Submit').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+            "attribute": "",
+            "expression": "cy.contains('Invoice was successfully created').should('exist')",
+            "operation": ""
+       }
+]
+
+
+
+
+

@@ -1,0 +1,87 @@
+[	
+	{
+		"attribute": "",
+		"expression": "cy.get('.icon-menu-work-order').click()",
+		"operation": "click"
+        },
+	{
+		"attribute": "",
+		"expression": "cy.contains('Create Quote Requests').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "title",
+		"expression": "cy.get(\"input[name='quote_request[qr_title]']\").clear({force:true}).type(data['title'])",
+		"operation": ""
+	},
+	{
+		"attribute": "service_date",
+		"expression": "cy.select_by_calendar('#requested-service-date', data['service_date'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "due_date",
+		"expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "property",
+		"expression": "cy.select_by_label('REG / PROP COVERAGE:', data['property'],3000)",
+		"operation": "select"
+	},
+	{
+		"attribute": "coordinater",
+		"expression": "/script/quote_request/coordinator",
+		"operation": "select"
+	},
+	{
+		"attribute": "supplier",
+		"expression": "/script/quote_request/supplier",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('span', 'Allow searching disabled suppliers too').parent().find('input').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "product",
+		"expression": "cy.get('td[colspan=\"6\"]').find('input[placeholder=\"Product\"]').last()",
+		"operation": "input"
+	},
+	{
+		"attribute": "quantity",
+		"expression": "cy.get('input[placeholder=\"Quantity\"]').last().type(data['quantity'],{force: true})",
+		"operation": ""
+	},
+	{
+		"attribute": "unit_price",
+		"expression": "cy.get('input[placeholder=\"Requested Unit Price\"]').last().type(data['unit_price'],{force: true})",
+		"operation": ""
+	},
+	{
+		"attribute": "measurement",
+		"expression": "cy.select_by_placeholder('--- Unit of Measurement ---', data['measurement'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "prop_name",
+		"expression": "cy.select_by_placeholder_using_selector('Property', data['prop_name'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "sku",
+		"expression": "cy.get('input[placeholder=\"Item SKU\"]').last()",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('a', 'Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Send').click()",
+		"operation": "click"
+	}
+]

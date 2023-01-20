@@ -1,0 +1,38 @@
+[
+	{
+		"attribute": "work_order_title",
+		"expression": "cy.get('#title').clear()",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(6000)",
+		"operation": "click"
+	},
+	{
+		"attribute": "keyword_copy",
+		"expression": "cy.get('#title')",
+		"operation": "input"
+	},
+	{
+                "attribute": "Introduction1",
+                "expression":"cy.get('textarea[placeholder=\"Instruction\"]').first()",
+                "operation": "input"
+        },
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.document-action-buttons button').contains('Create & Assign').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Work Order was successfully created').should('exist')",
+		"operation": ""
+    	}
+    
+]

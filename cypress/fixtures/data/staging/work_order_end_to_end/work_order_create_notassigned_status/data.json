@@ -1,0 +1,16 @@
+{
+  "work_order_title": "Test for NotAssigned status",
+  "property_name": "1001 Welkin Street Henderson",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "priority": "Urgent",
+  "item_name": "test",
+  "Introduction": "This is introduction",
+  "resolution": "Fire",
+  "messege1": "Testing",
+  "work_hour": "3",
+  "work_rate": "5",
+  "file_path": "data/staging/assets/images/pic.jpg",
+  "resolution1": "Fire",
+  "user_select": "test user"
+}

@@ -1,0 +1,41 @@
+{
+  "prop_name": "1615 S",
+  "unit": "16157701",
+  "inspection_title": "Testing",
+  "item_name": "",
+  "due_date": "07/09/2022",
+  "file_path": "data/preview/assets/images/pic.jpg",
+  "lease_title": "Chris Hamsworth",
+  "lease_from": "06/25/2021",
+  "lease_to": "06/29/2021",
+  "first_name": "Chris",
+  "last_name": "Hamsworth",
+  "resident_status": "Current Tenant",
+  "project_name": "Cleaning",
+  "inspection_id": "1234566",
+  "inspection_type":  "Standard",
+  "display_comment": "DEFAULT",
+  "assignee": "SFR FKH Preview",
+  "move_in_date": "06/27/2022",
+  "unit_status": "Occupied",
+  "recurring": "Weekly",
+  "end_date": "02/18/2023",
+  "image_path": "data/preview/assets/images/pic.jpg",
+  "file_paths": "data/preview/assets/excel/Import Fixed Asset.xlsx",
+  "recurring_every": "2",
+  "due_date_days_after_creation": "3",
+  "room": "Bathroom2",
+  "item_category": "Abrasive compounds",
+  "due_dates": "08/18/2022",
+  "instruction": "This is a sample",
+  "notes": "not properly working",
+  "instructions1": "This is a sample",
+  "note1": "not properly working",
+  "room1": "Bathroom2",
+  "lineitems":   
+  [
+    {
+      "Notes": "test"
+    }
+  ]
+}

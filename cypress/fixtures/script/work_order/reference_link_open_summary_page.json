@@ -1,0 +1,12 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.col-lg-12 > .text-center > .text-blue').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.form-control-static > .text-blue').first().click()",
+		"operation": "click"
+	}
+]

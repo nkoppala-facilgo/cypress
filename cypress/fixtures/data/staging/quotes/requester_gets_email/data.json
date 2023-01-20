@@ -1,0 +1,29 @@
+{
+        "title":"30QR2",
+        "due_date":"10/23/2022",
+        "end_date": "10/23/2022",
+        "start_date":"10/23/2022",
+        "customer":"Dist",
+        "property":"D",
+        "requester":"Dist",
+        "suplier_contract_name":"978445",
+        "lineitems":[
+                {
+                    "product":"test2",
+                    "quantity":"5",
+                    "unit_price":"15",
+                    "measurement":"EA",
+                    "property":"DP",
+                    "tax":"1"
+              },
+              {
+                    "product":"test3",
+                    "quantity":"20",
+                    "unit_price":"12",
+                    "measurement":"SQYD",
+                    "property":"DP",
+                    "tax":"2"
+              }
+        ]
+    }
+           

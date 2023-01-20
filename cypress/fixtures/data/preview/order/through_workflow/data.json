@@ -1,0 +1,12 @@
+{
+  "supplier_name": "Supplier 1",
+  "property_name": "1008 Baker Avenue Las Vegas",
+  "workflow": "Maintenance",
+  "item_name": "itemtestcompare",
+  "unit_measurement": "SQYD",
+  "quantity": "2",
+  "unit_price": "310",
+  "gl_code": "",
+  "jcc": "",
+  "unit_#": ""
+}

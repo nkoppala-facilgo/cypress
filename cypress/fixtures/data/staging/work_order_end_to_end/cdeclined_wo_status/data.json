@@ -1,0 +1,35 @@
+  {
+    "work_order_title": "Test for status",
+    "prop_name": "1001 Welkin Street Henderson",
+    "catogory": "Electrical",
+    "subcategory": "Ceiling Fan",
+    "project": "",
+    "priority": "Urgent",
+    "user_assignee": "District Operations",
+    "lineitems": [
+      {
+        "Item": "test011",
+        "Introduction": "This is introduction"
+      }
+    ],
+    "resolution": "Fire",
+    "room_name": "Undefined Room",
+    "req_type": "Service",
+    "supplier_assignie": "FLOORCOVERINGS R Us",
+    "do_you_know_price": "I know the price",
+    "vendor_assignie": "Vendor Assignment - Maintenance",
+    "unit_measurement": "EA (Each)",
+    "quantity": "2",
+    "due_date": "03/05/2023",
+    "service_date": "06/04/2025",
+    "quote_expires": "11/30/2022",
+    "unit_price": "1",
+    "tax": "3",
+    "vendor_assignie1": "Vendor Assignment - Maintenance",
+    "Req_Start_Date": "12/22/2024",
+    "req_completion_date": "12/22/2026",
+    "workflow": "Maintenance",
+    "gl_code": "Office Supplies & Postage (G-S-6015)",
+    "unit_select": "10018001"
+  }
+  

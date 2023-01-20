@@ -1,0 +1,51 @@
+{
+	"work_order_title": "test432",
+    "prop_name":"1001 E Seldon",
+	"catogory":"Electrical",
+	"subcategory":"Ceiling Fan",
+	"priority":"Urgent",
+	"asignee":"kmurai+fkhstagingtech1ap",
+    "lineitems":
+	[
+	    {
+            "Item":"test011",
+            "Introduction":"This is introduction"
+	    }
+    ],
+    "room_name":"Undefined Room",
+    "req_type":"Service",
+    "display_item":"Catalog",
+    "supplier_assignie":"FLOORC",
+    "vendor_assignie":"Vendor",
+    "do_you_know_price":"I know the price - Create a non-catalog order",
+    "workflow":"Maintenance",
+    "quantity":"1",
+    "unit_measurement":"EA",
+    "unit_price":"12",
+    "due_date":"06/03/2022",
+    "jcc":"",
+    "service_date":"11/10/2021",
+    "gl_code":"Office Expense",
+    "fiscal_period":"Current",
+    "tax":"12",
+    "order_no":"",
+    "cbsa_or_property": "",
+    "unit_adress": "",
+    "gl_code_range": "",
+    "date_type": "",
+    "customer_PO":"",
+    "vacancy_status": "",
+    "inspection_type": "",
+    "date_from": "",
+    "date_to": "",
+    "due_date_from": "",
+    "due_date_to": "",
+    "hashtag": "",
+    "supplier":"",
+    "status": "",
+    "invoice_number":"cba",
+    "tax1":"2",
+    "tax2":"3",
+    "ship_amnt":"4"
+   
+}

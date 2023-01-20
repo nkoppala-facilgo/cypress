@@ -1,0 +1,34 @@
+[
+	
+	{
+		"attribute": "",
+		"expression":"cy.get('.btn-toolbar > .pull-right').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.btn-toolbar > .btn-default').contains('Goto Summary').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Close document?').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.confirm').click()",
+		"operation": "clicks"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.fa-chevron-down').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.col-sm-8 > .form-control-static > .text-blue').click()",
+		"operation": "click"
+	}
+
+]

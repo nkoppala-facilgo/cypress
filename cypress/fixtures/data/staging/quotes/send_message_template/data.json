@@ -1,0 +1,30 @@
+{
+        "title":"contstaging",
+        "due_date":"10/23/2022",
+        "end_date": "11/23/2022",
+        "start_date":"10/23/2022",
+        "customer":"FKH",
+        "property":"Parkside",
+        "requester":"kmurai+",
+        "suplier_contract_name":"contract",
+        "lineitems":[
+            {
+            "product":"43t4qh",
+            "quantity":"12",
+            "unit_price":"11",
+            "measurement":"EA",
+            "property":"Parkside",
+            "tax":"1"
+            },
+            {
+            "product":"v4y3f",
+            "quantity":"2",
+            "unit_price":"2",
+            "measurement":"SQYD",
+            "property":"Parkside",
+            "tax":"2"
+            }
+        ],
+        "select_meaasage":"vendor"
+}
+           

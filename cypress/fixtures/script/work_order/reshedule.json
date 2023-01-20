@@ -1,0 +1,73 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.fa-tasks').click()",
+		"operation": ""
+	},
+	{
+		"attribute": "asset_group",
+		"expression":"cy.select_by_upper_label('Properties / Asset Groups',data['asset_group'],2000)",
+		"operation": "select"
+	},
+	
+	{
+		"attribute": "user_type1",
+		"expression":"cy.select_by_upper_label('User Types',data['user_type1'],1000)",
+		"operation": ""
+	},
+	{
+		"attribute": "user_type2",
+		"expression":"cy.select_by_upper_label('User Types',data['user_type2'],1000)",
+		"operation": ""
+	},
+	{
+		"attribute": "user_type3",
+		"expression":"cy.select_by_upper_label('User Types',data['user_type3'],1000)",
+		"operation": ""
+	},
+	{
+		"attribute": "user_type4",
+		"expression":"cy.select_by_upper_label('User Types',data['user_type4'],1000)",
+		"operation": ""
+	},
+        {
+                "attribute": "show_calendar_for",
+                "expression": "cy.contains('label','Show Calendar For').parent().find('button').contains(data['show_calendar_for']).click({force:true})",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.task-assignment__body-inner-left').contains('label','Show Calendar From').parent().find('.input-group-addon').click({force:true})",
+                "operation": "click date picker"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.datepicker').find('tbody').find('tr').last().find('td').last().click({force:true})",
+                "operation": "select future date"
+        },
+        {
+                "attribute": "show_non_scheduled_task",
+                "expression": "cy.select_by_checkbox(data['show_non_scheduled_task'])",
+                "operation": "check"
+        },
+        {
+                "attribute": "view",
+                "expression": "cy.select_without_type('View',data['view'],'.task-assignment__body-inner-left')",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#task-assignment-from-filter-filter-button').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(6000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.confirm').click()",
+                "operation": ""
+        }
+]

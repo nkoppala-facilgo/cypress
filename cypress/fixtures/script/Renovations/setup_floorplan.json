@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "project_name",
+    "expression": "cy.contains(data['project_name']).parent().find('td').first().find('.dropdown-toggle').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.dropdown-menu').contains('Setup Floorplans & Units').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-times').click({foce: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add Floorplan').click({foce: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "classic_floorplan",
+    "expression": "cy.select_by_placeholder_with_enter('Classic Floorplan',data['classic_floorplan'])",
+    "operation": ""
+  },
+  {
+    "attribute": "renovated_unit",
+    "expression": "cy.get('.Select-placeholder').click().type(data['renovated_unit']).get('.Select-menu-outer').contains(data['renovated_unit']).click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-right.btn-primary').click()",
+    "operation": ""
+  }
+]

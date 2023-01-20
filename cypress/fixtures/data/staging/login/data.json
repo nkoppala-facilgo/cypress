@@ -1,0 +1,74 @@
+{
+  "pmc": {
+    "username": "kmurai+fkhstaging20210217@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "pmc2": {
+    "username": "kmurai+alphastaging@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "pmc3": {
+    "username": "rupalipmc1@yopmail.com",
+    "password": "1qaz!QAZ"
+  },
+  "supplier": {
+    "username": "kenrdtest@live.com",
+    "password": "asdfasdf"
+  },
+  "supplier2": {
+    "username": "kenrdtest2@live.com",
+    "password": "asdfasdf"
+  },
+  "administrator": {
+    "username": "aman.pmc23@yopmail.com",
+    "password": "1qaz!QAZ"
+  },
+  "administrator1": {
+    "username": "administrator",
+    "password": "zy5E>=T8"
+  },
+  "technician": {
+    "username": "kmurai+fkhstagingtech2aphoenix@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "technician1": {
+    "username": "kmurai+fkhstaging3tech1a@facilgo.com ",
+    "password": "asdfasdf"
+  },
+  "maintenanceManager": {
+    "username": "kmurai+fkhstaging20210217mmphoenix@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "maintenancetechnician": {
+    "username": "kmurai+fkhstagingtech1aphoenix@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "maintenanceSupervisor": {
+    "username": "kmurai+fkhstaging20210217ms@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "apSpecialistqc": {
+    "username": "stagingapsqc@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "deuser": {
+    "username": "data1entry@yopmail.com",
+    "password": "asdfasdf"
+  },
+  "regionalMaintenanceManager": {
+    "username": "kmurai+fkhstaging20210217rmmreg1@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "kenPmc": {
+    "username": "kmurai+yardistaging@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "techlevel1": {
+    "username": "kmurai+fkhstagingtech1aphoenix@facilgo.com",
+    "password": "asdfasdf"
+  },
+  "ap_manager": {
+    "username": "apmanagerpmc@yopmail.com",
+    "password": "asdfasdf"
+  }
+}

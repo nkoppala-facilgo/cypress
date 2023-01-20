@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-settings').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Asset Group / Properties').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Resident Setup').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Residents').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Download Residents').click().wait(7000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('div', 'Download').click({ force: true }).wait(3000)",
+    "operation": "click"
+  }
+]

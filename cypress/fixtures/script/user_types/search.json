@@ -1,0 +1,20 @@
+[{
+    "attribute": "user",
+    "expression": " cy.get('input[name=\"filter_user_type[user_type_name]\"]')",
+    "operation": "input"
+},
+{
+    "attribute": "asset",
+    "expression": "cy.select_by_label('Asset Group Type',data['asset'],0)",
+    "operation": "select"
+},
+{
+    "attribute": "status",
+    "expression": "cy.select_by_label('Status',data['status'],0)",
+    "operation": "select"
+},
+{
+    "attribute": "",
+    "expression": "cy.contains('button', 'Search').click()",
+    "operation": "click"
+}]

@@ -1,0 +1,18 @@
+{
+    "work_order_title": "Test for status",
+    "property_name": "1001 Welkin Street Henderson",
+    "catogory": "Electrical",
+    "subcategory": "Ceiling Fan",
+    "priority": "Urgent",
+    "user_assignee": "kmurai+sfrfkhpreviewlvtech3ea kmurai+sfrfkhpreviewlvtech3ea",
+    "item_name": "test",
+    "Introduction": "This is introduction",
+    "resolution": "Fire",
+    "messege1": "Testing",
+    "work_hour": "3",
+    "work_rate": "5",
+    "file_path": "data/preview/assets/images/pic.jpg",
+    "resolution1": "Fire",
+    "user_select": "SFR FKH Preview PMC"
+}
+  

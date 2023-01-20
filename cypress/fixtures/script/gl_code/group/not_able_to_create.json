@@ -1,0 +1,22 @@
+[
+        {
+		"attribute": "gl_group",
+		"expression":"cy.get('.form-group input[name=\"gl_group[gl_group_name]\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input[type=\"submit\"]').contains('Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(2000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Gl group name has already been taken').should('exist')",
+		"operation": ""
+	}
+]

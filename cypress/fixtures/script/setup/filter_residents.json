@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-settings').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Asset Group / Properties').click({ force: true }).wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Resident Setup').click({ force: true }).wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Residents').click({ force: true }).wait(4000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-FilterResidents > div > a').click().wait(4000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "Property",
+    "expression": "cy.contains('span','Type to search property').click().type(data['Property'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Search').click({ force: true }).wait(3000)",
+    "operation": "click"
+  }
+]

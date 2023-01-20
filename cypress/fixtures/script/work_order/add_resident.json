@@ -1,0 +1,127 @@
+[
+        {
+		"attribute": "",
+		"expression":"cy.visit('/dashboards/graph')",
+		"operation": ""
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.get('.icon-menu-work-order').click()",
+		"operation": "click"
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.contains('a','Create Work Orders').click({ force: true })",
+		"operation": ""
+	},
+    	{
+		"attribute": "",
+		"expression":"cy.wait(7000)",
+		"operation": ""
+	},
+	{
+		"attribute": "work_order_title",
+		"expression":"cy.get('#title')",
+		"operation": "input"
+	},
+	{
+                "attribute": "prop_name",
+                "expression":"cy.select_by_label_with_enter('PROPERTY',data['prop_name'],3000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('Add').click().wait(5000)",
+                "operation": ""
+        },
+	{
+                "attribute": "unit",
+                "expression":"cy.select_by_label_with_enter('UNIT',data['unit'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Add').click().wait(5000)",
+                "operation": ""
+        },
+	{
+                "attribute": "first_name",
+                "expression":"cy.get('#firstNameInput')",
+                "operation": "input"
+        },
+	{
+                "attribute": "last_name",
+                "expression":"cy.get('input[placeholder=\"Enter Resident Last Name\"]')",
+                "operation": "input"
+        },
+	{
+                "attribute": "resident_status",
+                "expression":"cy.get('.row .form-group > select').select(data['resident_status'])",
+                "operation": ""
+        },
+	{
+                "attribute": "lease_title",
+                "expression":"cy.get('input[placeholder=\"Select lease or add new\"]')",
+                "operation": "input"
+        },
+	{
+		"attribute": "",
+		"expression":"cy.get('.modal-footer > .btn-toolbar > .btn-primary').click()",
+		"operation": "click"
+	},
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+	{
+                "attribute": "catogory",
+                "expression":"cy.select_by_label_with_enter('CATEGORY:',data['catogory'],2000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+	{
+                "attribute": "subcategory",
+                "expression":"cy.select_by_label_with_enter('SUBCATEGORY',data['subcategory'],2000)",
+                "operation": "select"
+        },
+	{
+                "attribute": "priority",
+                "expression":"cy.select_by_label_with_enter('PRIORITY:',data['priority'],1000)",
+                "operation": "select"
+        },
+	{
+                "attribute": "lineitems",
+                "expression":"/script/work_order/lineitems",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(5000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar > .btn-success').contains('Create & Assign').click();",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(1500)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('Work Order was successfully created').should('exist')",
+                "operation": ""
+        }
+]

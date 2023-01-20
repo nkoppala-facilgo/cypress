@@ -1,0 +1,20 @@
+{
+  "work_order_title": "test432",
+  "prop_name": "1001 Welkin Street Henderson",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "priority": "Urgent",
+  "resolution": "fire",
+  "lineitems": [
+    {
+      "Item": "test01123",
+      "file_path": "data/preview/assets/images/pic.jpg",
+      "Notes": "This is a example test case",
+      "Introduction": "This is introduction"
+    }
+  ],
+  "internal-notes": "this is the internal note",
+  "note": "resident note is here",
+  "user_select":"Tech 1",
+  "work_hour":"12"
+}

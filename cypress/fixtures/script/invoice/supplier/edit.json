@@ -1,0 +1,83 @@
+[
+        {
+                "attribute": "invoice_date",
+                "expression": "cy.select_by_calendar_using_label('INVOICE DATE:',data['invoice_date'])",
+                "operation" : "select"
+        },
+        {
+                "attribute": "due_date",
+                "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+                "operation" : "select"
+        },
+        {
+                "attribute": "customer_name",
+                "expression": "cy.select_by_label('CUSTOMER NAME:',data['customer_name'],2000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": "wait"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#property-name').clear()",
+                "operation": ""
+        },
+        {
+                "attribute": "property_name",
+                "expression": "cy.select_by_typeahead2('#property-name',data['property_name'], 4000)",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": "wait"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('label','PROPERTY NAME:').parent().find('a').contains(data['property_name']).click({force:true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": "wait"
+        },
+        
+        {
+                "attribute": "completion_date",
+                "expression": "cy.select_by_calendar_using_label('COMPLETION DATE:',data['completion_date'])",
+                "operation" : "select"
+        },
+        {
+                "attribute": "payment_date",
+                "expression": "cy.select_by_calendar_using_label('PAYMENT DATE:',data['payment_date'])",
+                "operation" : "select"
+        },
+        {
+                "attribute": "payment_amount",
+                "expression": "cy.contains('label','PAYMENT AMOUNT:').parent().find('input[type=number]').clear({force:true})",
+                "operation": "input"
+        },
+        {
+                "attribute": "total_tax",
+                "expression": "cy.contains('td','Total Tax:').parent().find('input[type=number]').eq(0).clear()",
+                "operation": "input"
+        },
+        {
+                "attribute": "total_tax_%",
+                "expression": "cy.contains('td','Total Tax:').parent().find('input[type=number]').eq(1).clear()",
+                "operation": "input"
+        },
+        {
+                "attribute": "shipping_amount",
+                "expression": "cy.contains('td','Shipping Amount:').parent().find('input[type=number]').clear()",
+                "operation": "input"
+        },
+        {
+                "attribute": "discount_amount",
+                "expression": "cy.contains('td','Discount Amount:').parent().find('input[type=number]').clear()",
+                "operation": "input"
+        }
+]

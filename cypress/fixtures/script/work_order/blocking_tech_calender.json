@@ -1,0 +1,124 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Schedule Work Order').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label('Property Name',data['prop_name'],4000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label('Unit',data['unit'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "type",
+    "expression": "cy.select_by_label('Work Order Type',data['type'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "subtype",
+    "expression": "cy.select_by_label('Work Order Subtype:',data['subtype'],0)",
+    "operation": "select"
+  },
+
+  {
+    "attribute": "tech1",
+    "expression": "cy.select_by_label('Assignees:',data['tech1'],0)",
+    "operation": "select"
+  },
+
+  {
+    "attribute": "tech2",
+    "expression": "cy.select_by_label('Assignees:',data['tech2'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority",
+    "expression": "cy.select_by_label_with_enter('Work Order Priority:',data['priority'],1000)",
+    "operation": "select"
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-start-datetime').click({force:true});",
+    "operation": ""
+  },
+
+  {
+    "attribute": "start_time",
+    "expression": "cy.get('div.react-datepicker__time').find('li.react-datepicker__time-list-item').contains(data['start_time']).type('{enter}');",
+    "operation": ""
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-end-datetime').click({force:true})",
+    "operation": ""
+  },
+
+  {
+    "attribute": "end_time",
+    "expression": "cy.get('div.react-datepicker__time').find('li.react-datepicker__time-list-item').contains(data['end_time']).type('{enter}');",
+    "operation": ""
+  },
+  {
+    "attribute": "wo_title",
+    "expression": "cy.get('input[placeholder=\"- Work Order Title -\"]').clear()",
+    "operation": "input"
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.contains('button',' Work Order Item').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"- Item Name -\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Introduction1",
+    "expression": "cy.get('textarea[placeholder=\"- Instruction -\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.modal-footer > button.btn.btn-success').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Success!').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('OK').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer').find('a').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "visitingUrl",
+    "expression": "cy.visit(data['visitingUrl'])",
+    "operation": ""
+  }
+]

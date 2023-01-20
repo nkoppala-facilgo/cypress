@@ -1,0 +1,13 @@
+[
+  {
+    "attribute": "project_name",
+    "expression":"cy.contains(data['project_name']).parent().find('td').first().find('.dropdown-toggle').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "assignee_name",
+    "expression":"cy.get('.dropdown-menu').contains('Show Detail').click()",
+    "operation": ""
+  }
+]
+            

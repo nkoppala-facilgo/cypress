@@ -1,0 +1,132 @@
+[
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-success','Add').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Close').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-success','Create & Assign').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a[class=\"btn btn-sm btn-primary\"]','Comparison').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "date_to",
+    "expression": " cy.select_by_calendar_using_label('Date To', data['date_to']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "date_from",
+    "expression": " cy.select_by_calendar_using_label('Date From', data['date_from']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "date_type",
+    "expression": "cy.select_by_label('Date Type',data['date_type'],3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "inspection",
+    "expression": "cy.select_by_label('Inspection Type',data['inspection'],3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Search').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "baseline",
+    "expression": "cy.select_by_label('Select Base Line',data['baseline'],3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','MOCS').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('Property',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Submit').click({force: true})",
+    "operation": "click"
+  }
+]

@@ -1,0 +1,64 @@
+[
+        {
+                "attribute": "product_name",
+                "expression": "cy.get('#product_product_name').type(data['product_name'])",
+                "operation": ""
+        },
+        {
+                "attribute": "manufacture",
+                "expression": "cy.get('#product_manufacture').type(data['manufacture'])",
+                "operation": ""
+        },
+        {
+                "attribute": "manufacture_code",
+                "expression": "cy.get('#product_manufacture_number').type(data['manufacture_code'])",
+                "operation": ""
+        },
+        {
+                "attribute": "price",
+                "expression": "cy.get('#product_price').type(data['price'])",
+                "operation": ""
+        },
+        {
+                "attribute": "unit_of_measure",
+                "expression": "cy.get('#product_unit_of_measure_id').type(data['unit_of_measure'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "sku",
+                "expression": "cy.get('#product_sku').type(data['sku'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "quantity_per_uom",
+                "expression": "cy.get('#product_quantity_per_uom').type(data['quantity_per_uom'])",
+                "operation": ""
+        },
+        {
+                "attribute": "tag",
+                "expression": "cy.get('#product_tags_tag').type(data['tag']).type('{enter}')",
+                "operation": ""
+        },
+        {
+                "attribute": "description",
+                "expression": "cy.get('#product_description').type(data['description'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('input[value=Save]').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Invalid input:Sku has already been taken').should('exist')",
+                "operation": ""
+        }
+]
+
+

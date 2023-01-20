@@ -1,0 +1,42 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Re-Open').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Are you sure?').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('div.sweet-alert.visible.showSweetAlert > div.sa-button-container > div > button').click({force:true})",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Re-Opened!').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.confirm').contains('OK').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(2000)",
+		"operation": ""
+	}
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.get('.icon-menu-settings').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'NTE Amount').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#nte-limit-setting-actions').first().click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('span', 'Edit').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[placeholder=\"NTE Amount\"]').click().type('1', {force: true}).wait(5000).type('{enter}' ,{force: true})",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Save').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'OK').click()",
+        "operation": "click"
+    }
+]

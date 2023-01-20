@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Documents').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Work Orders').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": "wait"
+  }
+]

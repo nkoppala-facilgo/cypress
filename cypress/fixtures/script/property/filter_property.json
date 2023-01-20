@@ -1,0 +1,22 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.fa-filter').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.select_by_label('Property Names:',data['ans'],0)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Search').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	}
+]

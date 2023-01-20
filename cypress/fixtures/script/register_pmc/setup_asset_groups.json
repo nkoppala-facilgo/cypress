@@ -1,0 +1,27 @@
+[
+        {
+                "attribute": "asset_group_name",
+                "expression": "cy.get('#asset_group_asset_group_name')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        },
+        {
+                "attribute": "type",
+                "expression": "cy.get('#asset_group_type').select(data['type'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "parent_asset_group",
+                "expression": " cy.get('#asset_group_parent_id').select(data['parent_asset_group'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "asset_group_type",
+                "expression": "cy.get('#asset_group_asset_group_type_id').select(data['asset_group_type'])",
+                "operation": "select"
+        }
+]

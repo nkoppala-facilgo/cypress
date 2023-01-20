@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'New Skill').click()",
+    "operation": "click"
+  }
+]

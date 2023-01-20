@@ -1,0 +1,58 @@
+{
+  "invoice_date" : "11/28/2022",
+  "due_date" : "11/29/2022",
+  "supplier_invoice" : "test pre",
+  "finvoice" : "",
+  "supplier_name" : "#174",
+  "registered" : "",
+  "property_name" : "1001",
+  "completion_date" : "10/02/2023",
+  "customer_account" : "7899",
+  "workflow" : "Maintenance",
+  "ship_to_address" : "Use Property Ship To Address",
+  "bill_to_address" : "",
+  "payment_date" : "11/23/2023",
+  "payment_amount" : "900",
+  "hashtag" : "hello",
+  "reference_inseption" : "",
+  "reference_wo" : "",
+  "reference_qr" : "",
+  "reference_quote" : "",
+  "payment_method" : "EFT",
+  "unit":"10018001",
+  "lineitems" : [
+      {
+          "item" : "test01",
+          "quantity": "1",
+          "price": "1",
+          "unit_of_measurement": "EA (Each)",
+          "item_sku": "hello",
+          "unit": "10018001",
+          "chargable_amount": "",
+          "jcc": ""
+      },
+      {
+          "item" : "test02",
+          "quantity": "1",
+          "price": "1",
+          "unit_of_measurement": "EA (Each)",
+          "item_sku": "hello",
+          "unit": "10018001",
+          "chargable_amount": "",
+          "jcc": ""
+      }
+  ],
+  "total_tax": "",
+  "total_tax_%": "",
+  "shipping_amount": "",
+  "discount_amount": "",
+
+  "invoice" : "k37SohP",
+  "credit_memo_date" : "03/23/2022",
+  "supplier_cm" : "",
+  "template_comment" : "this is a test message.",
+  "template": "test9913"
+              
+              
+}
+      

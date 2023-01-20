@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Inspection Status List').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('div','- Select Property or Asset Group - ').type('{enter}', '{force: true}')",
+    "operation": ""
+  }
+]

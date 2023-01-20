@@ -1,0 +1,16 @@
+{
+  "requester": "SFR FKH",
+  "status": "Unassigned",
+  "file_path": "data/preview/assets/images/randomer.jpg",
+  "invoice_date": "02/19/2022",
+  "supplier": "305",
+  "property": "1001 Welkin Street Henderson",
+  "workflow": "Maintenance",
+  "gl_code": "Microwave replacements (11237)",
+  "unit": "10018001",
+  "product": "test",
+  "price": "1",
+  "assignee": "SFR FKH Preview Maintenence Manager", 
+  "assign": "Assigned",
+  "reject": "Rejected"
+}

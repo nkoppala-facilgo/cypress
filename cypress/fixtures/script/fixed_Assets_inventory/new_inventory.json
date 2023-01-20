@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Add Inventory Type').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "inventory_type_name",
+    "expression": "cy.get('input[placeholder=\"Inventory Type Name\"]').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click()",
+    "operation": "click"
+  }
+]

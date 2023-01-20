@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.caret').first().click();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Edit').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "item_type",
+    "expression": "cy.select_by_label('INVENTORY TYPE:',data['item_type'])",
+    "operation": ""
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('PROPERTY:',data['property'])",
+    "operation": ""
+  },
+  {
+    "attribute": "measurement_unit",
+    "expression": "cy.select_by_label('DEFAULT UOM:',data['measurement_unit'])",
+    "operation": ""
+  },
+  {
+    "attribute": "uom",
+    "expression": "cy.select_by_label('UOM:',data['uom'])",
+    "operation": ""
+  },
+  {
+    "attribute": "item",
+    "expression": "cy.get('#fixed-asset-item-name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('#fixed-asset-item-quantity')",
+    "operation": "input"
+  },
+  {
+    "attribute": "item_id",
+    "expression": "cy.get('#fixed-asset-item-id')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-success').click()",
+    "operation": ""
+  }
+]

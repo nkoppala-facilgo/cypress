@@ -1,0 +1,98 @@
+[     
+    
+        {
+            "attribute": "supplier_name",
+            "expression": "cy.select_by_label_with_enter('SUPPLIER',data['supplier_name'],5000)",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(2000)",
+            "operation": ""
+        },
+        {
+            "attribute": "property_name",
+            "expression": "cy.select_by_label_with_enter('PROPERTY',data['property_name'],5000)",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(3000)",
+            "operation": ""
+        },
+        {
+            "attribute": "workflow",
+            "expression": "cy.select_by_label_with_enter('WORKFLOW',data['workflow'],5000)",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(2000)",
+            "operation": ""
+        },
+        {
+            "attribute": "gl_code",
+            "expression": "cy.get('#react-select-5--value > .Select-value').click()",
+            "operation": "click"
+        },
+        {
+            "attribute": "gl_code",
+            "expression": "cy.contains(data['gl_code']).type('{enter}')",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(2000)",
+            "operation": ""
+        },
+        {
+            "attribute": "jcc",
+            "expression": "cy.select_by_placeholder_using_selector('JCC',data['jcc'])",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(2000)",
+            "operation": ""
+        },
+        {
+            "attribute": "item_name",
+            "expression": "cy.get('input[placeholder=\"Item\"]')",
+            "operation": "input"
+        },
+        {
+            "attribute": "unit_measurement",
+            "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_measurement'],5000)",
+            "operation": "select"
+        },
+        {
+            "attribute": "quantity",
+            "expression": "cy.get('input[placeholder=\"Quantity\"]')",
+            "operation": "input"
+        },
+        {
+            "attribute": "unit_price",
+            "expression": "cy.get('input[placeholder=\"Unit Price\"]')",
+            "operation": "input"
+        },
+        {
+            "attribute": "unit_#",
+            "expression": "cy.select_by_placeholder('Unit#',data['unit_#'],5000)",
+            "operation": "select"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('.btn-success').click()",
+            "operation": "click"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.get('#btnDocumentPage > .btn-primary').click({force: true})",
+            "operation": "click"
+        },
+        {
+            "attribute": "",
+            "expression": "cy.wait(3000)",
+            "operation": ""
+        }
+]

@@ -1,0 +1,18 @@
+{
+        "prop_name":"10004 N",
+        "unit":"10017701",
+        "type":"Interior Building",
+        "subtype":"Interior Building- Other",
+        "item_name":"test_data",
+        "priority":"UrgentEmerg",
+        "Introduction1":"This is an introduction",
+        "req_type":"Service",
+        "know_the_price":"I don't know the price - Send a quote request",
+        "supplier_assignie":"Ferguson",
+        "vendor_assignie_workflow":"Maintenance",
+        "quantity":"5",
+        "due_date":"05/07/2022",
+        "service_date":"06/09/2022",
+        "unit_measurement":"SQYD",
+        "CBAmount":"350"
+}

@@ -1,0 +1,32 @@
+{
+  "property_name": "05 Buckhead",
+  "unit_name": "COMMON",
+  "inspe_title": "test015",
+  "inspe_date": "11/07/2021",
+  "due_date": "12/08/2022",
+  "project_name": "plumbing",
+  "image_path": "data/inspections/files/pic.jpg",
+  "file_path": "data/inspections/files/test.txt",
+  "lineitems": [
+    {
+      "item_name": "roomno1",
+      "file_path": "data/inspections/files/pic.jpg"
+    },
+    {
+      "item_name": "roomno2",
+      "file_path": "data/inspections/files/pic.jpg"
+    },
+    {
+      "item_name": "roomno3",
+      "file_path": "data/inspections/files/pic.jpg"
+    },
+    {
+      "item_name": "roomno4",
+      "file_path": "data/inspections/files/pic.jpg"
+    },
+    {
+      "item_name": "roomn05",
+      "file_path": "data/inspections/files/pic.jpg"
+    }
+  ]
+}

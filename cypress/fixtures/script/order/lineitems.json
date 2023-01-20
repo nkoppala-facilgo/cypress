@@ -1,0 +1,23 @@
+[
+	{
+		"attribute": "item_name",
+		"expression": "cy.get('input[placeholder=\"Item Name\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "instruction",
+		"expression": "cy.get('textarea[placeholder=\"Instruction\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Add New Item').click()",
+		"operation": "click"
+	}	
+]
+

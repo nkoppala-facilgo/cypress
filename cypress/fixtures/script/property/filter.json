@@ -1,0 +1,47 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "asset_group",
+    "expression": "cy.select_by_label('Asset Group(s):', data['asset_group'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label('Property Names:', data['property_name'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property_code",
+    "expression": "cy.select_by_label('Property Codes:', data['property_code'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "city",
+    "expression": "cy.select_by_label('Cities:', data['city'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "state",
+    "expression": "cy.select_by_label('States:', data['state'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "zip_code",
+    "expression": "cy.select_by_label('Zip Codes:', data['zip_code'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property_status",
+    "expression": "cy.select_by_label('Property Statuses:', data['property_status'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button').contains('Search').click()",
+    "operation": "click"
+  }
+]

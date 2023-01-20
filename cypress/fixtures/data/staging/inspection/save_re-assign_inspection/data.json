@@ -1,0 +1,13 @@
+{
+  "property_name": "1615 S",
+  "unit": "1615 S",
+  "inspection_title": "Test",
+  "item_name": "",
+  "due_date": "06/29/2023",
+  "file_path": "data/staging/assets/images/pic.jpg",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ]
+}

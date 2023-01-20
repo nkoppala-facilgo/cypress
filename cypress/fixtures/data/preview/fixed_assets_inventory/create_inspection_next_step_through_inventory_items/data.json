@@ -1,0 +1,14 @@
+{
+  "property_name": "1001 Welkin Street Henderson, NV 89052",
+  "inspection_title": "test 21",
+  "due_date": "06/28/2022",
+  "quantity": "2",
+  "quantities": "3",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ],
+  "item_name": "Fan",
+  "Introduction": "addeed"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress run --env SUITE=smoke --spec cypress/integration/quote_request/*.js , cypress/integration/workflow/*.js, cypress/integration/work_order/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanta",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.10.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-wait-until": "^1.7.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0",
+    "xlsx": "^0.18.5"
+  }
+}

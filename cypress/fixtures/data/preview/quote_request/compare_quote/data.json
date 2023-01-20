@@ -1,0 +1,46 @@
+{
+  "title": "16QRT",
+  "due_date": "05/03/2024",
+  "service_date": "05/03/2022",
+  "property": "1001 Welkin Street Henderson",
+  "supplier": [
+    {
+      "name": "Supplier 1"
+    },
+    {
+      "name": "Supplier 2"
+    }
+  ],
+  "lineitems": [
+    {
+      "product": "test",
+      "quantity": "1",
+      "unit_price": "1",
+      "measurement": "EA",
+      "property": "1001 Welkin Street Henderson",
+      "amount": "1",
+      "notes": "empty",
+      "sku": "test1"
+    },
+    {
+      "product": "test",
+      "quantity": "1",
+      "unit_price": "1",
+      "measurement": "EA",
+      "property": "1001 Welkin Street Henderson",
+      "amount": "1",
+      "notes": "empty",
+      "sku": "test"
+    }
+  ],
+  "coordinater": [
+    {
+      "_name": ""
+    },
+    {
+      "_name": ""
+    }
+  ],
+  "msg_template": "Hello Supplier(test)",
+  "msg": "Thanksforinfvosigvj"
+}

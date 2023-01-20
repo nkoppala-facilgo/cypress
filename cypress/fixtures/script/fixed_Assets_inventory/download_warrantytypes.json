@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Fixed Assets/Inventory').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Fixed Asset/Inventory Setup').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Warranty Types').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button',' Download').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Download Types in this page').click();",
+    "operation": "click"
+  }
+]

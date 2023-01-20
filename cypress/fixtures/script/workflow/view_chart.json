@@ -1,0 +1,52 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']).parent().find('.fa-plus-square-o').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Orders\").parent().contains('a','View Chart').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.modal-footer > .btn').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Invoices\").parent().contains('a','View Chart').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.modal-footer > .btn').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains(data['woflow_name']+\": Contracts\").parent().contains('a','View Chart').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.modal-footer > .btn').click()",
+                "operation": "click"
+        }
+]

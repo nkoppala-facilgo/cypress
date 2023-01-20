@@ -1,0 +1,32 @@
+{
+	"work_order_title": "test432",
+	"prop_name":"1001 E Seldon",
+	"catogory":"Electrical",
+	"subcategory":"Switches",
+	"priority":"Urgent",
+	"asignee":"kmurai+fkhstagingtech1ap",
+        "lineitems":
+	[
+                {
+			"Item":"test011",
+			"Introduction":"This is introduction"
+		}
+        ],
+        "room_name":"Undefined Room",
+        "req_type":"Service",
+        "display_item":"Catalog",
+        "supplier_assignie":"test",
+        "vendor_assignie":"Vendor",
+        "do_you_know_price":"I know the price - Create a non-catalog order",
+        "workflow":"test",
+        "quantity":"1",
+        "unit":"deCosta",
+        "unit_price":"12",
+        "due_date":"06/03/2022",
+        "jcc":"20",
+        "service_date":"11/10/2021",
+        "gl_code":"GLCode for Aman38 (AmanGL38)",
+        "tax":"12",
+        "catalog_product":"Bathroom",
+        "reason":"Working now "
+}

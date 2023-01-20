@@ -1,0 +1,30 @@
+{
+  "work_order_title": "test432",
+  "prop_name": "1001 Welkin Street Henderson",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "priority": "Urgent",
+  "asignee": "SFR FKH",
+  "lineitems": [
+    {
+      "Item": "test011",
+      "Introduction": "This is introduction"
+    }
+  ],
+  "room_name": "",
+  "req_type": "",
+  "display_item": "Catalog",
+  "supplier_assignie": "Supplier 1",
+  "vendor_assignie": "Vendor",
+  "do_you_know_price": "",
+  "workflow": "Maintenance",
+  "quantity": "1",
+  "unit_measurement": "EA",
+  "unit_price": "12",
+  "due_date": "06/03/2023",
+  "jcc": "",
+  "service_date": "11/10/2022",
+  "gl_code": "Office Expense",
+  "fiscal_period": "Current",
+  "tax": "12"
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-success','Add').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Close').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-success','Create & Assign').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('u','Select Message Template').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "msg",
+    "expression": " cy.get('div[class=\"Select-placeholder\"]').contains('Select a Message Template...').parent().find(`.Select-input input`).click({ force: true }).type(data['msg'])",
+    "operation": ""
+  },
+  {
+    "attribute": "msg",
+    "expression": "cy.get('div[class=\"Select-placeholder\"]').contains('Select a Message Template...').parent().find(`.Select-input input`).click({ force: true }).type(data['msg'])",
+    "operation": ""
+  },
+  {
+    "attribute": "msg",
+    "expression": "cy.get(`[class*=\"-menu\"]`).contains(data['msg']).click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Save As Internal Note').click()",
+    "operation": "click"
+  }
+]

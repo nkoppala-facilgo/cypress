@@ -1,0 +1,22 @@
+{
+        "supplier_name": "FLOOR",
+        "workflow":"Maintenance",
+        "property_name":"Parkside",
+        "item_name":"item 3",
+        "unit_measurement":"EA (Each)",
+        "quantity":"3",
+        "unit_price":"7",
+        "gl_code":"Office",
+        "jcc":"",
+        "unit_#":"Parkside",
+        "cbsa_or_property": "",
+        "date_type": "",
+        "PO":"",
+        "date_from": "",
+        "date_to": "",
+        "supplier_order":"",
+        "hashtag": "",
+        "customer":"",
+        "status": ""
+
+}

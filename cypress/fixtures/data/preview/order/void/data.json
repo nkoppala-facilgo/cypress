@@ -1,0 +1,13 @@
+{
+  "supplier_name": "Supplier 1",
+  "workflow": "Maintenance",
+  "property_name": "1008 Baker Avenue Las Vegas",
+  "item_name": "item 1",
+  "unit_measurement": "EA (Each)",
+  "quantity": "7",
+  "unit_price": "9",
+  "gl_code": "Refrigerator replacements",
+  "jcc": "",
+  "unit_#": "10088001",
+  "REQ START DATE:": "06/03/2025"
+}

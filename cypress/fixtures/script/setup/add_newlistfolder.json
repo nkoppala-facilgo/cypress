@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add Folder').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "folder_name",
+    "expression": "cy.get('.folder__name-input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "asset_groups_properties",
+    "expression": "cy.select_by_placeholder('Asset Groups/Properties', data['asset_groups_properties'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button.action-buttons__btn.btn.btn-success.btn-sm').click();",
+    "operation": "click"
+  }
+]

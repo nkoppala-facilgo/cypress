@@ -1,0 +1,33 @@
+[
+	{
+		"attribute": "",
+		"expression": "cy.visit('/dashboards/graph')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Documents').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('a','Work Orders').click({ force: true })",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(4000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('a','Create Work Order').click({ force: true })",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(7000)",
+		"operation": ""
+	}
+
+]

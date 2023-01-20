@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('input[type=\"file\"]').attachFile(data['file_path'])",
+    "operation": ""
+  }
+]

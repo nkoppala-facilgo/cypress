@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Create Order').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "vendor_assignie",
+    "expression": "cy.select_by_upper_label('Vendor Assignment Workflow',data['vendor_assignie'],8000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Checkout').click()",
+    "operation": ""
+  }
+]

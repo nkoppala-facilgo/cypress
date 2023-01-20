@@ -1,0 +1,10 @@
+{
+    "supplier":"Supplier 1",
+    "property":"1001 W",
+    "workflow":"test4915",
+    "measurement":"EA",
+    "product":"testing electronic fan",
+    "quantity":"1",
+    "unit_price":"2500",
+    "doc_type":"Order"
+}

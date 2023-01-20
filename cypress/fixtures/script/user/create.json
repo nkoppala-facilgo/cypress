@@ -1,0 +1,25 @@
+[{
+	"attribute": "email",
+	"expression": "cy.get('input[id=userEmail]')",
+	"operation": "input"
+},
+{
+	"attribute": "first_name",
+	"expression": "cy.get('input[id=userFirstName]')",
+	"operation": "input"
+},
+{
+	"attribute": "last_name",
+	"expression": "cy.get('input[id=userLastName]')",
+	"operation": "input"
+},
+{
+	"attribute": "user_type",
+	"expression": "cy.select_by_label('User Type', data['user_type'])",
+	"operation": "select"
+},
+{
+	"attribute": "",
+	"expression": "cy.contains('Submit').click()",
+	"operation": "click"
+}]

@@ -1,0 +1,11 @@
+{
+  "property": "Las Vegas",
+  "team_user": "Users",
+  "user_type": "Tech Level 1",
+  "additional_user": "",
+  "doc_type": "Work Order",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": false,
+  "view": "1 Day View",
+  "day_view_value": 9
+}

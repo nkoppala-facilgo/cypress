@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/fixed_asset_items')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span',' Add Fixed Asset Item').first().click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "asset_type",
+    "expression": "cy.select_by_label('FIXED ASSET TYPE:',data['asset_type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('PROPERTY:',data['property'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item",
+    "expression": "cy.get('#fixed-asset-item-name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "purchase_date",
+    "expression": "cy.select_by_calendar_using_label('PURCHASE DATE:',data['purchase_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create').click()",
+    "operation": ""
+  }
+]

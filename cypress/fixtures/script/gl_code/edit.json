@@ -1,0 +1,12 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.contains('Edit').click({force: true})",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	}
+]

@@ -1,0 +1,11 @@
+[
+{
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "click"
+},
+{
+    "attribute": "",
+    "expression": "cy.contains('a','User Types').click()",
+    "operation": "click"
+}]

@@ -1,0 +1,27 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.fa-filter').click()",
+		"operation": "click"
+	},	
+	{
+		"attribute": "",
+		"expression":"cy.get('input[placeholder=\"WO Title / Item Name\"]').type(data['work_order_name'])",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Status(es):').parent().find('.col-md-9 .Select--multi  .Select-control .Select-multi-value-wrapper .Select-value .Select-value-icon').click()",
+		"operation": "click()"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Search').click()",
+		"operation": "click"
+	}
+]

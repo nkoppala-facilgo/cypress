@@ -1,0 +1,40 @@
+[{
+	"attribute": "from",
+	"expression": "cy.select_by_calendar('input[placeholder = \"From\"]', data['from'])",
+	"operation": "select"
+},
+{
+	"attribute": "to",
+	"expression": "cy.select_by_calendar('input[placeholder = \"To\"]',data['to'])",
+	"operation": "select"
+},
+{
+	"attribute": "quote_type",
+	"expression": "cy.select_by_label('Quote Types#:',data['quote_type'],0)",
+	"operation": "select"
+},
+{
+	"attribute": "quote_number",
+	"expression": "cy.select_by_label('QU#(s):',data['quote_number'],0)",
+	"operation": "select"
+},
+{
+	"attribute": "quote_title",
+	"expression": "cy.select_by_label('Quote Title(s):',data['quote_title'],0)",
+	"operation": "select"
+},
+{
+	"attribute": "supplier",
+	"expression": "cy.select_by_label('Supplier(s):',data['supplier'],0)",
+	"operation": "select"
+},
+{
+	"attribute": "status",
+	"expression": "cy.select_by_label('Status(es):',data['status'],0)",
+	"operation": "select"
+},
+{
+	"attribute": "",
+	"expression": "cy.contains('button', 'Search').click()",
+	"operation": "click"
+}]

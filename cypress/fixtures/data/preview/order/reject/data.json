@@ -1,0 +1,21 @@
+{
+  "supplier_name": "Supplier 1",
+  "workflow": "Maintenance",
+  "property_name": "1008 Baker Avenue Las Vegas",
+  "item_name": "item 3",
+  "unit_measurement": "EA (Each)",
+  "quantity": "3",
+  "unit_price": "7",
+  "gl_code": "mOt3y",
+  "jcc": "",
+  "unit_#": "10088001",
+  "cbsa_or_property": "",
+  "date_type": "",
+  "PO": "",
+  "date_from": "",
+  "date_to": "",
+  "supplier_order": "",
+  "hashtag": "",
+  "customer": "",
+  "status": "SNewOrder"
+}

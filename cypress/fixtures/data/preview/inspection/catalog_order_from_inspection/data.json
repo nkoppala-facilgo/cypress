@@ -1,0 +1,15 @@
+{
+    "property_name": "1615 S",
+    "unit": "16157701",
+    "inspection_title": "",
+    "item_name": "",
+    "due_date": "06/29/2023",
+    "notes": "not working",
+    "supplier_name": "SFR FKH Preview Supplier 1",
+    "workflow": "Maintenance",
+    "unit_price": "2",
+    "tax": "6",
+    "unit_of_measure": "EA (Each)",
+    "req_start_date": "09/06/2023",
+    "file_path": "data/preview/assets/images/pic.jpg"
+}

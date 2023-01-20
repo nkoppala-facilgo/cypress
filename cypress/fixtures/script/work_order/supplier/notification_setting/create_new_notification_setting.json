@@ -1,0 +1,22 @@
+[
+        {
+                "attribute": "notification_method",
+                "expression":"cy.select_by_label_with_enter('Notification Method',data['notification_method'],3000)",
+                "operation": "select"
+        },
+	{
+                "attribute": "notification_for",
+                "expression":"cy.select_by_label_with_enter('Notification For',data['notification_for'],3000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "notification_contact_code",
+                "expression":"cy.get('#settingNotificationContact')",
+                "operation": "input"
+        },
+        {
+                "attribute": "notification_contact",
+                "expression":"cy.get('#settingNotificationContact')",
+                "operation": "input"
+        }
+]

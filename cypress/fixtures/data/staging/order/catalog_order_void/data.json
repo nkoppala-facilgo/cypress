@@ -1,0 +1,24 @@
+{
+        "title":"repairing appliances",
+        "property_name": "Parkside",
+        "category":"Appliances",
+        "priority":"Emergency",
+        "subcategory":"Appliances- Other",
+        "lineitems": [
+                {
+                     "item_name": "desktop repair",
+                     "instruction":"repair product"
+                },
+                {
+                     "item_name": "desktop1 repair",
+                     "instruction":"repair product"
+                }
+        ],
+        "req_type":"Service",
+        "supplier_assignie":"FLOOR",
+        "catalog_product":"occupied",
+        "vendor_assignie":"Maintenance",
+        "workflow":"Maintenance",
+        "gl_code":"4jwSLkfJ",
+        "unit_select":"16157701"
+}

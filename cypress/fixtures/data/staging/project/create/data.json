@@ -1,0 +1,14 @@
+{
+    "project_name": "test",
+    "project_type": "Turn",
+    "assignee": "Ken (",
+    "region_property": "Parkside",
+    "unit": "1615",
+    "move_out": "01/01/2022",
+    "start_date": "02/02/2022",
+    "move_in": "03/03/2022",
+    "due": "04/05/2023",
+    "estimated_completion": "05/06/2022",
+    "completion_date": "06/07/2022",
+    "priority": "High"
+}

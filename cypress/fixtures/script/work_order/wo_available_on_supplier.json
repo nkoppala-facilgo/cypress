@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit_prices",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]').wait(2000)",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn btn-success\"]').contains('button', 'Save').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn btn-primary\"]').contains('button', 'Send').click({force: true}).wait(5000)",
+    "operation": "click"
+  }
+]

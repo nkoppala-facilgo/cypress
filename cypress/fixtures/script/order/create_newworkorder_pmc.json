@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-settings').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Work Order Type / Subtype').click({force:true}).wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'New Work Order Type / Subtype').click({ force: true }).wait(4000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "wo_type_name",
+    "expression": "cy.get('input[name=\"work_order_tpye[type_name]\"]').click().type(data['wo_type_name'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Save').click({ force: true })",
+    "operation": ""
+  }
+]

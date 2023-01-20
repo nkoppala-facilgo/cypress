@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Documents').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Work Orders').click()",
+    "operation": ""
+  }
+]

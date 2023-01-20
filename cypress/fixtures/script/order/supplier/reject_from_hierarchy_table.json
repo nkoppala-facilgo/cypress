@@ -1,0 +1,19 @@
+[
+        {
+		"attribute": "",
+		"expression":"cy.wait(2000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.linkable-text > span').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Reject Cancellation').click()",
+		"operation": "click"
+	}
+]
+
+    

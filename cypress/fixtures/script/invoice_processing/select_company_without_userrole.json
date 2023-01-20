@@ -1,0 +1,143 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Upload File').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "file_path",
+        "expression": "cy.get('.file-dropzone').find('input[type=file]').attachFile(data['file_path'])",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.pull-left').contains('button', 'Upload').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#js-react-InvoiceProcessingIndexButtons').contains('span','Filter').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label_new('Status:', data['status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Search').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": ""
+    },
+    {
+        "attribute": "assignee",
+        "expression": "cy.select_by_p_new('Assignee :', data['assignee'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.box-body-header').contains('a', 'Create Invoice').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "invoice_date",
+        "expression": "cy.select_by_calendar_using_label('INVOICE DATE:', data['invoice_date'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "invoice_number",
+        "expression": "cy.get('input[name=\"invoice[invoice_number]\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "supplier_name",
+        "expression": "cy.select_by_label('SUPPLIER:', data['supplier_name'],5000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(5000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "property_name",
+        "expression": "cy.select_by_label('PROPERTY:', data['property_name'],5000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "workflow",
+        "expression": "cy.select_by_label('WORKFLOW:', data['workflow'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "product",
+        "expression": "cy.get('input[placeholder=Item]').type(data['product'],{ force: true })",
+        "operation": ""
+    },
+    {
+        "attribute": "price",
+        "expression": "cy.get('input[placeholder=Price]').type(data['price'],{ force: true })",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('a.btn.btn-success').contains('Save').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('span', 'Submit').parent().parent().find(`.Select-input input`).click({force: true}).clear({forec: true}).type('Exception', {force: true}).wait(5000).type('{enter}' ,{force: true})",
+        "operation": ""
+    },
+    {
+        "attribute": "user_role",
+        "expression": "cy.select_by_label_new('(by User Role):', data['user_role'], 5000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "asset_group",
+        "expression": "cy.select_by_label_new('(by Asset Group):', data['asset_group'], 5000)",
+        "operation": "select"
+    }
+]
+    

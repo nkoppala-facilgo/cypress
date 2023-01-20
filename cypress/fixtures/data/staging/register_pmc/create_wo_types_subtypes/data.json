@@ -1,0 +1,8 @@
+{
+        "wo_type_name":"Clothes Dryer",
+        "wo_description":"Clothes Dryer",
+        "subtype":"Yes",
+        "parent_wo_type_subtype":"Appliances",
+        "file_path":"data/assets/excel/SampleWorkOrderTypeSubtypesFile.xlsx"
+
+}

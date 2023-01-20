@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Import User Working Days/Hours').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('input[type=\"file\"]').attachFile(data['file_path'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click({force: true})",
+    "operation": "click"
+  }
+]

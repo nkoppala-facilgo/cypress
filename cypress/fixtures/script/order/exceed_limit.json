@@ -1,0 +1,47 @@
+[
+  {
+    "attribute": "supplier",
+    "expression": "cy.select_by_label('SUPPLIER:',data['supplier'])",
+    "operation": "click"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('PROPERTY:',data['property'],6000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "measurement",
+    "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['measurement'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "product",
+    "expression": "cy.get('input[placeholder=\"Item\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('input[placeholder=Quantity]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#react-select-9--value').type('{enter}', '{force: true}')",
+    "operation": ""
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('[class=\"btn btn-success\"]','Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('[class=\"btn btn-primary\"]','Save').click({force: true})",
+    "operation": "click"
+  }
+]

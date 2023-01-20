@@ -1,0 +1,7 @@
+[
+    {
+      "attribute": "title",
+      "expression": "cy.contains('Quote Request Title(s):').parent().find(`.Select-input input`).click({ force: true }).type(data['title'], { force: true }).wait(3000).type('{enter}')",
+      "operation": ""
+    }
+]

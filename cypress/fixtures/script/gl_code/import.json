@@ -1,0 +1,12 @@
+[
+	{
+		"attribute": "file_path",
+		"expression":"cy.get('.form-group .upload_file_gl_code_file input[type=file]').attachFile(data['file_path'])",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input[value=\"Process\"]').click({force: true})",
+		"operation": ""
+	}
+]

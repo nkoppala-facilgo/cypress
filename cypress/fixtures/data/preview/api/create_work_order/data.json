@@ -1,0 +1,55 @@
+ {
+    "extra_attrs": [
+      "work_order_items"
+    ],
+    "property_code": "23509702",
+    "external_tenant_code": "t0000341",
+    "unit": "23509702",
+    "title": "Plumbing, Plumbing- Other, Next Available",
+    "type": "Plumbing",
+    "subtype": "Plumbing- Other",
+    "estimated_completion_in_minutes": 60,
+    "assignee_email": "sfrfkhpreviewtech1@yopmail.com",
+    "scheduled_start_datetime": "2022-09-07T13:00:00-05:00",
+    "scheduled_end_datetime": "2022-09-07T14:30:00-05:00",
+    "priority": "Next Available",
+    "permission_to_enter": false,
+    "has_pets": false,
+    "gate_code": "NO GATE",
+    "has_alarm": true,
+    "assignee_changeable": true,
+    "scheduled_changeable": true,
+    "entry_notes": "",
+    "internal_notes": "2 Plumbing \\u0026 Water \\r\\n8 Bathroom\\r\\n15 Sinks\\r\\n346 Bathroom - Other\\r\\n\\r\\n\\r\\nIssueId: 160222\\r\\nCategory: Plumbing\\r\\nSub Category: Plumbing- Other\\r\\nLabor Type: Internal Technician\\r\\nMinutes To Complete: 60\\r\\nPriority: Next Available\\r\\nScheduled Time Block: : 09-07-2022 1PM-5PM\\r\\n",
+    "custom_fields": [
+      {
+        "field_lable": "issueId",
+        "field_value": "160222",
+        "field_data_type": "integer"
+      },
+      {
+        "field_lable": "ticketId",
+        "field_value": "129502",
+        "field_data_type": "integer"
+      },
+      {
+        "field_lable": "createdDateTime",
+        "field_value": "2022-08-29T20:12:12Z",
+        "field_data_type": "integer"
+      }
+    ],
+    "work_order_items_attributes": [
+      {
+        "id": null,
+        "itemName": "Plumbing, Plumbing- Other, Next Available",
+        "unit": {
+          "name": "23509702"
+        },
+        "instruction": "123"
+      }
+    ],
+    "agent": {
+      "email": "sfrfkhpreviewpmc@yopmail.com"
+    }
+  }
+  

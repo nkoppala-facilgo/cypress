@@ -1,0 +1,22 @@
+{
+  "work_order_title": "testing workorder",
+  "property_name": "1001 E Seldon",
+  "catogory":"Appliances",
+  "subcategory": "Clothes Dryer",
+  "priority": "Urgent",
+  "Item1":"testing7",
+  "Introduction":"",
+  "Notes" : "this is test note",
+  "lineitems":
+  [
+    {
+      "Item": "test011",
+      "Introduction": "This is a test instruction"
+    }
+  ],
+  "room_name": "Undefined Room",
+  "item_name":"Laptop Desktop",
+  "work_order_type":"Appliances",
+  "work_order_subtype":"Clothes Dryer"
+}
+      

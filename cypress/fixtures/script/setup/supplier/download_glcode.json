@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Download GL Codes Mapping').click({force: true});",
+    "operation": "click"
+  }
+]

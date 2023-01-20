@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.js-userguiding-icon-menu-work-order').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Create Inspections').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['property_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add').click()",
+    "operation": "click"
+  }
+]

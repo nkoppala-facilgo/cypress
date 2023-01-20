@@ -1,0 +1,77 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(7000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Documents').click({force: true});",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Inspections').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Create Inspection').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('.invoiceDetials').first().find('input[type=file]').attachFile(data['file_path'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label_with_enter('UNIT:',data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-times-circle').click({force: true})",
+    "operation": "click"
+  }
+]

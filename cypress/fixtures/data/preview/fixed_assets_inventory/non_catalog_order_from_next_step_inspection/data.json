@@ -1,0 +1,21 @@
+{
+    "property_name": "1001 Welkin Street Henderson, NV 89052",
+    "inspection_title": "next step items",
+    "due_date": "09/28/2022",
+    "notes": "not cleaned",
+    "note": "item not good",
+    "note_point": "glass broken",
+    "notes_point": "not good",
+    "supplier_name": "SFR FKH Preview",
+    "workflow": "Maintenance",
+    "unit_price": "2",
+    "unit_prices": "4",
+    "lineitems": [
+        {
+          "Notes": "test"
+        }
+      ],
+      "item_name": "Fan",
+      "Introduction": "addeed",
+      "req_delivery_date": "08/04/2022"
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "attribute": "property_name",
+        "expression": "cy.get('.Select-control .Select-multi-value-wrapper .Select-value').first().click({force: true}).type(data['property_name'])",
+        "operation": ""
+    },
+    {
+        "attribute": "unit_name",
+        "expression": "cy.select_by_placeholder('- Select Unit -',data['unit_name'])",
+        "operation": "click"
+    },
+    {
+        "attribute": "select_list",
+        "expression": "cy.select_by_placeholder_with_enter('- Select List -',data['select_list'])",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[placeholder=\"- Inspection Title -\"]').clear()",
+        "operation": "click"
+    },
+    {   "attribute": "inspe_title",
+        "expression":"cy.get('input[placeholder=\"- Inspection Title -\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "select_type",
+        "expression": "cy.select_by_placeholder_with_enter('- Select Type -',data['select_type'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[placeholder=\"- Input Due Date -\"]').clear()",
+        "operation": "click"
+    },
+    {   "attribute": "due_date",
+        "expression":"cy.select_by_calendar('input[placeholder=\"- Input Due Date -\"]',data['due_date'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.btn-toolbar > .btn-success').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Inspection Succesfully Created').should('exist')",
+        "operation": ""
+    }
+]

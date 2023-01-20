@@ -1,0 +1,57 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar > .pull-right').contains('Close').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar > .btn-default').contains('Goto Summary').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Close document?').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#tab-wo-conversation-history > .nav').contains('Supplier').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "supplier_message",
+    "expression": "cy.get('.comment-section > .form-control')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.inline > .btn-primary').contains('Send Message').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Your message was sent.').should('exist')",
+    "operation": ""
+  }
+]

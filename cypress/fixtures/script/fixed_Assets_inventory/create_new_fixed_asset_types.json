@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span','Add Fixed Asset Type').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "life",
+    "expression": "cy.get('#number-of-useful-life')",
+    "operation": "input"
+  }
+]

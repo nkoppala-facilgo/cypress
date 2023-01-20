@@ -1,0 +1,4 @@
+{
+        "row_labels": ["Supplier - Unanswered Quote Request","Supplier - Needs to Confirm WO", "Supplier - Needs to Schedule WO","Supplier - Future Scheduled WO","Supplier - Complete WO & Invoice (Scheduled Date Past)","Supplier - Complete WO (Already Invoiced)","Supplier - Pending Cancellation"],
+        "col_labels":["Supplier Follow Up","Urgent","Emergency","Next Available","Total"]
+}

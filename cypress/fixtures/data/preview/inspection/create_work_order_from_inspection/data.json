@@ -1,0 +1,20 @@
+{
+  "property_name": "1001 E",
+  "unit": "",
+  "inspection_title": "",
+  "item_name": "",
+  "due_date": "08/29/2022",
+  "date_to": "04/21/2025",
+  "base_line": "FKH Facilgo PVU813456",
+  "file_path": "data/preview/assets/images/pic.jpg",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ],
+  "notes": "not working",
+  "category": "Clean",
+  "priority": "High",
+  "subcategory": "Touch Up Clean",
+  "introduction": "work order has to create"
+}

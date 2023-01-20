@@ -1,0 +1,332 @@
+[
+        {
+                "attribute": "inspection_pdf_format",
+                "expression": "cy.get('#company_company_setting_attributes_is_inspection_pdf_standard_format').select(data['inspection_pdf_format'])",
+                "operation": ""
+        },
+        {
+                "attribute": "close_inspection",
+                "expression": "cy.get('#company_company_setting_attributes_close_insp_functionality_flag').select(data['close_inspection'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "accural_functionality",
+                "expression": "cy.get('#company_company_setting_attributes_module_accrual').select(data['close_inspection'])",
+                "operation": "input"
+        } ,
+        {
+                "attribute": "module_jcc",
+                "expression": "cy.get('#company_company_setting_attributes_module_jcc').select(data['module_jcc'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "module_budget",
+                "expression": "cy.get('#company_company_setting_attributes_module_budget').select(data['module_budget'])",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "resident_edit",
+                "expression": "cy.get('#company_company_setting_attributes_resident_edit_functionality').select(data['resident_edit'])",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "expiring_within_x_days",
+                "expression": "cy.get('#company_company_setting_attributes_expiring_within_x_days')",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "weekly_contract_reminder",
+                "expression": "cy.get('#company_company_setting_attributes_weekly_contract_reminder').select(data['weekly_contract_reminder'])",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "summary_reminder_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_auto_email_document_summary_reminder_flag').select(data['summary_reminder_flag'])",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "summary_reminder_schedule",
+                "expression": "cy.get('#company_company_setting_attributes_auto_email_document_summary_reminder_schedule').select(data['summary_reminder_schedule'])",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "inventory_usage_source_policy",
+                "expression": "cy.get('#company_company_setting_attributes_inventory_usage_source_policy').select(data['inventory_usage_source_policy'])",
+                "operation": "input"
+        }
+        ,
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_show_inspection_item_notes_flag').click()",
+                "operation": ""
+        }
+        ,
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_show_work_order_item_notes_flag').click()",
+                "operation": ""
+        }
+        ,
+        {
+                "attribute": "rate_to_approve_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_required_rate_to_approve_flag').select(data['rate_to_approve_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "comment_rate_to_approve_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_required_comment_rate_to_approve_flag').select(data['comment_rate_to_approve_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "fifo_inventory_item_usage_cost_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_use_fifo_inventory_item_usage_cost_flag').select(data['fifo_inventory_item_usage_cost_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "retail_price_inventory_item_usage_cost_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_use_retail_price_inventory_item_usage_cost_flag').select(data['retail_price_inventory_item_usage_cost_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "schedules_use_property_time_zone",
+                "expression": "cy.get('#company_company_setting_attributes_is_work_order_schedules_use_property_time_zone').select(data['schedules_use_property_time_zone'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "wo_messaging_enabled_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_wo_messaging_enabled_flag').select(data['wo_messaging_enabled_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "wo_completed_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_resident_review_after_wo_completed_flag').select(data['wo_completed_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "email_to_resident_flag",
+                "expression": "cy.get('#company_company_setting_attributes_send_email_to_resident_flag').select(data['email_to_resident_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "wo_functionality_flag",
+                "expression": "cy.get('#company_company_setting_attributes_close_wo_functionality_flag').select(data['wo_functionality_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "po_enabled_on_mobile_app_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_quick_po_enabled_on_mobile_app_flag').select(data['po_enabled_on_mobile_app_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "next_step_doc_on_mobile",
+                "expression": "cy.get('#company_company_setting_attributes_default_selected_document_type_on_next_step_doc_on_mobile').select(data['next_step_doc_on_mobile'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "property_source_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_using_fg_initial_wo_status_regardless_property_source_flag')select(data['property_source_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "statuses_when_undefined_flag",
+                "expression": "cy.get('#company_company_setting_attributes_has_access_to_all_wo_statuses_when_undefined_flag').select(data['statuses_when_undefined_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "attributes_x_days_of_wo_due_date",
+                "expression": "cy.get('#company_company_setting_attributes_x_days_of_wo_due_date').select(data['attributes_x_days_of_wo_due_date'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "attributes_y_days_of_wo_due_date",
+                "expression": "cy.get('#company_company_setting_attributes_y_days_of_wo_due_date').select(data['attributes_y_days_of_wo_due_date'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "is_parent_wo_require_child",
+                "expression": "cy.get('#company_company_setting_attributes_is_parent_wo_require_child_to_be_completed_flag').select(data['is_parent_wo_require_child'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "is_wo_require_unit",
+                "expression": "cy.get('#company_company_setting_attributes_is_wo_require_unit').select(data['is_wo_require_unit'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "items_upon_wo_creation_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_instruction_required_on_wo_items_upon_wo_creation_flag').select(data['items_upon_wo_creation_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "complete_wo_by_pmc_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_labor_time_rqd_on_any_line_items_to_complete_wo_by_pmc_flag').select(data['complete_wo_by_pmc_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "is_internal_notes_rqd",
+                "expression": "cy.get('#company_company_setting_attributes_is_internal_notes_rqd_on_work_order_to_complete_wo_by_pmc_flag').select(data['is_internal_notes_rqd'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "is_photo_required_",
+                "expression": "cy.get('company_company_setting_attributes_is_photo_required_on_each_line_item_to_complete_wo_by_pmc_flag').select(data['is_photo_required_'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_hide_require_photo_field_on_work_order_flag').select(data['on_work_order_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_notes_required_on_each_line_item_to_complete_wo_by_splr_flag').select(data['complete_wo_by_splr_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_photo_required_on_each_line_item_to_complete_wo_by_splr_flag').select(data['photo_required_on_each_line_item'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_required_subtype_on_work_order_flag').select(data['subtype_on_work_order_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_allowed_to_request_resident_signature_flag').select(data['request_resident_signature_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_work_order_on_hold_status_enabled_flag').select(data['hold_status_enabled_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_turned_off_facilgo_mail_notifs_to_resident_on_wo_flag').select(data['resident_on_wo_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_only_send_one_email_to_resident_flag').select(data['send_one_email_to_resident_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_always_display_wo_reason_input_field_upon_completion_flag').select(data['field_upon_completion_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_always_display_wo_reason_input_field_upon_voiding_flag').select(data['wo_reason_input_field_upon_voiding_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "wo_due_date_reminder_at",
+                "expression": "cy.get('#company_company_setting_attributes_wo_due_date_reminder_at')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_work_order_title_generator_setup_attributes_delimiter').select(data['attributes_delimiter'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_display_residents_on_docs_strategy').select(data['on_docs_strategy'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_replace_create_wo_btn_with_create_sched_wo_btn_on_wo_screen_flag').select(data['sched_wo_btn_on_wo_screen_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_inspection_require_unit').select(data['is_inspection_require_unit'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_auto_create_skill_from_wo_sub_category_flag').select(data['wo_sub_category_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_allowed_to_approve_invoice_tied_to_not_completed_wo_flag').select(data['tied_to_not_completed_wo_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "hour_completion_limit",
+                "expression": "cy.get('#company_company_setting_attributes_x_hour_completion_limit').clear()",
+                "operation": "input"
+        },
+        {
+                "attribute": "password_expires",
+                "expression": "cy.get('#company_company_setting_attributes_password_expires').clear()",
+                "operation": "input"
+        },
+        {
+                "attribute": "resident_inspection_flag",
+                "expression": "cy.get('#company_company_setting_attributes_is_show_notes_in_resident_inspection_flag').select(data['resident_inspection_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_deviates_rating').select(data['deviates_rating'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_replace_non_reg_invoice_items_with_order_items_flag').select(data['items_with_order_items_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "session_timeout",
+                "expression": "cy.get('#company_company_setting_attributes_session_timeout').clear()",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_display_internal_comment_inspection_flag').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_display_internal_comment_work_order_flag').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_call_center_inbound_type').select(data['call_center_inbound_type'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_countersign_required_flag').select(data['is_countersign_required_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_allow_import_temp_vendor_via_integration_flag').select(data['via_integration_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#company_company_setting_attributes_is_using_integrated_wo_next_steps_flag').select(data['wo_next_steps_flag'])",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#saveButton').click()",
+                "operation": "click"
+        }
+
+]

@@ -1,0 +1,11 @@
+{
+  "property": "1615 S Parkside Dr Tempe, AZ 85281",
+  "team_user": "Users",
+  "user_type": "Technician1",
+  "additional_user": "",
+  "doc_type": "Work Order",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": true,
+  "view": "1 Day View",
+  "day_view_value": 1
+}

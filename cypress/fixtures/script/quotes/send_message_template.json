@@ -1,0 +1,67 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-show-quote').first().click({force:true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('u').click({ force: true })",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.is-searchable .Select-placeholder').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "select_meaasage",
+                "expression": "cy.get('input[aria-expanded=\"true\"]')",
+                "operation": "input"
+        }, 
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('input[aria-expanded=\"true\"]').type('{enter}')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Send Message').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Your message was sent.').should('exist')",
+                "operation": ""
+        }
+]

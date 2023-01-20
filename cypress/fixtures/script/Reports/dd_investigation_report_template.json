@@ -1,0 +1,47 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Reports').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Due Diligence Investigation Report').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_placeholder_with_enter('Property', data['property_name'], 3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_type",
+    "expression": "cy.select_by_placeholder_with_enter('Inspection Type', data['inspection_type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Filter Inspections').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('table[class=\"facilgo-table__table \"]').find('thead').find('tr').first().find('input[type=\"checkbox\"]').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Next Step').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "client_name",
+    "expression": "cy.get('.form-control').first()",
+    "ope,ration": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Download Template').click()",
+    "operation": "click"
+  }
+]

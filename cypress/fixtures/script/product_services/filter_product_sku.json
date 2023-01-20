@@ -1,0 +1,64 @@
+[
+        {
+                "attribute": "product_name",
+                "expression": "cy.get('#filter_product_product_name').type(data['product_name'])",
+                "operation": ""
+        },
+        {
+                "attribute": "sku",
+                "expression": "cy.get('#filter_product_sku').type(data['sku'])",
+                "operation": ""
+        },
+        {
+                "attribute": "uom",
+                "expression": "cy.get('#filter_product_uom_ids_chosen').type(data['uom']).type('{enter}')",
+                "operation": "select"
+        },
+        {
+                "attribute": "price_from",
+                "expression": "cy.get('#filter_product_price_from').type(data['price_from'])",
+                "operation": ""
+        },
+        {
+                "attribute": "price_to",
+                "expression": "cy.get('#filter_product_price_to').type(data['price_to'])",
+                "operation": ""
+        },
+        {
+                "attribute": "manufacture",
+                "expression": "cy.get('#filter_product_manufacture').type(data['manufacture'])",
+                "operation": ""
+        },
+        {
+                "attribute": "manufacture_#",
+                "expression": "cy.get('#filter_product_manufacture_number').type(data['manufacture_#'])",
+                "operation": ""
+        },
+        {
+                "attribute": "cotegory",
+                "expression": "cy.get('.filter-category').type(data['cotegory']).type('{enter}')",
+                "operation": ""
+        },
+        {
+                "attribute": "ct#",
+                "expression": "cy.get('#filter_product_price_list').type(data['ct#'])",
+                "operation": ""
+        },
+        {
+                "attribute": "customer",
+                "expression": "cy.get('#filter_product_customer').type(data['description'])",
+                "operation": ""
+        },
+        {
+                "attribute": "tag",
+                "expression": "cy.get('#filter_product_tags_tag').type(data['tag']).type('{enter}')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('input[value=Search]').click()",
+                "operation": "click"
+        }
+]
+
+

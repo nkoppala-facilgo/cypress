@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "Dropdown_Value",
+    "expression": "cy.select_by_placeholder('Select...', this.data.Dropdown_Value)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-TurnMatrix').contains('a','Go').invoke('removeAttr', 'target').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "option",
+    "expression": "cy.contains('div', 'CATEGORY(S)').parent().find('input').eq(1).click({ force: true }).clear({force:true});",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get(`[class*='dropdown-result']`).contains(this.data.option).click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "Lease_Status",
+    "expression": "cy.select_by_placeholder('Lease Status', this.data.Lease_Status)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-SummaryByCategory').contains('span','Search').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Summary By Category').should('exist')",
+    "operation": ""
+  }
+]

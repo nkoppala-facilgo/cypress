@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-settings').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Users').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Teams').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#team-summary-dropdown').first().click().wait(2000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Edit').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "user",
+    "expression": " cy.select_by_label('Users', this.data['user'],4000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Save').click({ force: true })",
+    "operation": "click"
+  }
+]

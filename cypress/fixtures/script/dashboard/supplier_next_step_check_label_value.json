@@ -1,0 +1,54 @@
+[
+
+        {
+		"attribute": "",
+		"expression":"cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo .row div').contains('Supplier Next Step Dashboard').should('exist')",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Unanswered QR').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Confirm WO').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Schedule WO').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Completed WO & Invoice').should('exist')",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Completed WO (Already Invoiced)').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Disputed WO').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Disputed Invoice').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#js-react-SupplierNextStepDashboard .table-sum-wo table  tbody tr td').contains('Pending Cancelation').should('exist')",
+                "operation": ""
+        }
+
+]

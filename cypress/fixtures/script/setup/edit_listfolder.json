@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "Edit",
+    "expression": "cy.contains('a', 'Edit').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.action-buttons__btn').click({force: true});",
+    "operation": "click"
+  }
+]

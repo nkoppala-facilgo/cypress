@@ -1,0 +1,28 @@
+[
+    
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','All').click().wait(5000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#example2 > tbody > tr:nth-child(1) > td:nth-child(1) > div > ins').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Approve').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','OK').click()",
+        "operation": "click"
+    }
+]

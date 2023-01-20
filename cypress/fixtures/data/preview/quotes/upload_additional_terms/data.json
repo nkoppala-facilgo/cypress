@@ -1,0 +1,29 @@
+{
+  "title": "30j5666QR2",
+  "due_date": "10/23/2022",
+  "end_date": "10/23/2022",
+  "start_date": "10/23/2022",
+  "customer": "SFR FKH preview",
+  "property": "1001",
+  "requester": "SFR FKH preview",
+  "suplier_contract_name": "89gg784",
+  "file_path": "data/assets/excel/check.xlsx",
+  "lineitems": [
+    {
+      "product": "egebf",
+      "quantity": "10",
+      "unit_price": "12",
+      "measurement": "EA",
+      "property": "1001",
+      "tax": "1"
+    },
+    {
+      "product": "r3tegwv",
+      "quantity": "20",
+      "unit_price": "12",
+      "measurement": "SQYD",
+      "property": "1001",
+      "tax": "2"
+    }
+  ]
+}

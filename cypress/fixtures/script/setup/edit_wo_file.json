@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.page_last > .white-box').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('td.text-center > div > a > i').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Edit').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000);",
+    "operation": ""
+  },
+  {
+    "attribute": "wo_type_name",
+    "expression": "cy.get('input[name=\"work_order_tpye[type_name]\"]').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "description",
+    "expression": "cy.get('input[name=\"work_order_tpye[description]\"]').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "sub_type",
+    "expression": "cy.select_by_placeholder('Sub Type:', data['sub_type'],2000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-right > .btn-primary').click();",
+    "operation": "click"
+  }
+]

@@ -1,0 +1,101 @@
+[
+        {
+                "attribute": "title",
+                "expression": "cy.get('#title')",
+                "operation": "input"
+        },
+        {
+                "attribute": "due_date",
+                "expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "end_date",
+                "expression": "cy.select_by_calendar('#contract-term-ends', data['end_date'])",
+                "operation": "select"
+        },    
+        {
+                "attribute": "start_date",
+                "expression": "cy.select_by_calendar('#schedule-start-date', data['start_date'])",
+                "operation": "select"
+        },
+
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "customer",
+                "expression": "cy.get('#supplier-name')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(6000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#supplier-name').type('{enter}',' { force: true }')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(8000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.on('uncaught:exception', (err, runnable) => { return false })",
+                "operation": ""
+        },
+        {
+                "attribute": "property",
+                "expression": "cy.select_by_label_with_enter('REG / PROP COVERAGE:',data['property'],0)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(6000)",
+                "operation": ""
+        },
+        {
+                "attribute": "requester",
+                "expression": "cy.select_by_label_with_enter('REQUESTER:',data['requester'],0)",
+                "operation": "select"
+        }, 
+        {
+                "attribute": "suplier_contract_name",
+                "expression": "cy.get('input[placeholder=\"Supplier Contract#\"]').type(data['suplier_contract_name'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "lineitems",
+                "expression": "/script/quotes/lineitem",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Remove').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Send').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        },   
+        {
+                "attribute": "",
+                "expression": "cy.contains('Quote created.').should('exist')",
+                "operation": ""
+        }
+]
+    
+
+    

@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "batch_name",
+    "expression": "cy.get('input[name=\"filter_invoice_processings[batch_name]\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label_new('Property:',data['property_name'], 5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "requester",
+    "expression": "cy.select_by_label_new('Requester:',data['requester'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label_new('Assignee:',data['assignee'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "status",
+    "expression": "cy.select_by_label_new('Status:',data['status'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "supplier_name",
+    "expression": " cy.select_by_label_new('Supplier:',data['supplier_name'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "total_amount_min",
+    "expression": "cy.get('.modal-body').find('input[name=\"filter_invoice_processings[grand_total_min]\"]');",
+    "operation": "input"
+  },
+  {
+    "attribute": "total_amount_max",
+    "expression": "cy.get('.modal-body').find('input[name=\"filter_invoice_processings[grand_total_max]\"]');",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=Search]').click({force: true});",
+    "operation": "click"
+  }
+]

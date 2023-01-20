@@ -1,0 +1,57 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.goto_pagination_last_page('.pull-left','First');",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.matrix-content').find('tbody').find('tr').find('td').eq(0).find('a').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.matrix-content').find('tbody').find('tr').find('td').eq(0).find('li').contains('a','Edit').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "Supplier_Name",
+    "expression": "cy.select_by_label('Supplier(s)',this.data.Supplier_Name);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Inspection_List",
+    "expression": "cy.select_by_label('Inspection List(s)',this.data.Inspection_List);",
+    "operation": "select"
+  },
+  {
+    "attribute": "Lease_Status",
+    "expression": "cy.select_by_label('Lease Document Status(es)',this.data.Lease_Status);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-content').contains('button','Update').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sweet-alert').contains('button','OK').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.goto_pagination_last_page('.pull-left','Last');",
+    "operation": ""
+  }
+]

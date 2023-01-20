@@ -1,0 +1,21 @@
+{
+    "work_order": {
+      "assignee_changeable": true,
+      "scheduled_changeable": true,
+      "internal_notes": "2 Plumbing \\u0026 Water \\r\\n8 Bathroom\\r\\n15 Sinks\\r\\n346 Bathroom - Other\\r\\n\\r\\n\\r\\nIssueId: 160222\\r\\nCategory: Plumbing\\r\\nSub Category: Plumbing- Other\\r\\nLabor Type: Internal Technician\\r\\nMinutes To Complete: 60\\r\\nPriority: Next Available\\r\\nUpdated: 22-08-29 08:28:39 PM UTC\\r\\n",
+      "work_order_items_attributes": [
+        {
+          "id": "",
+          "itemName": "Plumbing, Plumbing- Other, Next Available",
+          "unit": {
+            "name": "23509702"
+          },
+          "instruction": "123\\r\\n456",
+          "pictures_attributes": []
+        }
+      ]
+    },
+    "agent": {
+      "email": "sfrfkhpreviewpmc@yopmail.com"
+    }
+  }

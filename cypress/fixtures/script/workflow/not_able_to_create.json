@@ -1,0 +1,32 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.contains('button','New Workflow').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "workflow_name",
+                "expression":"cy.get('input[name=\"workflow[workflow_name]\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "weight",
+                "expression":"cy.get('input[name=\"workflow[weight]\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('input[Value = \"Save\"]').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('Workflow name has already been taken').should('exist')",
+                "operation": ""
+        }
+]

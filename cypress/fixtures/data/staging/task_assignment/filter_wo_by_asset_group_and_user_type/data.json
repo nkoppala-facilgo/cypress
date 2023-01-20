@@ -1,0 +1,11 @@
+{
+  "property": "Las Vegas",
+  "team_user": "Users",
+  "user_type": "Technician1",
+  "additional_user": "kmurai+fkhstagingtech2aphoenix kmurai+fkhstagingtech2aphoenix",
+  "doc_type": "Work Order",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": true,
+  "view": "1 Day View",
+  "day_view_value": 1
+}

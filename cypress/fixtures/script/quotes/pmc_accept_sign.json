@@ -1,0 +1,84 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Accept').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.fa-keyboard-o').click({force:true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "sign",
+                "expression": "cy.get('input[placeholder=\"type your signature in here\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Sign & Send Quote').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(8000)",
+                "operation": ""
+        },
+
+        {
+                "attribute": "workflow",
+                "expression":"cy.select_by_placeholder_with_enter('WORKFLOW:',data['workflow'],0)",
+                "operation": "select"
+        }, 
+        {
+                "attribute": "fiscal_period",
+                "expression": "cy.select_by_placeholder_with_enter('Fiscal Period',data['fiscal_period'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Send').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "discription_short",
+                "expression": "cy.get('textarea[placeholder=\"Scope Description...\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-sm').contains('button','Save').click({force: true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Contract Will be Saved With Contract Short.').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Send').click({force: true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Contract was saved.').should('exist')",
+                "operation": ""
+        }
+]
+

@@ -1,0 +1,13 @@
+{
+  "project_name": "Skydream(1000021)",
+  "cost_capital": "111.0",
+  "invest_period": "11",
+  "yearly_rent": "111.0",
+  "hurdle_rate": "111.0",
+  "renovation_day": "1",
+  "turn_day": "1",
+  "rent_amount": "5.0",
+  "rent_mo_assumption": "5.0",
+  "unit_renovate": "5",
+  "renovation_cost": "5.0"
+}

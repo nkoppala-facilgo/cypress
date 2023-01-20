@@ -1,0 +1,19 @@
+{
+  "property_name": "05 Buckhead",
+  "wo_type": "Appliances",
+  "wo_subtype": "Water Heater",
+  "wo_priority": "Urgent",
+  "start": "01:00 PM",
+  "end": "11:45 PM",
+  "item_name": "Appliances - Water Heater - Urgent",
+  "Introduction": "Enter more details on the problem",
+  "property": "Phoenix",
+  "team_user": "Users",
+  "user_type": "Technician1",
+  "additional_user": "kmurai+fkhstagingtech1aphoenix kmurai+fkhstagingtech1aphoenix",
+  "doc_type": "Work Order",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": false,
+  "view": "1 Day View",
+  "day_view_value": 1
+}

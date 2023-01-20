@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "invoice_date",
+    "expression": "cy.select_by_calendar_using_label('INVOICE DATE:',data['invoice_date'])",
+    "operation": ""
+  },
+  {
+    "attribute": "supplier",
+    "expression": "cy.select_by_label('SUPPLIER:',data['supplier'],5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('PROPERTY:',data['property'],5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label('WORKFLOW:', data['workflow'],6000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "product",
+    "expression": "cy.get('input[placeholder=Item]').type(data['product'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "price",
+    "expression": "cy.get('input[placeholder=Price]').type(data['price'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "gl_code",
+    "expression": "cy.select_by_placeholder_using_selector('GL Code',data['gl_code'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_placeholder_using_selector('Unit',data['unit'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('a.btn.btn-success').contains('Save').click()",
+    "operation": "click"
+  }
+]

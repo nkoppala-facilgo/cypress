@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "property_codes:",
+    "expression": "cy.select_by_label('property_codes:',data['property_codes:']).wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Search').click()",
+    "operation": "click()"
+  }
+]

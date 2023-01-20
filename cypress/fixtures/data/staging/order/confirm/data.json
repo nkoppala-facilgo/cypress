@@ -1,0 +1,22 @@
+{
+        "supplier_name": "kenrdtest2",
+        "workflow":"Maintenance",
+        "property_name":"Parkside",
+        "item_name":"item 1",
+        "unit_measurement":"EA (Each)",
+        "quantity":"5",
+        "unit_price":"6",
+        "gl_code":"Office",
+        "jcc":"",
+        "unit_#":"",
+        "cbsa_or_property": "",
+        "date_type": "",
+        "PO":"",
+        "date_from": "",
+        "date_to": "",
+        "supplier_order":"",
+        "hashtag": "",
+        "customer":"",
+        "status": ""
+
+}

@@ -1,0 +1,181 @@
+[     
+        {
+		"attribute": "",
+		"expression":"cy.get('.btn > .fa').click({force: true})",
+		"operation": "click"
+	},
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        },
+        {
+		"attribute": "wo_title",
+		"expression":"cy.select_by_label_with_enter('Work Order Title(s)',data['wo_title'],4000)",
+		"operation": "select"
+	},
+        {
+		"attribute": "type",
+		"expression":"cy.select_by_label_with_enter('Work Order Type',data['type'],4000)",
+		"operation": "select"
+	},
+        {
+		"attribute": "subtype",
+		"expression":"cy.select_by_label_with_enter('Work Order Subtype',data['subtype'],4000)",
+		"operation": "select"
+	},
+        {
+		"attribute": "priority",
+		"expression":"cy.select_by_label_with_enter('Priority(ies)',data['priority'],4000)",
+		"operation": "select"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('button','Search').click()",
+		"operation": "click"
+	},
+        {
+                "attribute": "",
+                "expression": "cy.wait(5000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-show-work-order').first().click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.contains('button', 'Next Steps').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "req_type",
+                "expression": "cy.select_by_placeholder('Select a type',data['req_type'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "know_the_price",
+                "expression": "cy.select_by_placeholder_with_enter('Choose an option',data['know_the_price'],4000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(5000)",
+                "operation": ""
+        },
+        {
+                "attribute": "supplier_assignie",
+                "expression": "cy.select_by_placeholder('Type here to search',data['supplier_assignie'],4000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "vendor_assignie_workflow",
+                "expression": "cy.select_by_placeholders('Type here to search',data['vendor_assignie_workflow'],4000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.padding-right-one .toggle-group label').contains('Hide Uncompleted Items').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.wrap-list__nested-list-indicator .wrap-list__indicator').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "quantity",
+                "expression":"cy.get('input[placeholder=\"Quantity\"]').first()",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('button','Create QR').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "due_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Due Date',data['due_date'])",
+                "operation": "select"
+        },
+        
+        {
+                "attribute": "service_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "due_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Due Date',data['due_date'])",
+                "operation": "select"
+        },
+        
+        {
+                "attribute": "service_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "unit_measurement",
+                "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_measurement'],2000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+	{
+                "attribute": "CBAmount",
+                "expression":"cy.get('input[placeholder=\"CB Amount\"]').first()",
+                "operation": "input"
+        },
+       
+        {
+                "attribute": "",
+                "expression":"cy.get('.form-group-sm .table-responsive .btn-toolbar').contains('button', 'Save').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar .btn-success').contains('button','Create').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('Created').should('exist')",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression":"cy.contains('button','OK').click()",
+                "operation": "click"
+        }
+        
+]

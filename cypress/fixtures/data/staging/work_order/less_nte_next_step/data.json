@@ -1,0 +1,41 @@
+{
+  "work_order_title": "test4321",
+  "property_id": "333Ak",
+  "prop_name": "Facilgo property 3",
+  "type_name": "",
+  "category": "Cleaning",
+  "subcategory": "Sparkle",
+  "priority": "Urgent",
+  "subtype": "",
+  "asignee": "",
+  "lineitems": [
+    {
+      "Item": "test011",
+      "file_path": "data/work_order/files/pic.jpg",
+      "Notes": "This is a test text"
+    },
+    {
+      "Item": "test011",
+      "file_path": "data/work_order/files/pic.jpg",
+      "Notes": "This is a test text"
+    }
+  ],
+  "room_name": "Undefined Room",
+  "req_type": "Service",
+  "display_item": "Catalog",
+  "supplier_assignie": "Fergus",
+  "vendor_assignie": "Vendor",
+  "do_you_know_price": "I know the price - Create a non-catalog order",
+  "quantity": "1",
+  "unit_measurement": "EA",
+  "due_date": "06/03/2022",
+  "service_date": "11/10/2021",
+  "internal_notes": "This is a test text",
+  "quote_expires": "12/08/2021",
+  "unit_price": "350",
+  "vendor_assignment": "Vendor Assignment - Maintenance",
+  "workflow": "Maintenance",
+  "note": "Helloworlg",
+  "nte": "NTE - Maintenance",
+  "nte_workflow":"Maintenance"
+}

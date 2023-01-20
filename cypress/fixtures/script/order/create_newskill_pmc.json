@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-settings').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Skills').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','New Skill').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "skill_name",
+    "expression": " cy.get('#skill-name').click().type(data['skill_name'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create').click().wait(3000)",
+    "operation": "click"
+  }
+]

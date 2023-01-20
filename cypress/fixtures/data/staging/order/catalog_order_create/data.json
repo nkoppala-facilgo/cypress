@@ -1,0 +1,17 @@
+{
+        "title":"repairing appliances",
+        "property_name": "1001 E Sel",
+        "category":"Appliances",
+        "priority":"Emergency",
+        "subcategory":"Microwave",
+        "lineitems": [
+                {
+                    "item_name": "fan repair",
+                    "instruction":"repair product"
+                },
+                {
+                        "item_name": "desktop1 repair",
+                        "instruction":"repair product"
+                }
+        ]
+}

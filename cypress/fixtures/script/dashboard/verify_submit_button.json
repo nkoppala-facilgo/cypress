@@ -1,0 +1,12 @@
+[
+    {
+        "attribute": "property",
+        "expression": "cy.search_property_in_dashboard('#pending-work-order-tab',data['property'])",
+        "operation": ""
+    },
+	{
+        "attribute": "wo_item",
+        "expression": "/script/dashboard/remove_and_fill_wo_column",
+        "operation": ""
+    }
+]

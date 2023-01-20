@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.contains('a','Reports').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Due Diligence Investigation Report').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "Property",
+    "expression": "cy.select_by_placeholder_with_enter('Property',data['Property'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "Inspection Type",
+    "expression": "cy.select_by_placeholder_with_enter('Inspection Type',data['Inspection Type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Filter Inspections').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('table[class=\"facilgo-table__table \"]').find('thead').find('tr').first().find('input[type=\"checkbox\"]').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Next Step').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "client_name",
+    "expression": "cy.get('.form-control').first()",
+    "ope,ration": "input"
+  },
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('input[accept=\"image/png,image/jpeg,image/jpg\"]').attachFile(data['file_path'])",
+    "ope,ration": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Download Template').click()",
+    "operation": "click"
+  }
+]

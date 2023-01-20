@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "title",
+    "expression": "cy.select_by_label('Quote Title(s):', data['title']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "quote_type",
+    "expression": "cy.select_by_label('Quote Types#:',data['quote_type'])",
+    "operation": "select"
+  }
+]

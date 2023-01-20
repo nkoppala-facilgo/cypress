@@ -1,0 +1,17 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('#react-select-4--value > .Select-placeholder').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "gl_group",
+		"expression":"cy.get('input[aria-expanded =\"true\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input[aria-expanded =\"true\"]').type('{enter}')",
+		"operation": ""
+	}
+]

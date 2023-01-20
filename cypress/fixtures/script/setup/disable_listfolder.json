@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Disable').first().click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'OK').click()",
+    "operation": "click"
+  }
+]

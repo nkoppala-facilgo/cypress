@@ -1,0 +1,15 @@
+{
+    "property_code" : "10138001",
+    "id" : "1113041",
+    "title": "ke_07.12.21 28769 - 3",
+    "statuses": [
+        "SvcOrdered"
+    ],
+    "type": "Cabinets / Countertops",
+    "priority": "Next Available",
+    "created_date_from" : "2021-07-01",
+    "created_date_to" : "2021-07-31",
+    "extra_attrs": [
+        "work_order_type", "work_order_priority", "work_order_items"
+    ]
+}

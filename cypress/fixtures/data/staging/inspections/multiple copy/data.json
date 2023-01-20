@@ -1,0 +1,14 @@
+{
+
+    "property_name": "1001 E Seldon Ln Phoenix, AZ 85020",
+    "unit_select": "15167701",
+    "list_select":"k",
+    "assignee_select": "Brad Chandler",
+    "due_date": "10/10/2022",
+    "type_select":"REAC",
+    "inspe_title":"test02",
+    "schedule_freq": "Weekly",
+    "start_date":"02/23/2022",
+    "end_date":"04/28/2022"
+}   
+

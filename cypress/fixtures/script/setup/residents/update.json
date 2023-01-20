@@ -1,0 +1,34 @@
+[
+        
+        {
+                "attribute": "",
+                "expression": "cy.get('#resident_first_name').clear()",
+                "operation": ""
+        },
+        {
+                "attribute": "first_name",
+                "expression": "cy.get('#resident_first_name')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000);",
+                "operation": "wait"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#resident_last_name').clear()",
+                "operation": ""
+        },
+        {
+                "attribute": "last_name",
+                "expression": "cy.get('#resident_last_name')",
+                "operation": "input"
+        },
+        {
+                "attribute": "status",
+                "expression": "cy.get('#resident_resident_status_id').select(data['status'])",
+                "operation": "select"
+        }
+]
+      

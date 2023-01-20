@@ -1,0 +1,22 @@
+{
+  "prop_name": "1001 Welkin Street",
+  "asset_group": "phoenix",
+  "unit": "10018001",
+  "user_type1": "Technician1",
+  "user_type2": "Technician2",
+  "user_type3": "Technician3 HVAC",
+  "user_type4": "Technician3 Plumbing",
+  "wo_title": "new_workorder2305",
+  "type": "HVAC",
+  "subtype": "Furnace",
+  "item_name": "new_workorder2305",
+  "priority": "Urgent",
+  "Introduction1": "This is an introduction",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": true,
+  "view": "1 Day View",
+  "visitingUrl": "/work_orders?filter%5Bcreated_by_id%5D=26042&filter%5Bcreated_date_time_from%5D=2022-02-13%2004%3A13%20pm",
+  "assignie": "SFR FKH",
+  "end_time": "04:15",
+  "start_time": "12:00"
+}

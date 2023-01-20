@@ -1,0 +1,27 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.media > a').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.document-action-buttons').contains('button','Resume Status').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Resumed').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('OK').click()",
+		"operation": ""
+	}
+]

@@ -1,0 +1,12 @@
+{
+    "property_code": "10018001",
+    "statuses": [
+        "SvcOrdered",
+        "NotAssigned",
+        "Confirmed",
+        "SentToSupplier",
+        "Approved",
+        "Reserved",
+        "SDeclined"
+    ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "attribute": "supplier_invoice",
+    "expression": "cy.get('#invoice-number').type(data['supplier_invoice'])",
+    "operation": "input"
+  },
+  {
+    "attribute": "invoice_date",
+    "expression": "cy.select_by_calendar_using_label('INVOICE DATE:',data['invoice_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "customer_name",
+    "expression": "cy.select_by_label('CUSTOMER NAME:',data['customer_name'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_typeahead2('#property-name',data['property_name'], 4000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "completion_date",
+    "expression": "cy.select_by_calendar_using_label('COMPLETION DATE:',data['completion_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "payment_date",
+    "expression": "cy.select_by_calendar_using_label('PAYMENT DATE:',data['payment_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "payment_amount",
+    "expression": "cy.contains('label','PAYMENT AMOUNT:').parent().find('input[type=number]').clear({force:true})",
+    "operation": "input"
+  },
+  {
+    "attribute": "name",
+    "expression": "cy.select_by_typeahead('input[placeholder=Item]',data['name'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-success','Save').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-primary','Submit').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Invoice was successfully created').should('exist')",
+    "operation": ""
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Invoice Processing').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Invoice Images').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "requester",
+    "expression": "cy.select_by_label_new('Requester:',data['requester'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "status2",
+    "expression": " cy.select_by_label_new('Status:',data['status2']).wait(4000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('input[value=Search]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item').its('length').should('be.gt', 0)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item.btn-show-document-head').first().dblclick({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "assignee_name2",
+    "expression": "cy.select_by_placeholder('Assignee :',data['assignee_name2'])",
+    "operation": "select"
+  }
+]

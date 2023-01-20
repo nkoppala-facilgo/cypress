@@ -1,0 +1,87 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(7000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Documents').click({force: true});",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Inspections').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Create Inspection').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label_with_enter('UNIT:',data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.grouped-items__inspection-form').contains('button','Add').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create & Assign').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(1000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Inspection was successfully created').should('exist')",
+    "operation": ""
+  }
+]

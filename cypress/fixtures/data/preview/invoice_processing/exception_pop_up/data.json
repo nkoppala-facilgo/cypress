@@ -1,0 +1,20 @@
+{
+  "requester": "SFR FKH Preview PMC",
+  "status": "Unassigned",
+  "file_path": "data/preview/assets/images/boxer.jpg",
+  "invoice_date": "06/19/2022",
+  "supplier": "#174",
+  "property": "1001 Welkin Street Henderson",
+  "workflow": "Maintenance",
+  "gl_code": "Microwave replacements (11237)",
+  "unit": "10018001",
+  "product": "test",
+  "price": "2",
+  "assignee": "entry data",
+  "exception": "Exception Admin 1",
+  "status2": "assigned",
+  "property_name": "1001 Welkin Street Henderson",
+  "asset_group_name": "Las Vegas",
+  "assignee_name2" : "SFR FKH Preview PMC",
+  "notes" : "exception has noticed"
+}

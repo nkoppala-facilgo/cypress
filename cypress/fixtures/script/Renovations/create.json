@@ -1,0 +1,33 @@
+[
+  {
+    "attribute": "project_name",
+    "expression":"cy.get('#projectName')",
+    "operation": "input"
+  },
+  {
+    "attribute": "assignee_name",
+    "expression":"cy.select_by_label('Assignee Name',data['assignee_name'])",
+    "operation": "wait"
+  },
+  {
+    "attribute": "prop_coverage",
+    "expression":"cy.select_by_label('Prop Coverage',data['prop_coverage'])",
+    "operation": ""
+  },
+  {
+    "attribute": "completion_date",
+    "expression":"cy.select_by_calendar_using_label_without_clear('Est.Completion Date',data['completion_date'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-toolbar > .btn-primary').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  }
+]
+      

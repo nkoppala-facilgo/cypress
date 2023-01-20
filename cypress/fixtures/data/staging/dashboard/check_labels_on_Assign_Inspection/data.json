@@ -1,0 +1,5 @@
+{
+        "Unassigned" : ["Assignee","Due","Inspection Name","Property","Unit","Created"],
+        "Completed" : ["Cb Amounts","Assignee","Due","Inspection Name","Property","Unit","Created"],
+        "Recently Completed" : ["Assignee","Due","Inspection Name","Property","Unit","Lists","Mapped Docs","Created"]
+}

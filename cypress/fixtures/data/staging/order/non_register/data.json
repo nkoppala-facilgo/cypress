@@ -1,0 +1,13 @@
+{
+        "supplier_name": "!st choice",
+        "workflow":"Maintenance",
+        "property_name":"10004 N 16th Dr",
+        "item_name":"item 1",
+        "unit_measurement":"EA (Each)",
+        "quantity":"5",
+        "unit_price":"6",
+        "gl_code":"Office",
+        "jcc":"",
+        "unit_#":"1000"
+
+}

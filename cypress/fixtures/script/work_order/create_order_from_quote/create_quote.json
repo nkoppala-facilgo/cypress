@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "title",
+    "expression": "cy.get('#title')",
+    "operation": "input"
+  },
+  {
+    "attribute": "date",
+    "expression": "cy.select_by_calendar_using_label('QUOTE EXPIRES:',data['date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "date",
+    "expression": "cy.select_by_calendar_using_label('SCHED START DATE:',data['date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "date",
+    "expression": "cy.select_by_calendar_using_label('CONTRACT TERM ENDS:',data['date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "customer",
+    "expression": "cy.select_by_typeahead2('#supplier-name',data['customer'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('REG / PROP COVERAGE:',data['property'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "requester",
+    "expression": "cy.select_by_label('REQUESTER:',data['requester'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "product",
+    "expression": "cy.select_by_typeahead2('#product-typeahed',data['product'],4000)",
+    "operation": "select"
+  }
+]

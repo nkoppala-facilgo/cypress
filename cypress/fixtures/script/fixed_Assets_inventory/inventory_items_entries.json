@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('#react-select-9--value-item').click({force: true});",
+    "operation": "click"
+  }
+]

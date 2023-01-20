@@ -1,0 +1,15 @@
+{
+  "prop_name": "1001 Welkin Street Henderson",
+  "unit": "10018001",
+  "inspection_title": "",
+  "item_name": "",
+  "due_date": "06/29/2022",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ],
+  "qr_due_date": "05/29/2022",
+  "service_date": "10/18/2022",
+  "option": "SFR FKH Preview Supplier"
+}

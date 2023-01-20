@@ -1,0 +1,12 @@
+{
+  "property": "Las Vegas",
+  "team_user": "Users",
+  "user_type": "",
+  "additional_user": "SFR FKH Preview Tech 1",
+  "doc_type": "Work Order",
+  "show_calendar_for": "Scheduled Date",
+  "show_non_scheduled_task": true,
+  "view": "1 Day View",
+  "day_view_value": 1,
+  "day_view_value1": "{day_view_value1}"
+}

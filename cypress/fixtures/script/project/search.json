@@ -1,0 +1,47 @@
+[
+    {
+        "attribute": "region_property",
+        "expression": "cy.select_by_label('Region(s) / Property(es)', data['region_property'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "unit",
+        "expression": "cy.select_by_label('Units', data['unit'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "project_name",
+        "expression": "cy.select_by_label('Project Name(s)', data['project_name'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "assignee",
+        "expression": "cy.select_by_label('Assignee(s)', data['assignee'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label('Status(es)', data['status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "priority",
+        "expression": "cy.select_by_label('Priority(es)', data['priority'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "due_date_from",
+        "expression": "cy.select_by_calendar('input[placeholder=From]',data['due_date_from'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "due_date_to",
+        "expression": "cy.select_by_calendar('input[placeholder=To]',data['due_date_to'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('button').contains('Search').click()",
+        "operation": "click"
+    }
+]

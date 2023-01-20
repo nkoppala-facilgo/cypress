@@ -1,0 +1,213 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.visit('/dashboards/graph')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.icon-menu-work-order').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('a','Create Work Orders').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "work_order_title",
+                "expression": "cy.get('#title')",
+                "operation": "input"
+        },
+        {
+                "attribute": "property_name",
+                "expression": "cy.select_by_label_with_enter('PROPERTY',data['property_name'],4000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "catogory",
+                "expression": "cy.select_by_label_with_enter('CATEGORY:',data['catogory'],4000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "subcategory",
+                "expression": "cy.select_by_label_with_enter('SUBCATEGORY',data['subcategory'],2000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "priority",
+                "expression": "cy.select_by_label_with_enter('PRIORITY:',data['priority'],1000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "lineitems",
+                "expression": "/script/work_order/lineitems",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-toolbar > .btn-success').contains('Create & Assign').click();",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Work Order was successfully created').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button', 'Goto Summary').click({ force: true })",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.document-action-buttons button').contains('Next Steps').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "room_name",
+                "expression":"cy.select_by_placeholder('Select...',data['room_name'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('#MappedItemsListModalTab-tab-Catalog').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "req_type",
+                "expression":"cy.select_by_placeholder('Select a type',data['req_type'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.Select-value-label').contains('Both').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.Select-value').contains('Service').click()",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('#MappedItemsListModalTab a').contains('Supplier Items').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "do_you_know_price",
+                "expression":"cy.select_with_contain('Do you know the price of the items?',data['do_you_know_price'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "supplier_assignie",
+                "expression":"cy.select_by_placeholder('Type here to search',data['supplier_assignie'],3000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "vendor_assignie",
+                "expression": "cy.select_by_placeholder('Type here to search',data['vendor_assignie'],3000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.padding-right-one .toggle-group label').contains('Hide Uncompleted Items').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "quantity",
+                "expression":"cy.get('.col-sm-3 > .form-control')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('div.wrap-list > ol > li > span > label').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar button').contains('Create QR').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "unit_measurement",
+                "expression":"cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_measurement'],2000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.form-group-sm .table-responsive .btn-toolbar').contains('button', 'Save').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "due_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Due Date',data['due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "service_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "due_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Due Date',data['due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "service_date",
+                "expression":"cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.col-xs-12 .btn-toolbar button').contains('Create').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() => true);",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('OK').click({force: true})",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar .pull-right').contains('Close').click({force: true})",
+                "operation": ""
+        }
+]
+            

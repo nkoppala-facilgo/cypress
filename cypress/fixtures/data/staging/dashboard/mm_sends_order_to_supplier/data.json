@@ -1,0 +1,48 @@
+{
+        "work_order_title": "testvfyt21",
+        "property_id": "10004",
+        "prop_name": "1001 E Seldon Ln Phoenix",
+        "type_name": "",
+        "catogory":"Roof",
+        "subcategory": "Repair",
+        "priority": "Urgent",
+        "subtype": "",
+        "asignee": "",
+        "lineitems":
+              [
+                      {
+                          "Item":"test4321",
+                          "Introduction":"This is introduction",
+                          "file_path":"data/${data_path}/assets/images/pic.jpg",
+                          "Notes" : "this is test note"
+                 },
+          {
+            "Item":"desktop",
+            "Introduction":"This is introduction",
+            "file_path":"data/${data_path}/assets/images/pic.jpg",
+            "Notes" : "this is test note"
+          }
+        ],
+        "room_name": "Undefined Room",
+        "req_type": "Service",
+        "display_item": "Catalog",
+        "supplier_assignie": "kenrdtest2",
+        "vendor_assignie": "Vendor",
+        "do_you_know_price": "I know the price",
+        "quantity": "1",
+        "workflow":"maintenance",
+        "unit_measurement": "EA",
+        "due_date": "06/04/2022",
+        "service_date": "11/10/2022",
+        "internal_notes": "This is a test note text",
+        "quote_expires": "12/08/2022",
+        "unit_price": "500",
+        "vendor_assignment": "Vendor Assignment - Maintenance",
+
+        "scheduled_start_date":"03/01/2022 12:00 am",
+        "scheduled_end_date":"23/01/2022 12:00 am",
+        "file_path": "data/assets/images/pic.jpg",
+        "invice_date":"06/03/2022",
+        "supplier_invice":"jsbdcvgevh",
+        "tax_value":"400"
+}

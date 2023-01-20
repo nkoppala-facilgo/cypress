@@ -1,0 +1,82 @@
+[
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('REG / PROP COVERAGE:',data['property'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "product",
+    "expression": "cy.get('td[colspan=\"6\"]').find('input[placeholder=\"Product\"]').last()",
+    "operation": "input"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('input[placeholder=\"Quantity\"]').last().type(data['quantity'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Requested Unit Price\"]').last().type(data['unit_price'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "measurement",
+    "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['measurement'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_placeholder_using_selector('Property',data['property'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "sku",
+    "expression": "cy.get('input[placeholder=\"Item SKU\"]').last()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn.btn-success').contains('Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add Line Item').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "product",
+    "expression": "cy.get('td[colspan=\"6\"]').find('input[placeholder=\"Product\"]').last()",
+    "operation": "input"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('input[placeholder=\"Quantity\"]').last().type(data['quantity'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Requested Unit Price\"]').last().type(data['unit_price'],{ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "measurement",
+    "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['measurement'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_placeholder_using_selector('Property',data['property'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "sku",
+    "expression": "cy.get('input[placeholder=\"Item SKU\"]').last()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn.btn-success').last().contains('Save').click()",
+    "operation": "click"
+  }
+]

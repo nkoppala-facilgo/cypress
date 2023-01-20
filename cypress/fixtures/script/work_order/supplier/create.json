@@ -1,0 +1,37 @@
+[
+	{
+		"attribute": "work_order_title",
+		"expression":"cy.contains('WO TITLE:').parent().find('input')",
+		"operation": "input"
+	},
+	{
+                "attribute": "",
+                "expression": "cy.contains('div','Select property').click({force:true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "prop_name",
+                "expression": "cy.contains('div','Select property').parent().find('input[type=text]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('div','Select property').parent().contains('span',data['prop_name']).click()",
+                "operation": "click"
+        },
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('input.btn').contains('Submit').click();",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Work order is successfully created.').should('exist')",
+		"operation": ""
+	}
+]

@@ -1,0 +1,30 @@
+{
+        "work_order_title": "testing workorder",
+        "property_name": "1001 E Seldon",
+        "catogory":"Appliances",
+        "subcategory": "Clothes Dryer",
+        "priority": "Urgent",
+        "lineitems":
+        [
+                {
+                        "Item":"test321",
+                        "Introduction":"This is introduction",
+                        "Notes" : "this is test note"
+                }
+        ],
+        "room_name": "Undefined Room",
+        "display_item": "Catalog",
+        "req_type": "Service",
+        "supplier_assignie": "kenrdtest2",
+        "vendor_assignie": "Vendor Assignment - Maintenance",
+        "do_you_know_price": "I don't know the price - Send a quote request",
+        "quantity": "1",
+        "unit_measurement": "EA",
+        "due_date": "06/01/2023",
+        "service_date": "11/10/2023",
+        "internal_notes": "This is a test text",
+        "quote_expires": "12/08/2023",
+        "unit_price": "12",
+        "vendor_assignment": "Vendor Assignment - Maintenance"
+}
+      

@@ -1,0 +1,64 @@
+[
+        
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('button','Confirm').click({force:true})",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(4000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('Confirmed.').should('be.visible')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(4000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('button,'Edit').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(4000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('#scheduled-start-datetime').click({force:true})",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day--today').click({force:true})",
+		"operation": "click"
+	},
+	
+        {
+		"attribute": "",
+		"expression":"cy.contains('button,'Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button,'GOto Summary').click()",
+		"operation": "click"
+	}
+]

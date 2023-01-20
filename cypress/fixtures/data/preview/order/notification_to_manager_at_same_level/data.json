@@ -1,0 +1,9 @@
+{
+    "supplier":"ABC",
+    "property":"1001 Welkin Street Henderson",
+    "workflow":"Maintenance",
+    "measurement":"EA",
+    "product":"testing electronic fan",
+    "quantity":"1",
+    "unit_price":"1500"
+}

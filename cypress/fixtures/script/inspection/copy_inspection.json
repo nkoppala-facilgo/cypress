@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button','Copy').invoke('removeAttr', 'target').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Copy').invoke('removeAttr', 'target').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#copyCheckboxRatings').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#copyCheckboxPictures').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#copyCheckboxNotes').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#copyCheckboxCBAmount').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#copyCheckboxPropertyImage').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#copyCheckboxResident').click({force: true})",
+    "operation": "click"
+  }
+]

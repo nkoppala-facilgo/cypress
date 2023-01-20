@@ -1,0 +1,52 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(7000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('Documents').click({force: true});",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Inspections').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').parent().click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label('Assignee(s):', data['assignee'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "status",
+    "expression": "cy.select_by_label('Status(es):', data['status'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button').contains('Search').click()",
+    "operation": "click"
+  }
+]

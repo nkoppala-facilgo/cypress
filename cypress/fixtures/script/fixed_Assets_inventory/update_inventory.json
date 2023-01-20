@@ -1,0 +1,23 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.caret').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Edit').first().click({force: true});",
+    "operation": "click"
+  },
+
+  {
+    "attribute": "inventory_type_name",
+    "expression": "cy.get('input[placeholder=\"Inventory Type Name\"]').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click()",
+    "operation": "click"
+  }
+]

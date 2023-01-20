@@ -1,0 +1,19 @@
+{
+  "requester": "Staging Test PMC",
+  "status": "Unassigned",
+  "file_path": "data/staging/assets/images/boxer.jpg",
+  "invoice_date": "06/26/2022",
+  "supplier": "Barnett",
+  "property": "1615 S Parkside",
+  "workflow": "2022 maintenance",
+  "product": "test",
+  "price": "1",
+  "assignee": "Data Entry",
+  "exception": "Exception found",
+  "status2": "Assigned",
+  "property_name": "1615 S Parkside",
+  "asset_group_name": "Las Vegas",
+  "assignee_name2" : "Staging Test PMC",
+  "notes" : "exception has noticed"
+}
+

@@ -1,0 +1,122 @@
+[
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Schedule Work Order').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label('Property Name:',data['property_name'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label_with_enter('Assignees:',data['assignee'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "wo_type",
+    "expression": "cy.select_by_label('Work Order Type:',data['wo_type'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "wo_subtype",
+    "expression": "cy.select_by_label('Work Order Subtype:',data['wo_subtype'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "wo_priority",
+    "expression": "cy.select_by_label_with_enter('Work Order Priority:',data['wo_priority'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-start-datetime').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.react-datepicker__time').find('li.react-datepicker__time-list-item').contains(data['start']).type('{enter}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#scheduled-end-datetime').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.react-datepicker__time').find('li.react-datepicker__time-list-item').contains(data['end']).type('{enter}')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add Work Order Item').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"- Item Name -\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Introduction",
+    "expression": "cy.get('textarea[placeholder=\"- Instruction -\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer').contains('button','Create').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('creating Work orders are being process').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sa-confirm-button-container').contains('button','OK').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer').contains('button','Close').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  }
+]

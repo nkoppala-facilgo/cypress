@@ -1,0 +1,37 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.get('.fa-sort-down').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-edit-product').contains('a','Edit').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },
+        {
+                "attribute": "product_name",
+                "expression": "cy.get('#product_product_name').clear().type(data['product_name'])",
+                "operation": ""
+        },
+        {
+                "attribute": "manufacture_code",
+                "expression": "cy.get('#product_manufacture_number').type(data['manufacture_code'])",
+                "operation": ""
+        },
+        {
+                "attribute": "price",
+                "expression": "cy.get('#product_price').type(data['price'])",
+                "operation": ""
+        },
+        {
+                "attribute": "unit_of_measure",
+                "expression": "cy.get('#product_unit_of_measure_id').type(data['unit_of_measure'])",
+                "operation": "select"
+        }
+]

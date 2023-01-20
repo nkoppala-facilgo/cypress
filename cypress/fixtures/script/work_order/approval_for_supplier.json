@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('#document-approval-log-tab-pane-requests .btn-group').contains('button', '1 Level Down').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#example2 > tbody > button > span').last().click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li[role=\"presentation\"]').contains('a','Approve').click({force: true})",
+    "operation": "click"
+  }
+]

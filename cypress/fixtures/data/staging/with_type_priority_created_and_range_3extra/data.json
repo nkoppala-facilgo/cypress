@@ -1,0 +1,10 @@
+{
+    "property_code" : "10017701",
+    "type": "Cabinets / Countertops",
+    "priority": "Next Available",
+    "created_date_from" : "2021-07-01",
+    "created_date_to" : "2021-07-31",
+    "extra_attrs": [
+        "work_order_type", "work_order_priority", "work_order_items"
+    ]
+}

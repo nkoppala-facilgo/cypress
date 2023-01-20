@@ -1,0 +1,28 @@
+{
+  "title": "30QR2",
+  "due_date": "10/23/2022",
+  "end_date": "10/23/2022",
+  "start_date": "10/23/2022",
+  "customer": "SFR FKH preview",
+  "property": "1001",
+  "requester": "SFR FKH preview",
+  "suplier_contract_name": "9784",
+  "lineitems": [
+    {
+      "product": "test1",
+      "quantity": "1",
+      "unit_price": "1",
+      "measurement": "EA",
+      "property": "1001",
+      "tax": "1"
+    },
+    {
+      "product": "test2",
+      "quantity": "2",
+      "unit_price": "2",
+      "measurement": "SQYD",
+      "property": "1001",
+      "tax": "2"
+    }
+  ]
+}

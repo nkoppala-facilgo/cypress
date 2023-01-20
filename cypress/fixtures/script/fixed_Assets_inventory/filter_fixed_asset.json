@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Filter').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "fixed_asset_type",
+    "expression": "cy.select_by_label('Fixed Asset Type(s):', data['fixed_asset_type'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click()",
+    "operation": "click"
+  }
+]

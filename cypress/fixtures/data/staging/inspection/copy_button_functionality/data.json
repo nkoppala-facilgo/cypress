@@ -1,0 +1,16 @@
+{
+  "property_name": "1001 W",
+  "unit": "9n089901",
+  "inspection_title": "",
+  "item_name": "",
+  "due_date": "07/27/2022",
+  "date_to": "07/31/2023",
+  "base_line": "m4I8a8",
+  "file_path": "data/staging/assets/images/pic.jpg",
+  "dynamic_url": "/clone?includes%5B%5D=ratings&includes%5B%5D=pictures&includes%5B%5D=notes&includes%5B%5D=cb_amount&includes%5B%5D=property_image&includes%5B%5D",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ]
+}

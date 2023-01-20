@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "Dropdown_Value",
+    "expression": "cy.select_by_placeholder('Select...', this.data.Dropdown_Value)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-TurnMatrix').contains('a','Go').invoke('removeAttr', 'target').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "List_Name",
+    "expression": "cy.select_by_placeholder('Inspection Lists', this.data.List_Name)",
+    "operation": "select"
+  },
+  {
+    "attribute": "Lease_Status",
+    "expression": "cy.select_by_placeholder('Lease Status', this.data.Lease_Status)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-RepairAndReplaceDetailsMatrix').contains('a','Repair & Replace Summary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Repair And Replace Summary').should('exist');",
+    "operation": ""
+  }
+]

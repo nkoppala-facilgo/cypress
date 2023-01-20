@@ -1,0 +1,146 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.get('.icon-menu-work-order').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('a[href=\"/orders\"]'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('a[href=\"/orders\"]').contains('Marketplace Order').click({ force: true })",
+                "operation": "click"
+        }, {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.facilgo-form__inline-wrapper .facilgo-form__form-group--inline .facilgo-button'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.facilgo-button').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.facilgo-marketplace__cart-button').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.facilgo-section__image-wrapper'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get(' .btn-toolbar-flex .facilgo-button').eq(1).click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.waitUntil(() =>cy.get('.confirm'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.confirm').contains('button','OK').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "gl_code",
+                "expression": "cy.select_by_placeholder_using_selector('GL Code',data['gl_code'])",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('button','Checkout').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.list-group-item > .fa').last())",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.list-group-item > .fa').last().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('--- Select Inventory Item ---').parent().click().type('Carpet').type('{enter}')",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.modal-dialog .modal-content .modal-footer .pull-right'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.modal-dialog .modal-content .modal-footer .btn-default').contains('Do Not Save All Items').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Checkout').should('exist')",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.visit()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Documents').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": " cy.get('a[href=\"/document_orders\"]').click({ force: true })",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.document-order__content'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.document-order__content').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('#btnDocumentPage .btn-danger'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Void').click()",
+                "operation": "click"
+        }, 
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.confirm'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.confirm').contains('button','Yes').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.contains('Your Order is PendCancellation and will be cancelled once the supplier accepts the cancellation request.').should('exist'))",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Your Order is PendCancellation and will be cancelled once the supplier accepts the cancellation request.').should('exist')",
+                "operation": ""
+        }
+]

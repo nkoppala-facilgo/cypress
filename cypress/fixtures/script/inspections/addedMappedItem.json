@@ -1,0 +1,213 @@
+[
+
+    {
+         "attribute":"",
+         "expression": "cy.get('.glyphicon-option-vertical').first().click({ force: true })",
+         "operation":"click"
+    }, 
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute": "",
+         "expression": "cy.contains('Add Mapped Item (Quote Request)').click({force:true})",
+         "operation": "click"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.wait(8000)",
+         "operation":""
+    },
+    {
+         "attribute": "folder",
+         "expression": "cy.select_by_placeholder_using_selector('Select a Folder',data['folder'])",
+         "operation": "select"
+    },
+  
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute": "list_name",
+         "expression":"cy.contains('div','List Name').parent().find('input')",
+         "operation": "input"
+    },
+    {
+         "attribute":"list_item_name",
+         "expression": "cy.get('.items__form--mapped-items .items__input-field input').eq(1)",
+         "operation":"input"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.wait(5000)",
+         "operation":""
+    },
+    {
+         "attribute":"",
+         "expression": "cy.get('.action-buttons__btn').click()",
+         "operation":"click"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute":"",
+         "expression": "cy.get('.table-condensed .btn-toolbar .btn-success').click()",
+         "operation":"click"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute":"",
+         "expression": "cy.get('.modal-footer  .btn-success').click()",
+         "operation":"click"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.get('.glyphicon-option-vertical').first().click()",
+         "operation":"click"
+    }, 
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute": "",
+         "expression": "cy.contains('Add Mapped Item (Quote Request)').click({force:true})",
+         "operation": "click"
+    },
+    {
+          "attribute":"",
+          "expression": "cy.wait(3000)",
+          "operation":""
+     },
+    { 
+         "attribute": "",
+         "expression": "cy.get('.wrap-list__nested-list-indicator').click()",
+         "operation": "click"
+    },
+    {
+         "attribute":"list_item_name",
+         "expression":"cy.get('.wrap-list__list .form-group  .form-control-required')",
+         "operation":"input"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.get('.btn-toolbar  .btn-success').contains('Save').click()",
+         "operation":"click"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute": "",
+         "expression": "cy.contains('button','Create Quote Request').click({force:true})",
+         "operation": "click"
+    },
+    {
+     "attribute": "due",
+     "expression": "cy.select_by_calendar_using_label('Due Date',data['due'])",
+     "operation": "select"
+   },
+
+   {
+     "attribute": "service",
+     "expression": "cy.select_by_calendar_using_label('Service Date',data['service'])",
+     "operation": "select"
+   },
+   {
+     "attribute": "due",
+     "expression": "cy.select_by_calendar_using_label('Due Date',data['due'])",
+     "operation": "select"
+   },
+
+   {
+     "attribute": "service",
+     "expression": "cy.select_by_calendar_using_label('Service Date',data['service'])",
+     "operation": "select"
+    },
+    {
+     "attribute":"",
+     "expression": "cy.wait(3000)",
+     "operation":""
+    },
+    {
+        "attribute": "",
+        "expression":"cy.contains('button','Invite Supplier').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute":"",
+        "expression": "cy.wait(3000)",
+        "operation":""
+    },
+    {
+          "attribute":"supplier_name",
+          "expression": "cy.get('#supplier-name')",
+          "operation":"input"
+    },
+    {
+          "attribute":"supplier_email",
+          "expression": "cy.get('#invite-supplier-email')",
+          "operation":"input"
+    },
+    {
+          "attribute":"supplier_email_domain",
+          "expression": "cy.get('#invite-supplier-email')",
+          "operation":"input"
+    },
+     {
+          "attribute":"",
+          "expression": "cy.get('.modal-footer  .btn-primary').contains('button','Invite').click({force: true})",
+          "operation":"click"
+    },
+    {
+          "attribute":"",
+          "expression": "cy.wait(3000)",
+          "operation":""
+    },
+    {
+		"attribute": "unit_measurement",
+		"expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_measurement'],0)",
+		"operation": "select"
+	},
+    {
+        "attribute": "",
+        "expression": "cy.get('.btn-success').contains('Save').click({force:true})",
+        "operation": "click"
+    },
+    {
+         "attribute":"",
+         "expression": "cy.wait(3000)",
+         "operation":""
+    },
+    {
+         "attribute": "",
+         "expression": "cy.contains('button','Create').click({force:true})",
+         "operation": "click"
+    },
+    {
+     "attribute":"",
+     "expression": "cy.wait(3000)",
+     "operation":""
+    },
+    {
+         "attribute": "",
+         "expression": "cy.contains('Quote Request Successfully Saved').should('exist')",
+         "operation": ""
+    }
+]
+ 
+ 

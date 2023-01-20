@@ -1,0 +1,38 @@
+[
+        {
+                "attribute": "user_type",
+                "expression": " cy.get('input[placeholder=\"User Type Name\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "description",
+                "expression": "cy.get('#user-type-description')",
+                "operation": "input"
+        },
+        {
+                "attribute": "status",
+                "expression": "cy.select_by_label_with_enter('Status',data['status'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": " cy.get('#user-type-labor-rate').clear()",
+                "operation": ""
+        },
+        {
+                "attribute": "labor-rate",
+                "expression": " cy.get('#user-type-labor-rate')",
+                "operation": "input"
+        },
+        {
+                "attribute": "labor_type",
+                "expression": "cy.select_by_label_with_enter('Labor Type',data['labor_type'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        }
+]
+

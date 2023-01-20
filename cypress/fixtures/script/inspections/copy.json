@@ -1,0 +1,52 @@
+[ 
+   {
+      "attribute": "",
+      "expression": "cy.get('#document-scroll-search').find('div').find('li').first().click()",
+      "operation": "click"
+  },
+  {
+      "attribute": "",
+      "expression": "cy.wait(3000)",
+      "operation": ""
+  },
+   { 
+      "attribute": "",
+      "expression": "cy.contains('button','Copy').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('#copyCheckboxRatings').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('#copyCheckboxPictures').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('#copyCheckboxNotes').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('#copyCheckboxCBAmount').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('#copyCheckboxPropertyImage').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('#copyCheckboxResident').click()",
+      "operation": "click"
+   },
+   { 
+      "attribute": "",
+      "expression": "cy.get('.confirm').click()",
+      "operation": "click"
+   }
+]

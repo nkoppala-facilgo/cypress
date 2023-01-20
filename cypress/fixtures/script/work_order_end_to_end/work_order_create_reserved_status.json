@@ -1,0 +1,157 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/dashboards/graph')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-work-order').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Create Work Orders').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "work_order_title",
+    "expression": "cy.get('#title')",
+    "operation": "input"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY',data['property_name'],6000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "catogory",
+    "expression": "cy.select_by_label_with_enter('CATEGORY:',data['catogory'],5000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "subcategory",
+    "expression": "cy.select_by_label_with_enter('SUBCATEGORY',data['subcategory'],4000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority",
+    "expression": "cy.select_by_label_with_enter('PRIORITY:',data['priority'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "user_assignee",
+    "expression": "cy.select_by_label('ASSIGNEE:',data['user_assignee'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "scheduled_start_date/time",
+    "expression": "cy.select_by_calendar_using_label_without_clear('SCHEDULED START DATE/TIME:',data['scheduled_start_date/time'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "scheduled_end_date/time",
+    "expression": "cy.select_by_calendar_using_label_without_clear('SCHEDULED END DATE/TIME:',data['scheduled_end_date/time'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "schedule_flexibility",
+    "expression": "cy.select_by_label_with_enter('SCHEDULE FLEXIBILITY:',data['schedule_flexibility'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "assigne_flexibility",
+    "expression": "cy.select_by_label_with_enter('ASSIGNEE FLEXIBILITY:',data['assigne_flexibility'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Introduction",
+    "expression": "cy.get('textarea[placeholder=\"Instruction\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create & Assign').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Goto Summary').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Scheduled').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('Edit').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Copy').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Void').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Complete').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Return Items').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Next Steps').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Edit').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "schedule_flexibility1",
+    "expression": "cy.select_by_label_with_enter('SCHEDULE FLEXIBILITY:',data['schedule_flexibility1'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "assigne_flexibility1",
+    "expression": "cy.select_by_label_with_enter('ASSIGNEE FLEXIBILITY:',data['assigne_flexibility1'],3000)",
+    "operation": "select"
+  }
+]

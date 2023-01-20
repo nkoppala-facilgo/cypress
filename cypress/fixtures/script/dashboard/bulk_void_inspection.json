@@ -1,0 +1,32 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.contains('label','Resident Inspection').parent().find('div[class=\"Select-value\"]').click({force:true})",
+		"operation": ""
+	},
+        {
+		"attribute": "resident_insp",
+		"expression":"cy.get('div[class=\"Select-menu-outer\"]').find('div').contains(data['resident_insp']).click({force:true})",
+		"operation": ""
+	},
+	{
+		"attribute": "inspection_type",
+		"expression":"cy.select_by_label('Inspection Type',data['inspection_type'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "property",
+		"expression":"cy.select_by_label('Property / Asset Group',data['property'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "units",
+		"expression":"cy.select_by_placeholder('- Select Units -',data['units'])",
+		"operation": "select"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('button','Next').click({force:true})",
+		"operation": "click"
+	}
+]

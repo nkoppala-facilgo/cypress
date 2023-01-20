@@ -1,0 +1,92 @@
+[
+    {
+        "attribute": "cbsa_or_property",
+        "expression": "cy.select_by_label('Cbsa(s) or Property(es):', data['cbsa_or_property'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "unit_adress",
+        "expression": "cy.select_by_label('Unit Address(es):', data['unit_adress'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "inspection_number",
+        "expression": "cy.select_by_label('Inspection Number(s):', data['inspection_number'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "inspection_title",
+        "expression": "cy.select_by_label('Inspection Title(s):', data['inspection_title'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "assignee",
+        "expression": "cy.select_by_label('Assignee(s):', data['assignee'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label('Status(es):', data['status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "vacancy_status",
+        "expression": "cy.select_by_label('Vacancy Status(es):', data['vacancy_status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "inspection_type",
+        "expression": "cy.select_by_label('Inspection Type(s):', data['inspection_type'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "start_date_from",
+        "expression": "cy.select_by_calendar_using_label('Start Date:', data['start_date_from'], 'From')",
+        "operation": "select"
+    },
+    {
+        "attribute": "start_date_to",
+        "expression": "cy.select_by_calendar_using_label('Start Date:', data['start_date_to'], 'To')",
+        "operation": "select"
+    },
+    {
+        "attribute": "due_date_from",
+        "expression": "cy.select_by_calendar_using_label('Inspection Due Date:', data['due_date_from'], 'From')",
+        "operation": "select"
+    },
+    {
+        "attribute": "due_date_to",
+        "expression": "cy.select_by_calendar_using_label('Inspection Due Date:', data['due_date_to'], 'To')",
+        "operation": "select"
+    },
+    {
+        "attribute": "show_only_past_due_date",
+        "expression": "cy.select_by_checkbox(data['show_only_past_due_date'])",
+        "operation": "check"
+    },
+    {
+        "attribute": "completion_date_from",
+        "expression": "cy.select_by_calendar_using_label('Completion Date:', data['completion_date_from'], 'From')",
+        "operation": "select"
+    },
+    {
+        "attribute": "completion_date_to",
+        "expression": "cy.select_by_calendar_using_label('Completion Date:', data['completion_date_to'], 'To')",
+        "operation": "select"
+    },
+    {
+        "attribute": "hashtag",
+        "expression": "cy.get('input[placeholder=\"Add a tag\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "include_recurring",
+        "expression": "cy.select_by_label('Include Recurring:', data['include_recurring'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('button').contains('Search').click()",
+        "operation": "click"
+    }
+]

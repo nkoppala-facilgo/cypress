@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "team",
+    "expression": "cy.contains('button',data['team']).parent().parent().find('td').first().click().contains('span', data['value']).click({force: true}) ",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button').click()",
+    "operation": "click"
+  }
+]

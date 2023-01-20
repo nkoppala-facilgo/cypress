@@ -1,0 +1,22 @@
+[
+	{
+		"attribute": "file_path",
+		"expression":"cy.get('.modal-body .file-dropzone input[type=file]').attachFile(data['file_path'])",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('.category-alias-import-modal .modal-footer > button').first().click({force:true})",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+        {
+            "attribute": "",
+            "expression":"cy.contains('File is invalid. Header format is invalid').should('exist')",
+            "operation": ""
+        }
+]

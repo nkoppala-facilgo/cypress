@@ -1,0 +1,25 @@
+{
+        "title":"34tgv343",
+        "due_date":"10/23/2022",
+        "end_date": "11/23/2022",
+        "start_date":"10/23/2022",
+        "customer":"FKH",
+        "property":"Parkside",
+        "requester":"kmurai+",
+        "suplier_contract_name":"8jh4",
+        "lineitems":[
+                {
+                    "product":"x2f3vw",
+                    "quantity":"21",
+                    "unit_price":"11",
+                    "measurement":"EA",
+                    "property":"Parkside",
+                    "tax":"11"
+              }
+        ],
+        "sign":"Ank",
+        "workflow":"Maintenance",
+        "fiscal_period":"02",
+        "discription_short":"new description for short"
+    }
+           

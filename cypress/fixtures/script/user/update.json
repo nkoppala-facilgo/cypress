@@ -1,0 +1,62 @@
+[
+  {
+    "attribute": "user_type",
+    "expression": "cy.select_by_label('User Type',data['user_type'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[id=userFirstName]').clear()",
+    "operation": "click"
+  },
+  {
+    "attribute": "Update_first_name",
+    "expression": "cy.get('input[id=userFirstName]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[id=userLastName]').clear()",
+    "operation": "click"
+  },
+  {
+    "attribute": "Updat_last_name",
+    "expression": "cy.get('input[id=userLastName]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[name=\"user[external_id]\"]')",
+    "operation": ""
+  },
+  {
+    "attribute": "overlay_asset_group",
+    "expression": "cy.select_by_label('Overlay Asset Groups',data['overlay_asset_group'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "ske",
+    "expression": "cy.select_by_label('Standard Skills Exception',data['ske'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "adskil",
+    "expression": "cy.select_by_label('Additional Skills',data['adskil'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "subm",
+    "expression": "cy.select_by_label('Submarket',data['subm'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Update').click({force: true})",
+    "operation": "click"
+  }
+]

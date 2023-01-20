@@ -1,0 +1,32 @@
+[
+	{
+		"attribute": "file_path",
+		"expression":"cy.get('#modalImportUnit #file').attachFile(data['file_path'])",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(3000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('input[value=Upload]').eq(1).click({force: true})",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(50000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('The file cannot be uploaded. Please check the file to make sure it is in the correct format and contains all of the required fields.').should('exist')",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('.confirm').click()",
+		"operation": ""
+	}
+]

@@ -1,0 +1,56 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-show-quote').first().click({force:true})",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Edit').click({force:true})",
+                "operation": "click"
+        },
+
+        {
+                "attribute": "edit_title",
+                "expression": "cy.get('#title')",
+                "operation": "input"
+        },
+        {
+                "attribute": "edit_due_date",
+                "expression": "cy.select_by_calendar('#due-date', data['edit_due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "edit_end_date",
+                "expression": "cy.select_by_calendar('#contract-term-ends', data['edit_end_date'])",
+                "operation": "select"
+        },    
+        {
+                "attribute": "edit_start_date",
+                "expression": "cy.select_by_calendar('#schedule-start-date', data['edit_start_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Send').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(4000)",
+                "operation": ""
+        }
+]
+    
+
+    

@@ -1,0 +1,47 @@
+[
+	{
+		"attribute": "",
+		"expression": "cy.get('.media > a').first().click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.document-action-buttons > button','Edit').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.on('uncaught:exception', (err, runnable) => {return false})",
+		"operation": ""
+	},
+	{
+		"attribute": "assignee_flexibility",
+		"expression": "cy.select_by_label('ASSIGNEE FLEXIBILITY',data['assignee_flexibility'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "property_updated",
+		"expression": "cy.select_by_label('PROPERTY',data['property_updated'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('.document-action-buttons .btn-toolbar  button','Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(4000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Work Order was successfully updated').should('exist')",
+		"operation": ""
+	}
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit()",
+    "operation": "visit"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(7000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-FacilgoLeftNavbar').find('li').contains('a','Documents').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-FacilgoLeftNavbar').find('li').find('li').contains('a','Projects / Matrices').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-FacilgoLeftNavbar').find('li').find('li').find('li').contains('a','Renovations').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  }
+]

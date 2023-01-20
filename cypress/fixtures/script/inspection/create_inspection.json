@@ -1,0 +1,57 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(7000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('Documents').click({force: true});",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Inspections').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Create Inspection').click({ force: true });",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label_with_enter('UNIT:',data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.input-group-btn').eq(1).find('button').click({force:true});",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": ""
+  }
+]

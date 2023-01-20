@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "Matrix_Name",
+    "expression": "cy.get('#add-matrix').find('input[name=matrix_name]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Property_Name",
+    "expression": "cy.select_by_placeholder('Assets Groups / Properties', this.data.Property_Name, 2000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(20000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#add-matrix').contains('button','Save').click({force: true})",
+    "operation": "click"
+  }
+]

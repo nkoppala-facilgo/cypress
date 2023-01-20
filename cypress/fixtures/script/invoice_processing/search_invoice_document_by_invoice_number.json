@@ -1,0 +1,17 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "invoice_id",
+    "expression": "cy.select_by_label_new('Invoice#:',data['invoice_id'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=Search]').click({force: true})",
+    "operation": "click"
+  }
+]

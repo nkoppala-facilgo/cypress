@@ -1,0 +1,97 @@
+[
+  {
+    "attribute": "project_name",
+    "expression": "cy.contains(data['project_name']).parent().find('td').first().find('.dropdown-toggle').click({force: true}).wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.dropdown-menu').contains('Setup Revenue and Cost Assumptions').click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "cost_capital",
+    "expression": "cy.contains('Cost Of Capital').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "invest_period",
+    "expression": "cy.contains('Investment Period (months)').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "yearly_rent",
+    "expression": "cy.contains('Average Yearly Rent Increase').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "hurdle_rate",
+    "expression": "cy.contains('Investment Hurdle Rate').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "renovation_day",
+    "expression": "cy.contains('Average Days for Renovation').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "turn_day",
+    "expression": "cy.contains('Average Days for Turn').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "rent_day",
+    "expression": "cy.contains('Average Days to Rent').parent().find('input').eq(0).clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "rent_day",
+    "expression": "cy.contains('Average Days to Rent').parent().parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "rent_day",
+    "expression": "cy.get('#renovation_floorplans_units_form > div:nth-child(3) > div:nth-child(3) > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(2) > input').clear().type(data['rent_day'])",
+    "operation": ""
+  },
+  {
+    "attribute": "rent_amount",
+    "expression": "cy.contains('Rent Increase Amount').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "rent_mo_assumption",
+    "expression": "cy.contains('Pro-Forma Rent/Mo Assumption').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "unit_renovate",
+    "expression": "cy.contains('# Units to Renovate').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "renovation_cost",
+    "expression": "cy.contains('Average Unit Renovation Cost').parent().find('input').clear()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Submit').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Setup Revenue Type Assumption successfully!').should('exist')",
+    "operation": ""
+  }
+]

@@ -1,0 +1,123 @@
+[
+        
+        {
+                "attribute": "note",
+                "expression":"cy.get('.comment-section > .form-control')",
+                "operation": "input"
+        },
+        {
+                "attribute" : "lineitems",
+                "expression": "cy.get('.grouped-items__view-row').within(() => {cy.lineitem_attach_file('box-pictures clearfix',data['lineitems'])})",
+                "operation" : "lineitem_attach_file"
+        },
+        {
+                "attribute" : "lineitems",
+                "expression": "cy.lineitem_type_text('Notes',data['lineitems'])",
+                "operation":  "lineitem_type_text"
+        },
+        {
+                "attribute" : "internal-notes",
+                "expression": "cy.get('.comment-section > .form-control')",
+                "operation" : " "
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.get('.font-size-double').click()",
+                "operation" : "click"
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.get('.glyphicon-pencil').click()",
+                "operation" : "click"
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.contains('button','Add Labor').click()",
+                "operation" : "click"
+        },
+        {
+                "attribute" : "user_select",
+                "expression": "cy.select_by_placeholder_with_enter('Technician',data['user_select'],4000)",
+                "operation" : ""
+        },
+        {
+                "attribute" : "work_hour",
+                "expression": "cy.get('input[placeholder=\"Work Hours\"]')",
+                "operation" : "input"
+        },
+        {
+                "attribute" : " ",
+                "expression": "cy.wait(2000)",
+                "operation" : " "
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.get('.btn-toolbar > .btn-success').click()",
+                "operation" : "click"
+        },
+        {
+                "attribute" : " ",
+                "expression": "cy.wait(5000)",
+                "operation" : " "
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.get('.btn-info').click()",
+                "operation" : "click"
+        },
+        {
+                "attribute" : " ",
+                "expression": "cy.get('.document-action-buttons button').eq(1).click()",
+                "operation" : " "
+        },
+        {
+                "attribute" : " ",
+                "expression": "cy.wait(3500)",
+                "operation" : " "
+        },
+        {
+                "attribute" : "resolution",
+                "expression": "cy.get('h5').eq(2).parent().find(`.Select-control`).find('input[role=\"combobox\"]').click({force: true}).type(data['resolution'],{force: true}).wait(1000).type('{enter}')",
+                "operation" : "select"
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.get('.modal-footer > .btn-primary').click()",
+                "operation" : "click"
+        },
+        {
+                "attribute" : "",
+                "expression": "cy.wait(25000)",
+                "operation" : ""
+        },
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Re-Open').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Are you sure?').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('div.sweet-alert.visible.showSweetAlert > div.sa-button-container > div > button').contains('Yes').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(7000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('Re-Opened!').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.confirm').contains('OK').click()",
+		"operation": "click"
+	}
+]

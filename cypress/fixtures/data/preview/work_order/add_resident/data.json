@@ -1,0 +1,30 @@
+{
+  "work_order_title": "test432",
+  "prop_name": "1001 Welkin Street Henderson",
+  "unit": "10018001",
+  "first_name": "resident",
+  "last_name": "resident_last",
+  "resident_status": "New",
+  "priority": "Urgent",
+  "lease_title": "resident",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "lineitems": [
+    {
+      "Item": "test011",
+      "Introduction": "This is introduction"
+    },
+    {
+      "Item": "test0011",
+      "Introduction": "This is introduction"
+    },
+    {
+      "Item": "test0013",
+      "Introduction": "This is introduction"
+    },
+    {
+      "Item": "test1073",
+      "Introduction": "This is introduction"
+    }
+  ]
+}

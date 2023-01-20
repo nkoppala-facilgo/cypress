@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span',' Add Inventory Item').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "inventory_type",
+    "expression": "cy.select_by_label('INVENTORY TYPE:',data['inventory_type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('PROPERTY:',data['property'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "measurement_of_unit",
+    "expression": "cy.select_by_label('DEFAULT UOM:',data['measurement_of_unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item",
+    "expression": "cy.get('#fixed-asset-item-name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('#fixed-asset-item-quantity')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-success','Create').click({force: true})",
+    "operation": "click"
+  }
+]

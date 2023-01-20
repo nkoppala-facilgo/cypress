@@ -1,0 +1,112 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('Documents').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Inspections').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('a', 'Create Inspection').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['property_name'], 3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label_with_enter('UNIT:',data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.grouped-items__inspection-form').contains('button','Add').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button','Create & Assign').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.hide-xxs').find('i').eq(1).click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "lineitems",
+    "expression": "cy.lineitem_type_text('Notes',data['lineitems'])",
+    "operation": "lineitem_type_text"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button','Save').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(10000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(8000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(10000)",
+    "operation": "wait"
+  }
+]

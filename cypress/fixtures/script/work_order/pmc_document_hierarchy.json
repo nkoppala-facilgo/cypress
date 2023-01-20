@@ -1,0 +1,32 @@
+[
+        {
+		"attribute": "",
+		"expression": "cy.get('.btn-show-work-order').first().click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(8000)",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('#js-react-WorkOrderItemsView').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(8000)",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('#js-react-WorkOrderItemsView').find('div').find('.invoiceTable.no-padding').find('table').find('tbody').find('tr').its('length').should('be.gt',0)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('#js-react-WorkOrderRelatedDocumentsView').should('exist')",
+		"operation": ""
+	}
+]

@@ -1,0 +1,58 @@
+
+[     
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label_with_enter('Status(es):', data['status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('button').contains('Search').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.media-body').first().click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(6000)",
+        "operation": ""
+    },
+   {
+    "attribute": "",
+    "expression": "cy.contains('button','1-Click Invoice').click()",
+    "operation": "click"
+},  
+{
+    "attribute": "",
+    "expression": "cy.get('body > div.sweet-alert.showSweetAlert > div.sa-button-container > div > button').click().wait(2000)",
+    "operation": "click"
+},  
+{
+    "attribute": "",
+    "expression": "cy.contains('button','1-Click Invoice').click()",
+    "operation": "click"
+},  
+{
+    "attribute": "",
+    "expression": "cy.get('body > div.sweet-alert.showSweetAlert > div.sa-button-container > div > button').click().wait(2000)",
+    "operation": "click"
+},  
+    {
+        "attribute": "",
+        "expression": "cy.get('#btnDocumentPage > a.btn.btn-primary').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#btnDocumentPage > .btn-primary').click()",
+        "operation": "click"
+    }
+]

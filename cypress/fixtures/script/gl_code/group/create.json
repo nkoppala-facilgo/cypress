@@ -1,0 +1,12 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('input[type=\"submit\"]').contains('Save').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('GL Code Group successfully created.').should('exist')",
+		"operation": ""
+	}
+]

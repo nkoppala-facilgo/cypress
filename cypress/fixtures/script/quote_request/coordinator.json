@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add Coordinator').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "_name",
+    "expression": "cy.select_by_placeholder('- Select Coordinator -',data['_name'],0)",
+    "operation": "select"
+  }
+]

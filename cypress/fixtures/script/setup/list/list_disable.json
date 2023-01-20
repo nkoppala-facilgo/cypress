@@ -1,0 +1,12 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Disable').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.sa-button-container > div > button').click({ force: true });",
+    "operation": "click"
+  }
+]

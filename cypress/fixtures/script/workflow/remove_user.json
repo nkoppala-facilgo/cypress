@@ -1,0 +1,62 @@
+[
+        {
+                "attribute": "",
+                "expression":"cy.get('.text-blue2').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.input-list-row-remove > .fa').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('input[Value = \"Save\"]').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.text-blue2').eq(1).click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.input-list-row-remove > .fa').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('input[Value = \"Save\"]').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.text-blue2').eq(2).click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.input-list-row-remove > .fa').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('input[Value = \"Save\"]').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": "click"
+        }
+]

@@ -1,0 +1,41 @@
+[{
+    "attribute": "",
+    "expression": "cy.contains('button','Add User Type').click()",
+    "operation": "click"
+},
+{
+    "attribute": "",
+    "expression": "cy.wait(9000)",
+    "operation": ""
+},
+{
+    "attribute": "user_name",
+    "expression": "cy.get('#user-type-name')",
+    "operation": "input"
+},
+{
+    "attribute": "desc",
+    "expression": "cy.get('#user-type-description')",
+    "operation": "input"
+},
+{
+        
+    "attribute": "asset_group",
+    "expression": "cy.select_by_label('Asset Group Types',data['asset_group'])",
+    "operation": "select"
+},
+{
+    "attribute": "skills",
+    "expression": "cy.select_by_label('Standard Skills',data['skills'])",
+    "operation": "select"
+},
+{
+    "attribute": "",
+    "expression": "cy.contains('button','Create').click()",
+    "operation": "click"
+},
+{
+    "attribute": "user_name",
+    "expression": "cy.contains(data['user_name']).should('exist')",
+    "operation": ""
+}]

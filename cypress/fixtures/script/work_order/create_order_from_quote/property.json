@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_placeholder_using_selector('Property',data['property'])",
+    "operation": "select"
+  }
+]

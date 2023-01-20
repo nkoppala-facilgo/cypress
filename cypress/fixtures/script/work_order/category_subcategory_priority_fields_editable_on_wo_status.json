@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "catogory1",
+    "expression": "cy.select_by_label_with_enter('CATEGORY:', data['catogory1'], 4000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "subcategory1",
+    "expression": "cy.select_by_label_with_enter('SUBCATEGORY', data['subcategory1'], 2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority1",
+    "expression": "cy.select_by_label_with_enter('PRIORITY:', data['priority1'], 1000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "named_natural_disaster",
+    "expression": "cy.select_by_label('NAMED NATURAL DISASTER:', data['named_natural_disaster'], 1000)",
+    "operation": "select"
+  }
+]

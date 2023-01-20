@@ -1,0 +1,152 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Goto Summary').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','OK').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains(this.data.unit).should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Complete').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Inspection was Completed.').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sa-confirm-button-container').contains('button','OK').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Next Steps').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab').find('li').eq(1).find('a').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.wrap-list__nested-list-indicator').find('i').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer').contains('button','Create Quote Request').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "qr_due_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Due Date',data['qr_due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "qr_due_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Due Date',data['qr_due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('label','Suppliers').parent().find('table').find('tbody').find('tr').first().find('td').first().find('input').click({ force: true }).wait(1500).clear({force:true}).type(data['option'], { force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains(data['option']).eq(0).click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('label','Quote Request Items').parent().find('table').find('tbody').find('tr').find('td').contains('button','Save').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Quote Request Successfully Saved').should('exist');",
+    "operation": ""
+  }
+]

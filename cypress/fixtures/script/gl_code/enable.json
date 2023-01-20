@@ -1,0 +1,17 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('a[aria-expanded=\"true\"]').parent().find('ul').find('.fa-unlock').click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(1000)",
+		"operation": ""
+	},
+        {
+		"attribute": "",
+		"expression":"cy.contains('GL Code has been enabled.').should('exist')",
+		"operation": ""
+	}
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/inspections/new')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Create Inspection').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['property_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label_with_enter('UNIT:',data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "notes",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]').eq(0).wait(3000).click({force: true})",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },{
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add Items from List').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'next step inventory').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Open').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add All Items').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create & Assign').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('Inspection was successfully created').should('exist'))",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn-primary','Save').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Goto Summary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button.confirm','OK').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Complete').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(15000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Next Steps').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('span[class=\"Select-clear\"]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Non Catalog').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i[aria-hidden=\"true\"]').first().click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create Non Catalog Order').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "supplier_name",
+    "expression": "cy.select_by_label('Supplier', data['supplier_name'],15000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label('Workflow',data['workflow'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]').eq(0).wait(2000)",
+    "operation": "input"
+  },
+  {
+    "attribute": "unit_of_measure",
+    "expression": "cy.select_by_label('Unit Of Measure', data['unit_of_measure'],15000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button' ,'Save').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "tax",
+    "expression": "cy.contains('Tax').parent().get('span > input[type=number]').first()",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create').click({force:true})",
+    "operation": "click"
+  }
+]

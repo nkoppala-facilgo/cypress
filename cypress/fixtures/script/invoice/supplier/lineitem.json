@@ -1,0 +1,47 @@
+[
+        {
+                "attribute": "item",
+                "expression": "cy.get('input[placeholder=\"Item\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "quantity",
+                "expression": "cy.get('input[placeholder=\"Quantity\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "price",
+                "expression": "cy.get('input[placeholder=\"Price\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "unit_of_measurement",
+                "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_of_measurement'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "item_sku",
+                "expression": "cy.get('input[placeholder=\"Item SKU\"]')",
+                "operation": "input"
+        },
+        {
+                "attribute": "unit",
+                "expression": "cy.select_by_placeholder('Unit#',data['unit'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('a','Save').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(1500)",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Add New Item').click()",
+                "operation": "click"
+        }
+]

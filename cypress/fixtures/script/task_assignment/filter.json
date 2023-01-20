@@ -1,0 +1,37 @@
+[
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_label('Properties / Asset Groups',data['property'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "team_user",
+    "expression": "cy.contains('label','Teams / Users').parent().find('button').contains(data['team_user']).click({froce:true})",
+    "operation": "select"
+  },
+  {
+    "attribute": "user_type",
+    "expression": "cy.select_by_label('User Types',data['user_type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "show_calendar_for",
+    "expression": "cy.contains('label','Show Calendar For').parent().find('button').contains(data['show_calendar_for']).click({froce:true})",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.task-assignment__body-inner-left').contains('label','Show Calendar From').parent().find('.input-group-addon').click({force:true})",
+    "operation": "click date picker"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.datepicker').find('tbody').find('tr').last().find('td').last().click({force:true})",
+    "operation": "select future date"
+  },
+  {
+    "attribute": "view",
+    "expression": "cy.select_without_type('View',data['view'],'.task-assignment__body-inner-left')",
+    "operation": "select"
+  }
+]

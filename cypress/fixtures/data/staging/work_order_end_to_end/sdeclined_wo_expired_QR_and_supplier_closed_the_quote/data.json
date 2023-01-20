@@ -1,0 +1,34 @@
+{
+  "work_order_title": "Test for supplier closed the quote",
+  "prop_name": "1001 E",
+  "catogory": "Electrical",
+  "subcategory": "Ceiling Fan",
+  "project": "",
+  "priority": "Urgent",
+  "user_assignee": "raj kusam",
+  "lineitems": [
+    {
+      "Item": "test011",
+      "Introduction": "This is introduction"
+    }
+  ],
+  "resolution": "Fire",
+  "room_name": "Undefined Room",
+  "req_type": "Service",
+  "supplier_assignie": "FLOORCOVERINGS R Us",
+  "do_you_know_price": "I don't know the price - Send",
+  "vendor_assignie": "Vendor Assignment - Maintenance",
+  "unit_measurement": "EA (Each)",
+  "quantity": "2",
+  "unit_price": "2",
+  "req_delivery_date": "11/15/2025",
+  "vendor_assignie1": "Vendor Assignment - Maintenance",
+  "workflow": "Maintenance",
+  "workflow1": "Maintenance",
+  "unit_price1": "2",
+  "gl_code": "kJ0HQX6 ( kElep)",
+  "unit_select": "10017701",
+  "scheduled_end_date/time": "11/24/2025 12:00 am",
+  "scheduled_start_date/time": "11/22/2023 12:00 am",
+  "num_no": ""
+}

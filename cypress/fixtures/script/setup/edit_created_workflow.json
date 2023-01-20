@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/workflows')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i[class=\"fa fa-plus-square-o\"]').first().click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a.text-blue2','Edit').first().click({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.placeholder').last().contains('User Type').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "user1",
+    "expression": "cy.get('div.react-dropdown-menu').contains(data['user1']).click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=Save]').click()",
+    "operation": ""
+  }
+]

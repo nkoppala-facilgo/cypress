@@ -1,0 +1,82 @@
+[
+	{
+                "attribute": "prop_name",
+                "expression":"cy.select_by_label_with_enter('PROPERTY',data['prop_name'],2000)",
+                "operation": "select"
+        },
+	{
+                "attribute": "category",
+                "expression":"cy.select_by_label_with_enter('CATEGORY:',data['category'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+	{
+                "attribute": "subcategory",
+                "expression":"cy.select_by_label_with_enter('SUBCATEGORY:',data['subcategory'])",
+                "operation": "select"
+        },
+	{
+                "attribute": "priority",
+                "expression":"cy.select_by_label_with_enter('PRIORITY:',data['priority'],1000)",
+                "operation": "select"
+        },
+	{
+                "attribute": "Item1",
+                "expression":"cy.get('.col-xs-12 > .form-control-required').first()",
+                "operation": "input"
+        },
+	{
+                "attribute": "Introduction",
+                "expression":"cy.get('textarea[placeholder=\"Instruction\"]')",
+                "operation": "input"
+        },
+	{
+                "attribute": "",
+                "expression":"cy.contains('button', 'Save').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(5000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar > .btn-success').contains('Create & Assign').click();",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(1500)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('Work Order was successfully created').should('exist')",
+                "operation": ""
+        },
+	{
+		"attribute": "",
+		"expression":"cy.wait(1000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.btn-primary').contains('button','On Hold').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "reason",
+		"expression":"cy.get('h5').parent().find(`.Select-control`).find('input[role=\"combobox\"]').click({force: true}).type(data['reason'],{force: true}).wait(1000).type('{enter}')",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.modal-footer > .btn-primary').click()",
+		"operation": "click"
+	}
+]

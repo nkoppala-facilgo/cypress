@@ -1,0 +1,77 @@
+[
+    {
+        "attribute": "property_name",
+        "expression": "cy.select_by_label('PROPERTY',data['property_name'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#react-select-2--value > div.Select-value').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": ""
+    },
+    {
+        "attribute": "unit_name",
+        "expression": "cy.select_by_label('UNIT',data['unit_name'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#react-select-3--value > div.Select-value').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": ""
+    },
+    {
+        "attribute": "inspe_title",
+        "expression": "cy.get('label').contains('INSPECTION TITLE:').parent().find('input[type=text]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "due_date",
+        "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "project_name",
+        "expression": "cy.get('label').contains('PROJECT:').parent().find('input[type=text]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": ""
+    },
+    {
+        "attribute": "lineitems",
+        "expression": "/script/inspections/lineitem",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Remove').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Are you sure?').should('exist')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('body > div.sweet-alert.showSweetAlert.visible > div.sa-button-container > div > button').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#inspection-form-buttons > .btn-toolbar > .btn-success').click()",
+        "operation": "click"
+    }
+]

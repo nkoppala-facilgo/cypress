@@ -1,0 +1,217 @@
+[
+	{
+		"attribute": "",
+		"expression": "cy.visit('/dashboards/graph')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.icon-menu-work-order').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('a','Create Work Orders').click()",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "work_order_title",
+		"expression": "cy.get('#title')",
+		"operation": "input"
+	},
+	{
+		"attribute": "property_name",
+		"expression": "cy.select_by_label_with_enter('PROPERTY',data['property_name'],4000)",
+		"operation": "select"
+	},
+	{
+		"attribute": "catogory",
+		"expression": "cy.select_by_label_with_enter('CATEGORY:',data['catogory'],4000)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "subcategory",
+		"expression": "cy.select_by_label_with_enter('SUBCATEGORY',data['subcategory'],2000)",
+		"operation": "select"
+	},
+	{
+		"attribute": "priority",
+		"expression": "cy.select_by_label_with_enter('PRIORITY:',data['priority'],1000)",
+		"operation": "select"
+        },
+	{
+		"attribute": "lineitems",
+		"expression": "/script/work_order/lineitems",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.btn-toolbar > .btn-success').contains('Create & Assign').click();",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(2000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('Work Order was successfully created').should('exist')",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Goto Summary').click({ force: true })",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(3000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.document-action-buttons button').contains('Next Steps').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "room_name",
+		"expression":"cy.select_by_placeholder('Select...',data['room_name'])",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('#MappedItemsListModalTab-tab-Catalog').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "req_type",
+		"expression":"cy.select_by_placeholder('Select a type',data['req_type'])",
+		"operation": "select"
+	},
+        {
+                "attribute": "",
+                "expression":"cy.get('.Select-value-label').eq(1).click().wait(3000).get('.Select-menu-outer .Select-option').contains('Only Inventory Items').click()",
+                "operation": "click()"
+        },
+	
+	{
+		"attribute": "",
+		"expression":"cy.get('.Select-value').contains('Service').click()",
+		"operation": "select"
+	},
+	
+	{
+		"attribute": "supplier_assignie",
+		"expression":"cy.select_by_placeholder('Type here to search',data['supplier_assignie'],0)",
+		"operation": "select"
+	},
+	
+	{
+		"attribute": "",
+		"expression":"cy.get('.padding-right-one .toggle-group label').contains('Show Suggested Items').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "catlog_product",
+		"expression":"cy.get('input[placeholder=\"Search Catalog Product\"]').first()",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(6000)",
+		"operation": ""
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.wrap-list__list-item .wrap-list__indicator').first().click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Use Inventory Item').click()",
+		"operation": "click"
+	},
+	{
+                "attribute": "",
+                "expression":"cy.contains('button','OK').click()",
+                "operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.get('.btn-toolbar .pull-right').contains('Close').click()",
+		"operation": "click"
+	},
+	{
+                "attribute": "",
+                "expression":"cy.contains('button','Return Items').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression":"cy.get('.modal-footer  .btn-toolbar .btn-primary').contains('Return Items to the same Property').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.wait(3000)",
+                "operation": ""
+        },
+	{
+                "attribute": "inventory_item ",
+                "expression":"cy.select_by_placeholder('Select...',data['inventory_item'])",
+                "operation": "select"
+	},
+	{
+                "attribute": "return_quantity",
+                "expression":"cy.get('input[placeholder=\"Return Quantity\"]').first()",
+                "operation": "input"
+	},
+	
+	{
+                "attribute": "return_reason",
+                "expression":"cy.get('textarea[placeholder=\"Return reason\"]').first()",
+                "operation": "input"
+	},
+        {
+                "attribute": "",
+                "expression":"cy.get('.pull-right .btn-primary').contains('Submit').click()",
+                "operation": "click"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.wait(2000)",
+		"operation": ""
+	},
+        {
+                "attribute": "",
+                "expression": "cy.contains('Return Inventory Item successfully!').should('exist')",
+                "operation": ""
+        }
+    
+]

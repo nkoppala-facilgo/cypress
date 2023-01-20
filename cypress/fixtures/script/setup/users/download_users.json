@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Download Users').click();",
+    "operation": "click"
+  }
+]

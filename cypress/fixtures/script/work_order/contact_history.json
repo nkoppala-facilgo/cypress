@@ -1,0 +1,69 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('a.btn-show-work-order.media-block').last().dblclick({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(10000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.active > .wrapper-button > .btn','Save Call Record').click()",
+    "operation": ""
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Submit').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Recorded successfully.').should('exist')",
+    "operation": ""
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','On Hold').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "reason",
+    "expression": "cy.contains('h5','Reason: ').parent().find(`.Select-control `).within(()=>{cy.get('input[role=\"combobox\"]').click({force: true}).type(data['reason'],{force: true}).wait(3000).type('{enter}')})",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.modal-scrollable-important.modal.fade.in').find(' div.modal-footer > button.btn.btn.btn-primary').contains('Save').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','OK').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('#document-scroll-search').find(`div.js-work-order-status`).contains('OnHold').should('exist')",
+    "operation": ""
+  }
+]

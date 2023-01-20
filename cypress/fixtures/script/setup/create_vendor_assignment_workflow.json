@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Work Order Workflows').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button', 'New Workflow').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('label', 'Workflow Type').parents(`.form-group`).find(`.Select-value`).click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "workflow_type",
+    "expression": "cy.get(`[class*='-menu-outer']`).contains(this.data['workflow_type']).click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.placeholder').eq(1).contains('User Type').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "user",
+    "expression": "cy.get('div.react-dropdown-menu').contains(this.data['user']).click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i.fa.fa-remove').click()",
+    "operation": ""
+  }
+]

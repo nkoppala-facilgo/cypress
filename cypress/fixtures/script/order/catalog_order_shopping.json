@@ -1,0 +1,49 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.facilgo-form__inline-wrapper > .facilgo-form__form-group--inline > .facilgo-button'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.facilgo-button').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.facilgo-marketplace__cart-button').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.facilgo-section__image-wrapper'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get(' .btn-toolbar-flex .facilgo-button').eq(1).click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.waitUntil(() =>cy.get('.confirm'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.confirm').contains('button','OK').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.waitUntil(() =>cy.get('.btn-toolbar > .btn-default').contains('a','Goto Shopping Cart'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar > .btn-default').contains('a','Goto Shopping Cart').click()",
+                "operation": "click"
+        }
+]
+
+

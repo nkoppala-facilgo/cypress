@@ -1,0 +1,37 @@
+[
+	{
+		"attribute": "property",
+		"expression": "cy.select_by_label('Region(s) or Property(ies):',data['property'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "quote_request",
+		"expression": "cy.select_by_label('QR#(s):',data['quote_request'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "test",
+		"expression": "cy.select_by_label('Unit Address(es):',data['test'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "test",
+		"expression": "cy.select_by_label('Quote Request Title(s):',data['test'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "test",
+		"expression": "cy.select_by_label('Supplier(s):',data['test'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "test",
+		"expression": "cy.select_by_label('Status(es):',data['test'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Search').click()",
+		"operation": "click"
+	}
+]

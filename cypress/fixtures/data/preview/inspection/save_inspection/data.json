@@ -1,0 +1,16 @@
+{
+  "prop_name": "0N084 ELMWOOD St WINFIELD, IL 60190",
+  "unit": "9n089901",
+  "inspection_title": "",
+  "item_name": "",
+  "due_date": "06/29/2022",
+  "date_from":"05/09/2022",
+  "date_to": "04/21/2025",
+  "base_line": "FKH Facilgo PVU813456",
+  "file_path": "data/preview/assets/images/pic.jpg",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ]
+}

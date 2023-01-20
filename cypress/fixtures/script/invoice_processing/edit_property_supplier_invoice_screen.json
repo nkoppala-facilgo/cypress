@@ -1,0 +1,92 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Invoice Images').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Upload File').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('#invoice-processing-file-dropzone').attachFile(this.data['file_path']);",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-left > .btn-primary').contains('Upload').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.fa-filter').click({multiple:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "requester",
+    "expression": "cy.select_by_label_new('Requester:',data['requester'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "status",
+    "expression": "cy.select_by_label_new('Status:',data['status'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[value=Search]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item').its('length').should('be.gt', 0)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(() => true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item.btn-show-document-head').first().dblclick({force: true})",
+    "operation": ""
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_p_new('Assignee :',data['assignee'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Successfully updated Assignee.').should('exist');",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Invoice Images').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('li.list-group-item.btn-show-document-head').first().dblclick({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a.btn.btn-primary', 'Create Invoice').click({force: true});",
+    "operation": "click"
+  }
+]

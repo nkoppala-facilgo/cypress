@@ -1,0 +1,12 @@
+[
+        {
+                "attribute": "due_date",
+                "expression": "cy.select_by_calendar('#due-date', data['due_date'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "service_date",
+                "expression": "cy.select_by_calendar('#requested-service-date', data['service_date'])",
+                "operation": "select"
+        }
+]

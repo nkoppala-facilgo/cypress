@@ -1,0 +1,114 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.contains('button', 'Next Steps').click()",
+                "operation": "click"
+       },
+       {
+               "attribute": "",
+               "expression": "cy.get('#MappedItemsListModalTab-tab-Catalog').click({force: true})",
+               "operation": "click"
+        },
+        {
+                "attribute": "req_type",
+                "expression": "cy.select_by_placeholder('Select a type',data['req_type'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.Select-value-label').eq(0).click().wait(3000).get('.Select-menu-outer .Select-option').eq(1).click()",
+                "operation": "click()"
+        },
+        {
+                "attribute": "supplier_assignie",
+                "expression": "cy.select_by_placeholder_with_enter('Type here to search',data['supplier_assignie'],3000)",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.waitUntil(() =>cy.get('input[placeholder=\"Search Catalog Product\"]'));",
+                "operation": ""
+        }
+        ,
+        {
+                "attribute": "catalog_product",
+                "expression":"cy.get('input[placeholder=\"Search Catalog Product\"]').first().click()",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.waitUntil(() =>cy.get('.wrap-list__nested-list .wrap-list__list-item > i'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.wrap-list__nested-list .wrap-list__list-item > i').first().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('.btn-toolbar button').contains('Add to Cart').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.waitUntil(() =>cy.get('.confirm'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.confirm').contains('button','OK').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "vendor_assignie",
+                "expression":"cy.select_by_upper_label('Vendor Assignment Workflow',data['vendor_assignie'],3000)",
+                "operation": "select"
+        },	
+        {
+                "attribute": "gl_code",
+                "expression": "cy.select_by_placeholder_using_selector('GL Code',data['gl_code'])",
+                "operation": "click"
+        },
+        {
+                "attribute": "unit_select",
+                "expression":"cy.select_by_placeholder_using_selector('Select Unit',data['unit_select'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('button','Checkout').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.list-group-item > .fa').last());",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression":"cy.get('.list-group-item > .fa').last().click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression":"cy.contains('--- Select Inventory Item ---').parent().click().type('Carpet').type('{enter}')",
+                "operation": "click"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.waitUntil(() =>cy.get('.modal-dialog .modal-content .modal-footer .pull-right'));",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get(' .modal-dialog .modal-content .modal-footer .btn-default').contains('Do Not Save All Items').click()",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('Checkout').should('exist')",
+                "operation": ""
+        }
+]
+

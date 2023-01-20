@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.page_next > .white-box').click();",
+    "operation": "click"
+  }
+]

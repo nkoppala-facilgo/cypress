@@ -1,0 +1,12 @@
+{
+  "file_path": "data/staging/assets/images/pic.jpg",
+  "status": "Unassigned",
+  "assignee": "random manager",
+  "invoice_date": "08/30/2022",
+  "invoice_number": "",
+  "supplier_name": "Barnett",
+  "property_name": "1615 S Parkside",
+  "workflow": "Maintenance",
+  "product": "test",
+  "price": "1"
+}

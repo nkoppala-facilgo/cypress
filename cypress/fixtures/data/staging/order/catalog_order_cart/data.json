@@ -1,0 +1,9 @@
+{
+        "req_type":"Service",
+        "supplier_assignie":"FLOOR",
+        "catalog_product":"ocuupied",
+        "vendor_assignie":"Maintenance",
+        "workflow":"Maintenance",
+        "gl_code":"Office",
+        "unit_select":"10017701"
+}

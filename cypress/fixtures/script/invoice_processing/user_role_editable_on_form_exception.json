@@ -1,0 +1,152 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Processing').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Images').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Upload File').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#invoice-processing-file-dropzone').attachFile(data['file_path'])",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.pull-left > .btn-primary').contains('Upload').dblclick({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Successfully uploaded file(s).').should('exist')",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Processing').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Images').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.fa-filter').click({multiple: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label_new('Status:', data['status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('input[value=Search]').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('#js-react-InvoiceProcessingPage').find('div').find('li').first().click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "assignee",
+        "expression": "cy.select_by_p_new('Assignee :', data['assignee'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.box-body-header').contains('a', 'Create Invoice').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "invoice_date",
+        "expression": "cy.select_by_calendar_using_label('INVOICE DATE:', data['invoice_date'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "invoice_number",
+        "expression": "cy.get('input[name=\"invoice[invoice_number]\"]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "supplier_name",
+        "expression": "cy.select_by_label('SUPPLIER:', data['supplier_name'], 3000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(3000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "property_name",
+        "expression": "cy.select_by_label('PROPERTY:', data['property_name'], 3000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "workflow",
+        "expression": "cy.select_by_label('WORKFLOW:', data['workflow'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "product",
+        "expression": "cy.get('input[placeholder=Item]').type(data['product'], {force: true})",
+        "operation": ""
+    },
+    {
+        "attribute": "price",
+        "expression": "cy.get('input[placeholder=Price]').type(data['price'], {force: true})",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('a.btn.btn-success').contains('Save').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('span', 'Submit').parent().parent().find(`.Select-input input`).click({force: true}).clear({force: true}).type('Exception', {force: true}).wait(3000).type('{enter}', {force: true})",
+        "operation": ""
+    },
+    {
+        "attribute": "exception",
+        "expression": "cy.select_by_label_new('EXCEPTION:', data['exception'], 2000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "user_role",
+        "expression": "cy.select_by_label_new('(by User Role):', data['user_role'], 3000)",
+        "operation": "select"
+    }
+]

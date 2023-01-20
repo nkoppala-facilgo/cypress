@@ -1,0 +1,37 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Edit').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(1000)",
+        "operation": "wait"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Update Status').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "- Select Status -",
+        "expression": "cy.select_by_placeholder('- Select Status -',data['- Select Status -'],4000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "- Select Reason -",
+        "expression": "cy.select_by_placeholder('- Select Reason -',data['- Select Reason -'],4000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('body > div:nth-child(28) > div > div.modal-scrollable-important.modal.fade.in > div > div > div.modal-footer > button.btn.btn-primary').click({force:true})",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Work Order status changed successfully.').should('exist')",
+        "operation": ""
+    }
+]

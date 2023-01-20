@@ -1,0 +1,16 @@
+{
+  "requester": "PMC Staging",
+  "status": "Unassigned",
+  "file_path": "data/staging/assets/images/boxer.jpg",
+  "invoice_date": "06/26/2022",
+  "supplier": "Barnett",
+  "property": "1615 S Parkside",
+  "workflow": "2022 maintenance",
+  "gl_code": "Refrigerator replacements (11236)",
+  "unit": "10018001",
+  "product": "test",
+  "price": "1",
+  "invoice_name": "Submit",
+  "assignee": "Staging Test PMC"
+}
+  

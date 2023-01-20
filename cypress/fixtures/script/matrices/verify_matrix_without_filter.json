@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-left').find('.pagination').find('li').contains('a','First').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "Filter_Matrix",
+    "expression": "cy.select_by_placeholder('Matrices', this.data.Filter_Matrix);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.reload();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(10000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.goto_pagination_last_page('.pull-left','Last');",
+    "operation": ""
+  }
+]

@@ -1,0 +1,57 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.get('.fa-filter').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "asset_groups",
+		"expression":"cy.select_by_label('Asset Group(s)',data['asset_groups'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "property_name",
+		"expression":"cy.select_by_label('Property Names:',data['property_name'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "property_code",
+		"expression":"cy.select_by_label('Property Codes:',data['property_code'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "cities",
+		"expression":"cy.select_by_label('Cities:',data['cities'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "states",
+		"expression":"cy.select_by_label('States:',data['states'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "zipcode",
+		"expression":"cy.select_by_label('Zip Codes:',data['zipcode'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "property_status",
+		"expression":"cy.select_by_label('Property Statuses:',data['property_status'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression":"cy.contains('button','Search').click()",
+		"operation": "click"
+	}
+]

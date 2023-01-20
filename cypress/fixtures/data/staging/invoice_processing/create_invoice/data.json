@@ -1,0 +1,12 @@
+{
+  "requester": "random manager",
+  "status": "Unassigned",
+  "file_path": "data/staging/assets/images/boxer.jpg",
+  "invoice_date": "02/19/2022",
+  "supplier": "Barnett",
+  "property": "1615 S Parkside",
+  "workflow": "Maintenance",
+  "product": "test",
+  "price": "1",
+  "assignee": "kmurai+fkhstagingtech2aphoenix kmurai+fkhstagingtech2aphoenix"
+}

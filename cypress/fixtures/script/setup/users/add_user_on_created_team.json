@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('#team-summary-dropdown').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('span', 'Edit').click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span.Select-value-icon', '×').click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "user",
+    "expression": "cy.select_by_label('Users',data['user'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('.btn-primary', 'Save').click({ force: true })",
+    "operation": "click"
+  }
+]

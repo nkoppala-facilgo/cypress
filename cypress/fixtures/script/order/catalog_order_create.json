@@ -1,0 +1,55 @@
+[     
+    
+    {
+        "attribute": "title",
+        "expression": " cy.get('#title')",
+        "operation": "input"
+    },
+    {
+        "attribute": "property_name",
+        "expression": "cy.select_by_label_with_enter('PROPERTY:',data['property_name'],3000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "category",
+        "expression": "cy.select_by_label_with_enter('CATEGORY:',data['category'],2000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "priority",
+        "expression": "cy.select_by_label_with_enter('PRIORITY',data['priority'],2000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "subcategory",
+        "expression": "cy.select_by_label_with_enter('SUBCATEGORY:',data['subcategory'],2000)",
+        "operation": "select"
+    },
+    {
+        "attribute": "lineitems",
+        "expression": "/script/order/lineitems",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Remove').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button','Create & Assign').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.waitUntil(() =>cy.get('.dropup > .btn-default'));",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Goto Summary').click()",
+        "operation": "click"
+    }
+]
+
+

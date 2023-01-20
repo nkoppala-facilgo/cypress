@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "project_name",
+    "expression": "cy.get('label').contains('PROJECT NAME :').parent().find('input[type=text]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label('ASSIGNEE :', data['assignee'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "region_property",
+    "expression": "cy.select_by_label('REG / PROP COVERAGE :', data['region_property'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label('#UNIT :', data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Save').click({force:true})",
+    "operation": "click"
+  }
+]

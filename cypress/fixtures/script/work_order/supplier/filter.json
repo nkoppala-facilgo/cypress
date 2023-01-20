@@ -1,0 +1,107 @@
+[
+	{
+		"attribute": "",
+		"expression": "cy.get('.fa-filter').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "cbsa",
+		"expression": "cy.select_by_label('Cbsa(s) or Property(es)',data['cbsa'],0)",
+		"operation": "select"
+	},	
+	{
+		"attribute": "keyword",
+		"expression": "cy.get('input[placeholder=\"WO Title / Item Name\"]')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "unit_address",
+		"expression": "cy.select_by_label('Unit Address(es)',data['unit_address'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "wo_number",
+		"expression":"cy.select_by_label('WO#(s)',data['wo_number'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "wo_title",
+		"expression":"cy.select_by_label('Work Order Title(s)',data['wo_title'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "wo_type",
+		"expression":"cy.select_by_label('Work Order Type',data['wo_type'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "wo_subtype",
+		"expression": "cy.select_by_label('Work Order Subtype',data['wo_subtype'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "priority",
+		"expression": "cy.select_by_label('Priority(ies)',data['priority'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "mtcr",
+		"expression": "cy.select_by_label('MTCREQID(S)',data['mtcr'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "assignie",
+		"expression": "cy.select_by_label('Assignee(s)',data['assignie'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "status",
+		"expression": "cy.select_by_label('Status(es)',data['status'],0)",
+		"operation": "select"
+	},
+	{
+		"attribute": "requested_from",
+		"expression":"cy.select_by_calendar_using_label('REQUESTED SVC DATE',data['requested_from'],'From')",
+		"operation": "select"
+	},
+	{
+		"attribute": "requested_to",
+		"expression":"cy.select_by_calendar_using_label('REQUESTED SVC DATE',data['requested_from'],'To')",
+		"operation": "select"
+	},
+	{
+		"attribute": "due_date_from",
+		"expression":"cy.select_by_calendar_using_label('Work Order Due Date',data['requested_from'],'From')",
+		"operation": "select"
+	},
+	{
+		"attribute": "due_date_to",
+		"expression":"cy.select_by_calendar_using_label('Work Order Due Date',data['requested_from'],'To')",
+		"operation": "select"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.get('.react-tagsinput').click()",
+		"operation": "click"
+	},
+	{
+		"attribute": "hashtag",
+		"expression": "cy.get('.react-tagsinput--focused')",
+		"operation": "input"
+	},
+	{
+		"attribute": "",
+		"expression": "cy.contains('button','Search').click()",
+		"operation": "click"
+	}
+]

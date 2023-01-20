@@ -1,0 +1,37 @@
+[
+        {
+                "attribute": "pmc_name",
+                "expression": "cy.get('.Select-placeholder').contains('PMC Company').get('.Select-input input')",
+                "operation": "input"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.wait(2000)",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('input[aria-expanded=\"true\"]').type('{enter}',' { force: true }')",
+                "operation": ""
+        },
+        {
+                "attribute": "sendgrid_email_template_id",
+                "expression": "cy.get('#sendgrid-email-template-id').type(data['sendgrid_email_template_id'])",
+                "operation": ""
+        },
+        {
+                "attribute": "email_subject",
+                "expression": "cy.get('#email-subject').type(data['email_subject'])",
+                "operation": ""
+        },
+        {
+                "attribute": "email_content",
+                "expression": "cy.get('.public-DraftStyleDefault-block').eq(1).type(data['email_content'])",
+                "operation": ""
+        },
+        {
+                "attribute": "",
+                "expression": "cy.contains('button','Create').click({ force: true })",
+                "operation": ""
+        }
+]

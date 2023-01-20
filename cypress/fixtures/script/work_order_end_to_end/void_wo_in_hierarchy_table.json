@@ -1,0 +1,12 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.get('button[class=\"btn btn-sm btn-danger\"]').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Yes').click()",
+        "operation": "click"
+    }
+]

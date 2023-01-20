@@ -1,0 +1,38 @@
+[
+    {
+      "attribute": "",
+      "expression": "cy.get('#tab-wo-related-docs-pane-Quote-0').find('div').find('button').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "gl_code",
+      "expression": " cy.select_by_upper_label('GL Code', data['gl_code'])",
+      "operation": "select"
+    },
+    {
+      "attribute": "unit_select",
+      "expression": "cy.select_by_placeholder_using_selector('Select Unit', data['unit_select'])",
+      "operation": "select"
+    },
+    {
+      "attribute": "req_delivery_date",
+      "expression": "cy.select_by_calendar_using_label('Requested Delivery Date', data['req_delivery_date'])",
+      "operation": "select"
+    },
+    {
+      "attribute": "workflow",
+      "expression": "cy.select_by_placeholder('Select...', data['workflow'])",
+      "operation": "select"
+    },
+    {
+      "attribute": "vendor_assignie1",
+      "expression": "cy.select_by_upper_label('Vendor Assignment Workflow', data['vendor_assignie1'])",
+      "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('button', 'Checkout').click({force: true})",
+        "operation": "click"
+    }
+]
+  

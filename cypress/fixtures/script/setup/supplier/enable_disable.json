@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.page_last > .white-box').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get(':nth-child(1) > .toggle > .toggle-group > .active').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get(':nth-child(1) > .toggle > .toggle-group > .btn-primary').first().click({force: true});",
+    "operation": "click"
+  }
+]

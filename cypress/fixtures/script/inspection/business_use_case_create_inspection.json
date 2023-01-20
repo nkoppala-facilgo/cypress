@@ -1,0 +1,182 @@
+[
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get(`i[class='clickable-icon fa fa-chevron-circle-down']`).click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "project_name",
+    "expression": "cy.contains('label', 'PROJECT:').parent().find('input[type=text]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "inspection_id",
+    "expression": "cy.contains('label', 'EXT. INSPECTION ID:').parent().find('input[type=text]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "inspection_type",
+    "expression": "cy.contains('label', 'INSPECTION TYPE:').parent().find('select').first()",
+    "operation": "input"
+  },
+  {
+    "attribute": "display_comment",
+    "expression": "cy.contains('label', 'DISPLAY INTERNAL COMMENT:').parent().find('select').first()",
+    "operation": "input"
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label_with_enter('ASSIGNEE:',data['assignee'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "move_in_date",
+    "expression": "cy.select_by_calendar_using_label('MOVE-IN DATE:', data['move_in_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "image_path",
+    "expression": "cy.get(`div[class='single-image-input__label-wrapper']`).find('input[type=file]').attachFile(data['image_path'])",
+    "operation": "upload_file"
+  },
+  {
+    "attribute": "file_paths",
+    "expression": "cy.contains('span.linkable-text','Attach File(s)').parents('div.attachment-form.form-group').find('input[type=file]').first().attachFile(data['file_paths'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Add Schedule..').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "recurring",
+    "expression": "cy.select_by_label('Recurring:', data['recurring'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "recurring_every",
+    "expression": "cy.select_by_label('Recurring every:', data['recurring_every'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "end_date",
+    "expression": "cy.select_by_calendar_using_label('Recurring end date:', data['end_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Done').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('input[type=\"checkbox\"]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "due_date_days_after_creation",
+    "expression": "cy.get('input[data-allow-float=\"true\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "room",
+    "expression": "cy.select_by_placeholder('Room(s)',data['room'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "instruction",
+    "expression": "cy.get('textarea[placeholder=\"Instructions\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "notes",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.inspections-items__btn-new-item').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "room1",
+    "expression": "cy.select_by_placeholder('Room(s)',data['room'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "instructions1",
+    "expression": "cy.get('textarea[placeholder=\"Instructions\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "note1",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add Items from List').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'next step inventory').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Open').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add All Items').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create & Assign').click({force: true})",
+    "operation": "click"
+  }
+]

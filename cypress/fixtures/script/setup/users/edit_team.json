@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('#team-summary-dropdown > i').last().click() ",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Edit').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "team_name..",
+    "expression": "cy.get('#name').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "asset_group",
+    "expression": "cy.select_by_label('Asset Group',data['asset_group'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-primary').click()",
+    "operation": "click"
+  }
+]

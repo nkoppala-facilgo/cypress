@@ -1,0 +1,13 @@
+{
+    "property_name": "1001 E Seldon Ln Phoenix, AZ 85020",
+    "inspection_title": "next step inspection",
+    "due_date": "09/28/2022",
+    "notes": "not cleaned",
+    "note": "item  is not good",
+    "note_point": "glass  was broken",
+    "notes_point": "quality not good",
+    "supplier_name": "FLOORCOVERINGS R Us",
+    "workflow": "Maintenance",
+    "unit_price": "1",
+    "unit_prices": "2"   
+}

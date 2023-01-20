@@ -1,0 +1,167 @@
+[
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label('PROPERTY:', data['property_name'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:', data['due_date']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "Introduction",
+    "expression": "cy.get('textarea[placeholder=\"Instructions\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Add Items from List').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span', 'Inspection 1001 E').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer > .btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Add All Items').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#inspection-form-buttons > .btn-toolbar > .btn-success').wait(4000).click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "notes",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]').eq(1).wait(3000).click({force: true});",
+    "operation": "input"
+  },
+  {
+    "attribute": "note",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]').eq(2).wait(2000).click({force: true});",
+    "operation": "input"
+  },
+  {
+    "attribute": "note_point",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]').eq(3).wait(4000).click({force: true});",
+    "operation": "input"
+  },
+  {
+    "attribute": "notes_point",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]').eq(4).wait(4000).click({force: true});",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#inspection-form-buttons > .btn-toolbar > .btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i[class=\"clickable-icon fa fa-circle grouped-items__circle-indicator grouped-items__circle-indicator--bg-color-2\"]').first().wait(4000).click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i[class=\"clickable-icon fa fa-circle grouped-items__circle-indicator grouped-items__circle-indicator--bg-color-4\"]').last().wait(4000).click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#inspection-form-buttons > .btn-toolbar > .btn-primary').click({force: true}).wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn-responsive btn btn-info\"]').contains('button', 'Next Steps').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Non Catalog').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Red-Yellow to Non-Catalog Items').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "supplier_name",
+    "expression": "cy.select_by_label('Supplier', data['supplier_name'],15000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label('Workflow', data['workflow'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "req_delivery_date",
+    "expression": "cy.select_by_calendar_using_label('Req Delivery Date', data['req_delivery_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]').eq(0).wait(2000);",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn btn-success\"]').contains('button', 'Save').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn btn-success\"]').contains('button', 'Save').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn btn-success\"]').contains('button', 'Create').click({force: true}).wait(5000)",
+    "operation": "click"
+  }
+]

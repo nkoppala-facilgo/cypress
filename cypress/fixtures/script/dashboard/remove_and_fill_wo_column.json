@@ -1,0 +1,7 @@
+[
+	{
+		"attribute": "name",
+		"expression":"cy.remove_and_add_wo_items_in_column(data['name']);",
+		"operation": ""
+	}
+]

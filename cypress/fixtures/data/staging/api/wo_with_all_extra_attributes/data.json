@@ -1,0 +1,29 @@
+{ 
+    "property_code": "23509702",
+    "extra_attrs": [
+        "company",
+        "property",
+        "supplier",
+        "unit",
+        "assignee",
+        "resident",
+        "address",
+        "region",
+        "related_urls",
+        "related_docs",
+        "maintenance_category",
+        "maintenance_problem",
+        "user_submarket",
+        "work_order_type",
+        "work_order_subtype",
+        "work_order_priority",
+        "custom_field_data",
+        "custom_value_reason",
+        "work_order_action_code",
+        "workflows",
+        "work_order_resolution",
+        "work_order_items",
+        "pictures",
+        "hashtags"
+    ]
+}

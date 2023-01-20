@@ -1,0 +1,22 @@
+[
+	{
+		"attribute": "",
+		"expression":"cy.contains('Add Unit').click()",
+		"operation": "click"
+	},
+        {
+		"attribute": "address",
+		"expression":"cy.wait(5000)",
+		"operation": ""
+	},
+	{
+		"attribute": "unit_name",
+		"expression":"cy.get('#unit_name')",
+		"operation": "input"
+	},
+        {
+		"attribute": "",
+		"expression":"cy.get('input[type=\"submit\"]').click()",
+		"operation": "click"
+	}
+]

@@ -1,0 +1,132 @@
+[
+        {
+                "attribute": "",
+                "expression": "cy.get('.document-action-buttons button').contains('Next Steps').click()",
+                "operation": "click"
+        },
+        {
+                "attribute": "room_name",
+                "expression": "cy.select_by_placeholder('Select...',data['room_name'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "",
+                "expression": "cy.get('#MappedItemsListModalTab-tab-Catalog').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "req_type",
+                "expression": "cy.select_by_placeholder('Select a type',data['req_type'])",
+                "operation": "select"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('.Select-value-label').contains('Both').click({ force: true })",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression":"cy.get('.Select-value').contains('Service').click({ force: true })",
+                "operation": "select"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('#MappedItemsListModalTab a').contains('Child WO').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.wait(1000)",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('.margin-top-bottom-10').contains('Hide Uncompleted Items').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.get('div.wrap-list > ol > li > span > label').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.contains('button','Create Work Order').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "work_order_new",
+                "expression": "cy.get('.form-group-sm .form-control-required').first()",
+                "operation": "input"
+        },
+	{
+                "attribute": "new_workorder_type",
+                "expression": "cy.select_by_upper_label('Category',data['new_workorder_type'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "new_workorder_subtype",
+                "expression": "cy.select_by_upper_label('SubCategory',data['new_workorder_subtype'])",
+                "operation": "select"
+        },
+        {
+                "attribute": "new_priority",
+                "expression": "cy.select_by_upper_label('Priority',data['new_priority'])",
+                "operation": "select"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.wait(1000)",
+                "operation": ""
+        },
+	{
+                "attribute": "",
+                "expression":"cy.get('.fa-pencil-square').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.wait(1000)",
+                "operation": ""
+        },
+	{
+                "attribute": "Introduction",
+                "expression":"cy.get('textarea[placeholder=\"Instruction\"]')",
+                "operation": "input"
+        },
+	{
+		"attribute": "",
+		"expression":"cy.get(' .btn-toolbar > .btn-success').contains('Save').click()",
+		"operation": "click"
+	},
+	{
+                "attribute": "",
+                "expression":"cy.get('.btn-toolbar > .btn-success').contains('button', 'Create').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression":"cy.wait(1000)",
+                "operation": ""
+        },
+        {
+		"attribute": "",
+		"expression": "cy.contains('Work Order Successfully Saved').should('exist')",
+		"operation": ""
+	},
+	{
+                "attribute": "",
+                "expression": "cy.get('.btn-info').contains('Save').click()",
+                "operation": "click"
+        },
+	{
+                "attribute": "",
+                "expression": "cy.wait(1000)",
+                "operation": ""
+        },
+        {
+		"attribute": "",
+		"expression": "cy.contains('Work Order was successfully updated').should('exist')",
+		"operation": ""
+	}
+]

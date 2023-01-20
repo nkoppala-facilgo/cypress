@@ -1,0 +1,19 @@
+{
+    "property_code": "10018001",
+    "start_date": "2022-08-31T00:00:00Z",
+    "end_date": "2022-09-14T00:00:00Z",
+    "match_all_skills": false,
+    "user_types": [
+      "Tech Level 1",
+      "Tech Level 2",
+      "Tech Level 3 HVAC",
+      "Tech Level 3 Plumbing",
+      "Tech Level 3 Electrical"
+    ],
+    "extra_attrs": [
+      "skills"
+    ],
+    "agent": {
+      "email": "fmssupport@firstkeyhomes.com"
+    }
+  }

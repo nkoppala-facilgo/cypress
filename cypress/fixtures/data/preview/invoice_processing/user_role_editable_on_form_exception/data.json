@@ -1,0 +1,14 @@
+{
+    "file_path": "data/preview/assets/images/boxer.jpg",
+    "status": "Unassigned",
+    "assignee": "SFR FKH Preview PMC",
+    "invoice_date": "02/19/2022",
+    "invoice_number": "",
+    "supplier_name": "#174",
+    "property_name": "1001 W",
+    "workflow": "Maintenance",
+    "product": "test",
+    "price": "1",
+    "exception": "Admin",
+    "user_role": "Field Admin"
+}

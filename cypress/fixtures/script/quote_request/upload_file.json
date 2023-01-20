@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "file_path",
+    "expression": "cy.contains('span.linkable-text','Attach File(s)').parents('div.attachment-form.form-group').find('input[type=file]').first().attachFile(data['file_path'])",
+    "operation": ""
+  }
+]

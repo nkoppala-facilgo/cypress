@@ -1,0 +1,9 @@
+{
+  "req_type": "Service",
+  "supplier_assignie": "Supplier 1",
+  "catalog_product": "Vinyl",
+  "vendor_assignie": "Maintenance",
+  "workflow": "Maintenance",
+  "gl_code": "{gl_code}",
+  "unit_select": ""
+}

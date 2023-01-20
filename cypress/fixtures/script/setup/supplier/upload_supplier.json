@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Upload Suppliers').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('input[accept=\".xlsx\"]').attachFile(data['file_path'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-content > .modal-footer > .btn-primary').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.confirm').click()",
+    "operation": "click"
+  }
+]

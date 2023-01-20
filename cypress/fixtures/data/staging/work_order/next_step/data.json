@@ -1,0 +1,34 @@
+{
+  "work_order_title": "test4321",
+  "property_id": "1001",
+  "prop_name": "1001",
+  "type_name": "",
+  "catogory":"Electrical",
+  "subcategory": "Switches",
+  "priority": "Urgent",
+  "subtype": "",
+  "asignee": "",
+  "lineitems":
+	[
+		{
+		    "Item":"test011",
+		    "Introduction":"This is introduction",
+		    "file_path":"data/staging/assets/images/pic.jpg",
+		    "Notes" : "this is test note"
+	  }
+  ],
+  "room_name": "Undefined Room",
+  "req_type": "Service",
+  "display_item": "Catalog",
+  "supplier_assignie": "FLOORCOVERINGS",
+  "vendor_assignie": "Vendor",
+  "do_you_know_price": "I don't know the price - Send a quote request",
+  "quantity": "1",
+  "unit_measurement": "EA",
+  "due_date": "06/03/2022",
+  "service_date": "11/10/2022",
+  "internal_notes": "This is a test text",
+  "quote_expires": "12/08/2022",
+  "unit_price": "12",
+  "vendor_assignment": "Vendor Assignment - Maintenance"
+}

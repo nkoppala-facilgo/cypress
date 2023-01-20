@@ -1,0 +1,67 @@
+[
+    {
+        "attribute": "cbsa_or_property",
+        "expression": "cy.select_by_label_with_enter('Cbsa(s) or Property(es):', data['cbsa_or_property'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "date_type",
+        "expression": "cy.select_by_label_with_enter('Date Type:', data['date_type'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "date_from",
+        "expression": "cy.select_by_calendar_using_label('Date Range:', data['date_from'], 'From')",
+        "operation": "select"
+    },
+    {
+        "attribute": "date_to",
+        "expression": "cy.select_by_calendar_using_label('Date Range:', data['date_to'], 'To')",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": ""
+    },
+    {
+        "attribute": "order_number",
+        "expression": "cy.select_by_label_with_enter('PO#:', data['order_number'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "supplier_order",
+        "expression": "cy.select_by_label_with_enter('Supplier Order#:', data['supplier_order'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "hashtag",
+        "expression": "cy.get('input[placeholder=\"Add a tag\"]').type(data['hashtag']).type('{enter}')",
+        "operation": ""
+    },
+    {
+        "attribute": "customer",
+        "expression": "cy.select_by_label_with_enter('Customer(s):', data['customer'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label_with_enter('Status(es):', data['status'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.wait(2000)",
+        "operation": ""
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('button').contains('Search').click()",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.media-body').first().click()",
+        "operation": "click"
+    }
+]

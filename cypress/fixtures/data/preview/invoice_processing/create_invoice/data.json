@@ -1,0 +1,14 @@
+{
+  "requester": "SFR FKH Preview PMC",
+  "status": "Unassigned",
+  "file_path": "data/preview/assets/images/boxer.jpg",
+  "invoice_date": "02/19/2022",
+  "supplier": "#174",
+  "property": "1001 Welkin Street Henderson",
+  "workflow": "Maintenance",
+  "product": "test",
+  "price": "1",
+  "gl_code": "Refrigerator replacements (11236)",
+  "unit": "10018001",
+  "assignee": "entry data"
+}

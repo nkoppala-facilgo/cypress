@@ -1,0 +1,22 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Invoice Processing').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Document Exceptions').click({force: true})",
+        "operation": "click"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.get('.fa-filter').click({multiple: true});",
+        "operation": "click"
+    },
+    {
+        "attribute": "asset_group",
+        "expression": "cy.select_by_label_new('(by Asset Group):', data['asset_group'], 5000)",
+        "operation": "select"
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "prop_name": "Phoenix",
+  "unit": "10017701",
+  "wo_title": "SWO35",
+  "type": "Interior Building",
+  "subtype": "Interior Building- Other",
+  "item_name": "test_data",
+  "priority": "Urgent",
+  "Introduction1": "This is an introduction"
+}

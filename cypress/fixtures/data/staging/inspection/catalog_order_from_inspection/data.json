@@ -1,0 +1,15 @@
+{
+    "property_name": "1001 E Seldon Ln Phoenix",
+    "unit": "1001 S",
+    "inspection_title": "",
+    "item_name": "",
+    "due_date": "06/29/2023",
+    "file_path": "data/staging/assets/images/pic.jpg",
+    "notes": "not working",
+    "supplier_name": "Red Carpet - kenrdtest2",
+    "workflow": "Maintenance",
+    "unit_price": "5",
+    "tax": "8",
+    "req_start_date": "09/06/2023",
+    "unit_of_measure": "EA (Each)"
+}

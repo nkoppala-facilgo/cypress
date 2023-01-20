@@ -1,0 +1,87 @@
+[
+    {
+        "attribute": "",
+        "expression": "cy.visit();",
+        "operation": ""
+      },
+      {
+        "attribute": "",
+        "expression": "cy.wait(7000);",
+        "operation": ""
+      },
+      {
+        "attribute": "",
+        "expression": " cy.contains('Documents').click({force: true});",
+        "operation": ""
+      },
+      {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Inspections').click({ force: true });",
+        "operation": ""
+      },
+      {
+        "attribute": "",
+        "expression": "cy.wait(3000);",
+        "operation": ""
+      },
+      {
+        "attribute": "",
+        "expression": "cy.contains('a', 'Create Inspection').click({ force: true });",
+        "operation": ""
+      },
+      {
+        "attribute": "",
+        "expression": "cy.wait(5000);",
+        "operation": ""
+      },
+  {
+    "attribute": "prop_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['prop_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "title",
+    "expression": "cy.contains('label', 'INSPECTION TITLE:').parent().find(`input`).click({ force: true }).type(data['title'], { force: true })",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-success','Add').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Close').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-success','Create & Assign').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-info','Next Steps').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "room",
+    "expression": "cy.select_by_placeholder('Select...',data['room'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.btn.btn-default','Close').click()",
+    "operation": "click"
+  }
+]

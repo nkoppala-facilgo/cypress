@@ -1,0 +1,72 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-FacilgoLeftNavbar').find('li').contains('a','Lease Audit Report').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-FacilgoLeftNavbar').find('li').find('li').contains('a','Lease Audits').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-LeaseAuditsTable').find('tbody').find('tr').find('td').eq(0).find('a').first().click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('#js-react-LeaseAuditsTable').find('tbody').find('tr').find('td').eq(0).find('li').find('a').first().invoke('removeAttr', 'target').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#js-react-LeaseAuditItemsTable').find('tbody').find('tr').first().contains('span','Edit').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000);",
+    "operation": "wait"
+  },
+  {
+    "attribute": "Tenant_Code",
+    "expression": "cy.contains('p','Tenant Code').parent().parent().find('input').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "Resident_Name",
+    "expression": " cy.contains('p','Resident Name').parent().parent().find('input').clear();",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('p','Asbestos Addendums').parent().parent().find('input[type=checkbox]').uncheck().check();",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.pull-right').contains('button','Update').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Audited Lease Successfully Edited').should('exist');",
+    "operation": ""
+  }
+]

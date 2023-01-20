@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "fixed_asset_type",
+    "expression": "cy.select_by_label('FIXED ASSET TYPE:', data['fixed_asset_type'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "property",
+    "expression": "cy.select_by_placeholder('PROPERTY:', data['property'],5000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "fixed_asset_item",
+    "expression": "cy.get('#fixed-asset-item-name');",
+    "operation": "input"
+  },
+  {
+    "attribute": "purchase_date",
+    "expression": "cy.select_by_calendar_using_label('PURCHASE DATE:', data['purchase_date']);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-success').click()",
+    "operation": "click"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('a[data-remote=true]').contains('Assign').first().dblclick({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute":"",
+    "expression":"cy.wait(20000)",
+    "operation":""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-primary','Request Account#').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('div.modal-body').find(`label input[type=checkbox]`).first().click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-primary','Submit').click({force: true})",
+    "operation": "click"
+  }
+]

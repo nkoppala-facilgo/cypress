@@ -1,0 +1,119 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Next Steps').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "room_name",
+    "expression": "cy.select_by_placeholder('Select...',data['room_name'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab-tab-Catalog').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "req_type",
+    "expression": "cy.select_by_placeholder('Select a type',data['req_type'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.Select-value-label').contains('Both').click({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.Select-value').contains('Service').click({ force: true })",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab a').contains('Supplier Items').click()",
+    "operation": "click"
+  },
+  
+  {
+    "attribute": "do_you_know_price",
+    "expression": "cy.select_with_contain('Do you know the price of the items?',data['do_you_know_price'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "supplier_assignie",
+    "expression": "cy.select_by_placeholder('Type here to search',data['supplier_assignie'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "vendor_assignie",
+    "expression": "cy.select_by_placeholder('Type here to search',data['vendor_assignie'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.padding-right-one .toggle-group label').contains('Hide Uncompleted Items').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('.col-sm-3 > .form-control')",
+    "operation": "input"
+  },
+
+  {
+    "attribute": "",
+    "expression": "cy.get('div.wrap-list > ol > li > span > label').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-toolbar button').contains('Create QR').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "unit_measurement",
+    "expression": "cy.select_by_placeholder('--- Unit of Measurement ---',data['unit_measurement'],0)",
+    "operation": "select"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.contains('label','Quantity').parent().find('input[type=\"number\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.form-group-sm .table-responsive .btn-toolbar').contains('button', 'Save').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Due Date',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Due Date',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "service_date",
+    "expression": "cy.select_by_calendar_using_label_without_clear('Service Date',data['service_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('button[class=\"btn btn-success\"]').contains('button', 'Create').click({force: true}).wait(5000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','OK').click({force: true})",
+    "operation": ""
+  }
+]

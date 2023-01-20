@@ -1,0 +1,7 @@
+[
+  {
+    "attribute": "customer_id",
+    "expression": "cy.get('#supplier-contract-number')",
+    "operation": "input"
+  }
+]

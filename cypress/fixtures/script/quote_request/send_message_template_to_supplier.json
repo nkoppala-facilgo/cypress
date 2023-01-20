@@ -1,0 +1,42 @@
+[
+  {
+    "attribute": "title",
+    "expression": "cy.select_by_label('Quote Request Title(s):',data['title'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button', 'Search').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('a[data-remote=\"true\"]').first().dblclick({ force: true })",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "msg_template",
+    "expression": "cy.get('textarea[placeholder=\"Type here...\"]').type(data['msg_template'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button', 'Save Comment as Template').click()",
+    "operation": ""
+  },
+  {
+    "attribute": "template_name",
+    "expression": "cy.get('#template-name').type(data['template_name'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Save to Template').click()",
+    "operation": ""
+  }
+]

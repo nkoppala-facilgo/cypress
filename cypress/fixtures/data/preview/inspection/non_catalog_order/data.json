@@ -1,0 +1,18 @@
+{
+  "prop_name": "1001 Welkin Street Henderson",
+  "unit": "10018001",
+  "inspection_title": "",
+  "item_name": "",
+  "due_date": "06/29/2022",
+  "lineitems": [
+    {
+      "Notes": "test"
+    }
+  ],
+  "supplier_name": "SFR FKH Preview Supplier",
+  "workflow": "Maintenance",
+  "quantity": "8",
+  "unit_price": "8",
+  "gl_code": "Range & Stove replacements (11238)",
+  "unit_of_measure": "EA (Each)"
+}

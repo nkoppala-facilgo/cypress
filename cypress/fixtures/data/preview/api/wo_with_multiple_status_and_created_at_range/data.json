@@ -1,0 +1,9 @@
+{
+    "property_code" : "23509702",
+    "statuses": "Reserved",
+    "created_date_from" : "2022-10-01",
+    "created_date_to" : "2022-10-31",
+    "extra_attrs": [
+       "work_order_items"
+    ]
+}

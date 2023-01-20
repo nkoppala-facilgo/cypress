@@ -1,0 +1,147 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": " cy.contains('button','Goto Summary').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(2000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','OK').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains(this.data.unit).should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Complete').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Inspection was Completed.').should('exist')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.sa-confirm-button-container').contains('button','OK').click({force:true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Next Steps').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab').find('li').eq(2).find('a').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.wrap-list__nested-list-indicator').find('i').click({force: true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.modal-footer').contains('button','Create Non Catalog Order').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "supplier_name",
+    "expression": " cy.select_by_label_with_enter('Supplier',data['supplier_name'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "workflow",
+    "expression": "cy.select_by_label_with_enter('Workflow',data['workflow'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "quantity",
+    "expression": "cy.get('input[placeholder=\"Quantity\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "unit_price",
+    "expression": "cy.get('input[placeholder=\"Unit Price\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "gl_code",
+    "expression": "cy.select_by_label_with_enter('Gl Code',data['gl_code'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit_of_measure",
+    "expression": "cy.select_by_label_with_enter('Unit Of Measure',data['unit_of_measure'],3000);",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.table-responsive').find('tbody').contains('button','Save').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(3000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create').click({force:true});",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(5000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('Order Successfully Saved').should('exist');",
+    "operation": ""
+  }
+]

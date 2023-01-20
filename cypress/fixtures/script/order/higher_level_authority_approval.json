@@ -1,0 +1,62 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/document_approval_logs')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": ""
+  },
+  {
+    "attribute": "select",
+    "expression": "cy.select_by_placeholder('Select...',data['select'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('[type=\"button\"]').contains('button', '1 Level Down').click({multiple: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(6000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('[type=\"button\"]').contains('button', '1 Level Down').click({multiple: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(6000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": " cy.get('ins.iCheck-helper').eq(1).click({ force: true })",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('.btn-primary','Approve').click()",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(6000)",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button.confirm','OK').click()",
+    "operation": "click"
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+      "attribute": "",
+      "expression": "cy.get('.js-userguiding-icon-menu-settings').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('a', 'Users').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('a', 'User Types').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('td', 'Tech Level 1').parent().find('td').first().find('li').find('a').find('.caret').click({multiple: true})",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('span', 'Edit').click({force: true})",
+      "operation": "click"
+    },
+
+    {
+      "attribute": "",
+      "expression": "cy.contains('td', 'Invoice Processing Exception').parent().find('td').eq(6).find('i').click()",
+      "operation": "click"
+    },
+    {
+      "attribute": "",
+      "expression": "cy.contains('button', 'Save').click()",
+      "operation": "click"
+    }
+]

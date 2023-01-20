@@ -1,0 +1,42 @@
+[
+	{
+		"attribute": "email",
+		"expression": "cy.get(\"input[name='filter[email]']\")",
+		"operation": "input"
+	},
+	{
+		"attribute": "first_name",
+		"expression": "cy.get(\"[name='filter[first_name]']\")",
+		"operation": "input"
+	},
+	{
+		"attribute": "last_name",
+		"expression": "cy.get(\"[name='filter[last_name]']\")",
+		"operation": "input"
+	},
+	{
+        "attribute": "access_level",
+        "expression": "cy.select_by_label('Access Level(s)', data['access_level'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "overlay_asset_group",
+        "expression": "cy.select_by_label('Overlay Asset Group(s)',data['overlay_asset_group'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "user_type",
+        "expression": "cy.select_by_label('User Type(s)',data['user_type'],0)",
+        "operation": "select"
+    },
+    {
+        "attribute": "status",
+        "expression": "cy.select_by_label('Status',data['status'],0)",
+        "operation": "select"
+    },
+	{
+		"attribute": "",
+		"expression": "cy.contains('button', 'Search').click()",
+		"operation": "click"
+	}
+]

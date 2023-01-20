@@ -1,0 +1,67 @@
+[
+    {
+        "attribute": "project_name",
+        "expression": "cy.get('label').contains('PROJECT NAME :').parent().find('input[type=text]')",
+        "operation": "input"
+    },
+    {
+        "attribute": "project_type",
+        "expression": "cy.select_by_label('PROJECT TYPE :', data['project_type'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "assignee",
+        "expression": "cy.select_by_label('ASSIGNEE :', data['assignee'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "region_property",
+        "expression": "cy.select_by_label('REG / PROP COVERAGE :', data['region_property'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "unit",
+        "expression": "cy.select_by_label('#UNIT :', data['unit'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "move_out",
+        "expression": "cy.select_by_calendar('input[id =\"move-out-date\"]',data['move_out'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "start_date",
+        "expression": "cy.select_by_calendar('input[id =\"start-date\"]',data['start_date'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "move_in",
+        "expression": "cy.select_by_calendar('input[id =\"move-in-date\"]',data['move_in'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "due",
+        "expression": "cy.select_by_calendar_using_label('DUE :',data['due'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "estimated_completion",
+        "expression": "cy.select_by_calendar_using_label('ESTIMATED COMPLETION :',data['estimated_completion'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "completion_date",
+        "expression": "cy.select_by_calendar_using_label('COMPLETION DATE :',data['completion_date'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "priority",
+        "expression": "cy.select_by_label('PRIORITY :', data['priority'])",
+        "operation": "select"
+    },
+    {
+        "attribute": "",
+        "expression": "cy.contains('Save').click()",
+        "operation": "click"
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "attribute": "status",
+    "expression": "cy.select_by_label_new_without_clear('Status:',data['assign'])",
+    "operation": ""
+  },
+  {
+    "attribute": "status",
+    "expression": "cy.select_by_label_new_without_clear('Status:',data['reject'])",
+    "operation": ""
+  },
+  {
+    "attribute": "requester",
+    "expression": "cy.select_by_label_new('Requester:',data['requester'])",
+    "operation": ""
+  },
+  {
+    "attribute": "assignee",
+    "expression": "cy.select_by_label_new('Assignee:',data['assignee'])",
+    "operation": ""
+  }
+]

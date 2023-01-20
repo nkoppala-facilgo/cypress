@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "team",
+    "expression": "cy.get('#name')",
+    "operation": "input"
+  },
+  {
+    "attribute": "asset_group",
+    "expression": "cy.select_by_label('Asset Group',data['asset_group'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "users",
+    "expression": "cy.select_by_label('Users',data['users'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "skills",
+    "expression": "cy.select_by_label('Skills',data['skills'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.btn-primary').click()",
+    "operation": "click"
+  }
+]

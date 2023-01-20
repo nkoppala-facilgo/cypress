@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Fixed Assets/Inventory').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Fixed Asset/Inventory Setup').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Warranty Types').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button',' Add Warranty Type').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "warranty_type_name",
+    "expression": "cy.get('#warranty-type')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Create').click();",
+    "operation": "click"
+  }
+]

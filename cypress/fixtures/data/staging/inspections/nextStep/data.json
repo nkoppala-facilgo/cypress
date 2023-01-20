@@ -1,0 +1,27 @@
+{
+        
+        "property_name": "05 Buckhead",
+        "unit_name": "COMMON",
+        "inspe_title": "test015",
+        "inspe_date": "11/07/2021",
+        "due_date": "12/08/2022",
+        "project_name": "plumbing",
+        "lineitems": [
+                {
+                        "item_name": "roomno1",
+                        "file_path": "data/inspections/files/pic.jpg"
+                },
+                {
+                        "item_name": "roomno2",
+                        "file_path": "data/inspections/files/pic.jpg"
+                }
+        ],     
+        "folder_name" :"demo2",
+        "list_desc":"",
+        "item_name":"WOnxt Item",
+        "WO_title":"WO Next",
+        "category":"Appliances",
+        "subcategory":"Clothes Dryer",
+        "Priority":"Urgent",
+        "instruction":"This is sample instruction"
+}

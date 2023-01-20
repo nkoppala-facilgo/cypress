@@ -1,0 +1,132 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.visit('/inspections/new')",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Create Inspection').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>true)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "property_name",
+    "expression": "cy.select_by_label_with_enter('PROPERTY:',data['property_name'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "unit",
+    "expression": "cy.select_by_label_with_enter('UNIT:',data['unit'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "inspection_title",
+    "expression": "cy.contains('INSPECTION TITLE:').parent().find('input')",
+    "operation": "input"
+  },
+  {
+    "attribute": "due_date",
+    "expression": "cy.select_by_calendar_using_label('DUE DATE:',data['due_date'])",
+    "operation": "select"
+  },
+  {
+    "attribute": "item_name",
+    "expression": "cy.get('input[placeholder=\"Item Name\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "notes",
+    "expression": "cy.get('textarea[placeholder=\"Notes\"]').eq(0).wait(3000).click({force: true})",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Add').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create & Assign').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Next Steps').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.wait(4000)",
+    "operation": "wait"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('span[class=\"Select-clear\"]').parent('span[title=\"Clear all\"]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#MappedItemsListModalTab').find('li').eq(0).find('a').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('.wrap-list__nested-list-indicator').find('i').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button', 'Create Work Order').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.get('#input-dropdown-addon > .caret').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "category",
+    "expression": "cy.select_by_label_with_enter('Category',data['category'],3000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "priority",
+    "expression": "cy.select_by_label_with_enter('Priority',data['priority'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "subcategory",
+    "expression": "cy.select_by_label_with_enter('SubCategory',data['subcategory'],2000)",
+    "operation": "select"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('i[class=\"fa fa-pencil-square\"]').click({force: true})",
+    "operation": "click"
+  },
+  {
+    "attribute": "introduction",
+    "expression": "cy.get('textarea[placeholder=\"Instruction\"]')",
+    "operation": "input"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button', 'Save').click({force: true}))",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.waitUntil(()=>cy.contains('button', 'Create').click({force: true}))",
+    "operation": "click"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Fixed Assets/Inventory').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Fixed Asset/Inventory Setup').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a','Warranty Types').click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.get('#warranty-type-actions').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('span','Disable').first().click();",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Yes').click();",
+    "operation": "click"
+  }
+]

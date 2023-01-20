@@ -1,0 +1,27 @@
+[
+  {
+    "attribute": "",
+    "expression": "cy.get('.icon-menu-settings').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('a', 'Skills').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button',' Import / Update').click().wait(3000)",
+    "operation": "click"
+  },
+  {
+    "attribute": "file_path",
+    "expression": "cy.get('input[accept=\".xlsx\"]').attachFile(data['file_path'])",
+    "operation": ""
+  },
+  {
+    "attribute": "",
+    "expression": "cy.contains('button','Import').click({force: true} ).wait(3000)",
+    "operation": "click"
+  }
+]

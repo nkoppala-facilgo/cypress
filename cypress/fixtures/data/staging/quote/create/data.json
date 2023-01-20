@@ -1,0 +1,24 @@
+{
+ "title":"30QR2",
+ "due_date":"10/23/2021",
+ "end_date": "10/23/2021",
+ "start_date":"10/23/2021",
+ "supplier":"FirstKey",
+ "property":"Parkside",
+ "lineitems":[{
+   "product":"test",
+   "quantity":"1",
+   "unit_price":"1",
+   "measurement":"EA",
+   "property":"Parkside",
+   "tax":"1"
+   },
+   {
+   "product":"test2",
+   "quantity":"2",
+   "unit_price":"2",
+   "measurement":"EA",
+   "property":"Parkside",
+   "tax":"2"
+   }]
+}

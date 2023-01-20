@@ -1,0 +1,46 @@
+{
+  "title": "16QRT",
+  "due_date": "05/03/2022",
+  "service_date": "05/03/2022",
+  "property": "1001 E",
+  "supplier": [
+    {
+      "name": "Ferguson Staging"
+    }
+  ],
+  "supplier1": {
+    "name": "Ferguson Staging"
+  },
+  "lineitems": [
+    {
+      "product": "test",
+      "quantity": "1",
+      "unit_price": "1",
+      "measurement": "EA",
+      "property": "1001 E",
+      "amount": "1",
+      "notes": "empty",
+      "sku": "test1"
+    },
+    {
+      "product": "test",
+      "quantity": "1",
+      "unit_price": "1",
+      "measurement": "EA",
+      "property": "1001 E",
+      "amount": "1",
+      "notes": "empty",
+      "sku": "test"
+    }
+  ],
+  "coordinater": [
+    {
+      "_name": ""
+    },
+    {
+      "_name": ""
+    }
+  ],
+  "msg_template": "Hello Supplier(test)",
+  "msg": "Thanksforinfvosigvj"
+}
