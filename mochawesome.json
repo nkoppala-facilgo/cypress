@@ -1,0 +1,432 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-01-20T10:24:35.196Z",
+    "end": "2023-01-20T10:26:43.460Z",
+    "duration": 108982,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cb90323d-8a86-4f2b-bd14-4833f8d83b12",
+      "title": "",
+      "fullFile": "cypress/e2e/Reports/download_template.cy.js",
+      "file": "cypress/e2e/Reports/download_template.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fbaf7053-49ec-4018-9100-3d50d25b15d5",
+          "title": "Session Login ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "61909cc7-4410-4a32-9eb6-248daa7df4da",
+              "title": "To verify user is able to download Template without any error.",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "FC-7756 user is able to download Template <smoke>",
+                  "fullTitle": "Session Login  To verify user is able to download Template without any error. FC-7756 user is able to download Template <smoke>",
+                  "timedOut": null,
+                  "duration": 23460,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit();\ncy.execute(\"/script/Reports/download_template\", this.data);",
+                  "err": {},
+                  "uuid": "e21f51b0-3da0-4f18-af19-3180b1547e8e",
+                  "parentUUID": "61909cc7-4410-4a32-9eb6-248daa7df4da",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "e21f51b0-3da0-4f18-af19-3180b1547e8e"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 23460,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "f53b63b3-4092-46c1-83a6-26647655b030",
+      "title": "",
+      "fullFile": "cypress/e2e/Reports/invoice_line_item_report.cy.js",
+      "file": "cypress/e2e/Reports/invoice_line_item_report.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "dac4c1fb-421d-45bd-8043-1ea4f0eb59c9",
+          "title": "Session Login ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "6fc28453-48d3-4000-9474-df78de516c4b",
+              "title": "PMC: Invoice Line Item Report",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "FC-7761  Invoice Line Item Report export <smoke>",
+                  "fullTitle": "Session Login  PMC: Invoice Line Item Report FC-7761  Invoice Line Item Report export <smoke>",
+                  "timedOut": null,
+                  "duration": 31818,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit();\ncy.execute(\"/script/Reports/invoice_line_item_report\");",
+                  "err": {},
+                  "uuid": "579edaac-1070-436f-9335-702020c55611",
+                  "parentUUID": "6fc28453-48d3-4000-9474-df78de516c4b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "579edaac-1070-436f-9335-702020c55611"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 31818,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "c4254651-3d24-4d56-b231-10f52d236aa4",
+      "title": "",
+      "fullFile": "cypress/e2e/Reports/select_CBSA_on_reports.cy.js",
+      "file": "cypress/e2e/Reports/select_CBSA_on_reports.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "975d7ae5-f608-40ae-b943-eaa49e4d029f",
+          "title": "Session Login ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "7e318ee5-0db3-4b35-8954-2401759b496f",
+              "title": "To verify user is able to filter field using CBSA while run 'Work Order Register' report at Supplier side. ",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "FC-7681  user is able to filter field using CBSA while run Work Order Register report  <smoke>",
+                  "fullTitle": "Session Login  To verify user is able to filter field using CBSA while run 'Work Order Register' report at Supplier side.  FC-7681  user is able to filter field using CBSA while run Work Order Register report  <smoke>",
+                  "timedOut": null,
+                  "duration": 14853,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit();\ncy.execute(\"/script/Reports/select_CBSA_on_reports\");",
+                  "err": {},
+                  "uuid": "a8de7cbd-16a0-424f-bea5-680d12059652",
+                  "parentUUID": "7e318ee5-0db3-4b35-8954-2401759b496f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a8de7cbd-16a0-424f-bea5-680d12059652"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 14853,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "cef5d0c1-7c7b-42a5-ac13-64af494e12de",
+      "title": "",
+      "fullFile": "cypress/e2e/Reports/wo_next_action_report.cy.js",
+      "file": "cypress/e2e/Reports/wo_next_action_report.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "38d6901f-eba2-4654-b514-185e7d407d83",
+          "title": "Session Login ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "2229ad65-b423-4667-b6ee-1fb8a0b9f89d",
+              "title": "Supplier: Work Order Next Action Report ",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "FC-7758 Work Order Next Action Report <smoke>",
+                  "fullTitle": "Session Login  Supplier: Work Order Next Action Report  FC-7758 Work Order Next Action Report <smoke>",
+                  "timedOut": null,
+                  "duration": 14307,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit();\ncy.execute(\"/script/Reports/wo_next_action_report\");",
+                  "err": {},
+                  "uuid": "04491401-980d-4444-bccc-408019266084",
+                  "parentUUID": "2229ad65-b423-4667-b6ee-1fb8a0b9f89d",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "04491401-980d-4444-bccc-408019266084"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 14307,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "cdc8e506-1b5e-4577-89c6-45626d80c60a",
+      "title": "",
+      "fullFile": "cypress/e2e/Reports/dd_investigation_report_template.cy.js",
+      "file": "cypress/e2e/Reports/dd_investigation_report_template.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "25d78aa2-819a-4f3c-9f85-c05f47fc2256",
+          "title": "Session Login ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "25fcd5c1-a7e9-45cc-9055-d6825ec2f3b4",
+              "title": "To verify DD investigation report template file should be 6 pages",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "FC-7757 DD investigation report template file should be downloaded <smoke>",
+                  "fullTitle": "Session Login  To verify DD investigation report template file should be 6 pages FC-7757 DD investigation report template file should be downloaded <smoke>",
+                  "timedOut": null,
+                  "duration": 24544,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "cy.visit();\ncy.execute(\"/script/Reports/dd_investigation_report_template\", this.data);",
+                  "err": {},
+                  "uuid": "18613f05-32b9-4716-beb2-152ceec92dac",
+                  "parentUUID": "25fcd5c1-a7e9-45cc-9055-d6825ec2f3b4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "18613f05-32b9-4716-beb2-152ceec92dac"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 24544,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

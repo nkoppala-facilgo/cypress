@@ -21,7 +21,7 @@ jobs:
         uses: cypress-io/github-action@v4
 
         with:
-          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028 && npx mochawesome-merge "cypress/results/*.json" > mochawesome.json && npx marge mochawesome.json
+          command: npx cypress run --reporter --record --key eb39e377-a551-4b2a-99c7-617454755028
           browser: chrome
           # Records to Cypress Cloud
           record: true
@@ -32,13 +32,6 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # Creating a token https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      - name: Uploading artifact
-        uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: cypress-execution-report
-          path: cypress/html_reports
-          retention-days: 30
       # - name: Slack Notification
       #   uses: rtCamp/action-slack-notify@v2
       #   env:
@@ -48,3 +41,32 @@ jobs:
       #     SLACK_MESSAGE: "Post Content :rocket:"
       #     SLACK_CHANNEL: general
       #     SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
+      # - name: Get test failure information from Cypress report
+      #   id: set_var
+      #   run: |
+      #     content=`cat /home/runner/work/cypress/cypress/cypress/results/mochawesome*.json`
+      #     content="${content//'%'/'%25'}"
+      #     content="${content//$'\n'/'%0A'}"
+      #     content="${content//$'\r'/'%0D'}"
+      #     echo "::set-output name=packageJson::$content"
+      # Send Cypress test information to Slack channel
+      # - name: Send GitHub Action trigger data to Slack
+      #   id: slack
+      #   uses: slackapi/slack-github-action@v1.22.0
+      #   with:
+      #     channel-id: "#1_bug_reporting"
+      #     payload: |
+      #       {
+      #         "text": "Cypress Tests date: ${{ steps.date.outputs.date }}\nCypress Tests finished with ${{fromJson(steps.set_var.outputs.packageJson).stats.failures}} Failed\nSee results at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+      #         "blocks": [
+      #           {
+      #             "type": "section",
+      #             "text": {
+      #               "type": "mrkdwn",
+      #               "text": "Cypress Tests date: ${{ steps.date.outputs.date }}\nCypress Tests finished with ${{fromJson(steps.set_var.outputs.packageJson).stats.failures}} Failed\nSee results at: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+      #             }
+      #           }
+      #         ]
+      #       }
+      #   env:
+      #     SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
