@@ -6,6 +6,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   viewportHeight: 768,
   viewportWidth: 1024,
+  video: false,
   env: {
     base_url: 'https://',
   },
