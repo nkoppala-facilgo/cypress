@@ -18,13 +18,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+        run: echo "{name}={date +'%Y-%m-%d'}" >> $GITHUB_OUTPUT
       - name: Cypress run
         # Uses the official Cypress GitHub action https://github.com/cypress-io/github-action
         uses: cypress-io/github-action@v4
 
         with:
-          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028
+          command: npx cypress run --reporter mochawesome --reporter-options reportDir="cypress/results",overwrite=false,html=false,json=true --record --key eb39e377-a551-4b2a-99c7-617454755028 && marge ./cypress/results/combined-report-${{ steps.date.outputs.date }}.json --reportDir ./cypress/reports --inline
           browser: chrome
           # Records to Cypress Cloud
           record: true
